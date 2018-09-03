@@ -619,3 +619,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .secure_layer .auth_confirm_btn{display:block; float:left; width:63%; height:32px; line-height: 32px; border:none; outline:none; box-shadow:none; border-radius:2px; background-color:#2a5677; color:#fff;}
 .secure_layer .auth_confirm_btn:active{background-color:#234d6d;}
 .secure_layer .auth_confirm_btn:disabled{background-color:#acadaf;}
+
+/*#2403*/
+/********** 새창 팝업 기본폼 **********/
+
+.popup_wrap {width: 100%; height: 100%; position: relative; overflow: hidden;}
+.popup_header {width:100%; height: auto; position:relative; box-sizing: border-box;}
+.popup_container {width:100%; height: auto; position: relative; overflow-y: auto;}
+.popup_bottom {width: 100%; height: auto; position: fixed; left: 0; right: 0; bottom: 0; overflow: hidden;}
+.popup_bottom .popup_btn {width: 100%; height: 50px; line-height: 50px; position: relative; overflow: hidden;}
+
+.popup_btn .one_btn {width:100%; height: 100%; text-align: center; font-size:17px; font-weight: 600;}
+.popup_btn .two_btn {width:50%; float: left; height: 100%; text-align: center; font-size:17px; font-weight: 600;}
+
+.popup_btn .disabled_btn {background-color: #b3b3b3; color:#737373;}
+
+.popup_btn .navy_btn {background-color: #004c80; color:#fff; border-top:1px solid #00416d; box-sizing: border-box;}
+.popup_btn .navy_btn:hover {background-color: #08568c;}
+.popup_btn .navy_btn:active {background-color: #00416d;}

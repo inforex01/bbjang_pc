@@ -351,6 +351,7 @@
 .dt_data_wrap .complex_info_li .complex_info_left{position:absolute; top:0; left:0; width:100px; height:auto; line-height:20px; padding:12px 0; color:#707070; font-size:15px;}
 .dt_data_wrap .complex_info_li .complex_info_left .sub_txt{display:block; font-size:13px;}
 .dt_data_wrap .complex_info_li .complex_info_right{position:relative; height:auto; line-height:20px; margin:12px 10px 12px 100px; color:#000; font-size:15px; word-break:keep-all;}
+.dt_data_wrap .complex_info_li:last-of-type .complex_info_100 .complex_info_left{top:50%; margin-top:-20px; padding:0;}
 .dt_data_wrap .complex_info_li .complex_info_100 .complex_info_right{margin:22px 10px 22px 100px;}
 
 /* 관리비 */
