@@ -174,7 +174,7 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 .btn_add_myloca.on {transform: scale(0.9); transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);}
 
 /*--------------------------- 플로팅버튼 ---------------------------*/
-	/*--- 180418 부동산게시판 메뉴추가 (이규호) ---*/
+    /*--- 180903 방부장 전체소개 메뉴추가 (정우아) ---*/
 .wrap_float{position:fixed; z-index:20;}
 .wrap_float .btn_floating{position:fixed; width:52px; height:52px; bottom:90px; right:30px; border-radius:50%; background:#ffb04a url("http://image.bbjang.com/imgs/bbjang/img_pc/btn_floating.png") no-repeat center center; box-shadow:1px 2px 3px rgba(0,0,0,0.4); cursor:pointer;}
 .wrap_float_on{z-index:1600;}
@@ -196,7 +196,9 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 .float_notice{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/img_float_notice.png") no-repeat 15px 14px;}
 .float_agency{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/img_float_agency.png") no-repeat 15px 14px;}
 .float_bb-board{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/img_float_bb-board.png") no-repeat 13px 15px;}
+.float_intro{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/img_float_intro.png") no-repeat 15px 13px;}
 /*---------------------------------------------------------------*/
+
 
 
 /*----- #2403 단지마커(숫자) -----*/

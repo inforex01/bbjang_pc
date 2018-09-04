@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* ---------- 공통사용 ---------- */
 input{font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic',"돋움",Dotum,'Apple SD Gothic Neo','sans-serif';}
 input:-moz-placeholder {color:#8d96a7; font-size:13px; line-height:15px; letter-spacing:-0.5px;}
@@ -424,3 +426,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .nomal_prf .prf_txt .name_b{position:absolute; top:0; left:0; width:68px; height:32px; font-size:15px; font-weight:600; text-indent:12px;}
 .nomal_prf .prf_txt .my_name{position:relative; width:100%; height:32px; line-height:32px; border-bottom:1px solid #e7e7e7; font-size:15px;}
 .nomal_prf .prf_txt .my_name .m_name_txt{color:#373b3d; font-size:15px;}
+
+/* ----- 방부장 전체소개 ----- */
+.wrap_bbj_intro{position:relative; width:438px; height:604px; overflow-y:scroll;}
+.intro_list{position:relative; width:100%; height:auto;}
+.intro_list .intro_l{width:100%; height:auto; padding:10px 8px 8px 18px; border-bottom:1px solid #e5e5e5; box-sizing:border-box; font-size:15px; font-weight:600; line-height:20px; letter-spacing:-0.1px; background:url(http://image.bbjang.com/imgs/bbjang/img_pc/roll_mark.png) no-repeat 8px 17px; background-size:5px 5px;}
+.intro_list .intro_l .fc_blue{color:#007acc;}
