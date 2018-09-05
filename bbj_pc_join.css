@@ -430,5 +430,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* ----- 방부장 전체소개 ----- */
 .wrap_bbj_intro{position:relative; width:438px; height:604px; overflow-y:scroll;}
 .intro_list{position:relative; width:100%; height:auto;}
-.intro_list .intro_l{width:100%; height:auto; padding:10px 8px 8px 18px; border-bottom:1px solid #e5e5e5; box-sizing:border-box; font-size:15px; font-weight:600; line-height:20px; letter-spacing:-0.1px; background:url(http://image.bbjang.com/imgs/bbjang/img_pc/roll_mark.png) no-repeat 8px 17px; background-size:5px 5px;}
+.intro_list .intro_l{width:100%; height:auto; padding:10px 8px 8px 18px; border-bottom:1px solid #e5e5e5; box-sizing:border-box; font-size:15px; line-height:20px; letter-spacing:-0.1px; background:url(http://image.bbjang.com/imgs/bbjang/img_pc/roll_mark.png) no-repeat 8px 17px; background-size:5px 5px;}
 .intro_list .intro_l .fc_blue{color:#007acc;}

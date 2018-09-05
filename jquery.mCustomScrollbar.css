@@ -29,7 +29,7 @@ VERTICAL SCROLLBAR
 -------------------------------------------
 */
 
-	.mCSB_inside > .mCSB_container{margin-right:10px;}
+	.mCSB_inside > .mCSB_container{margin-right: 16px;}
 
 	.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{ margin-right: 0; } /* non-visible scrollbar */
 	
@@ -226,7 +226,7 @@ VERTICAL SCROLLBAR
 
     .mCS-bb2.mCSB_scrollTools{ /* contains scrollbar markup (draggable element, dragger rail, buttons etc.) */
 		position: absolute;
-		width: 8px;
+		width: 16px;
 		height: auto;
 		left: auto;
 		top: 0;
@@ -240,16 +240,16 @@ VERTICAL SCROLLBAR
     }
 	.mCS-bb2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ /* the dragger element */
 		position: relative;
-		width: 8px;
+		width: 12px;
 		height: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
 	.mCS-bb2.mCSB_scrollTools .mCSB_draggerRail{ background-color: #000; background-color: #e1e7ea; }
-	.mCS-bb2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#c9c9c9; }
-	.mCS-bb2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color:#a8a8a8; }
+	.mCS-bb2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #949494;}
+	.mCS-bb2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color:#848484; }
 	.mCS-bb2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
-	.mCS-bb2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color:#a8a8a8; }
+	.mCS-bb2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color:#848484; }
 	.mCS-bb2.mCSB_scrollTools .mCSB_buttonUp{ background-position: -80px 0; }
 	.mCS-bb2.mCSB_scrollTools .mCSB_buttonDown{ background-position: -80px -20px; }
 	.mCS-bb2.mCSB_scrollTools .mCSB_buttonLeft{ background-position: -80px -40px; }
