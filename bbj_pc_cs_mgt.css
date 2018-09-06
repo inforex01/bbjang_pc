@@ -613,8 +613,8 @@ b {font-weight:600;}
 /* 관심지역 영역 나누기 */
 .myloca_wrap {width: 100%; height: 100%; position: relative;}
 .myloca_wrap:after {content:""; display: block; clear: both;}
-.myloca_wrap .myloca_left {float: left; width: 370px; min-height:1692px;  border-right:1px solid #ccc; position: relative; box-sizing: border-box; padding-bottom: 14px;}
-.myloca_wrap .myloca_right {float: right; width: 700px; min-height: 1692px; position: relative; box-sizing: border-box; border-left:1px solid #ccc; padding-bottom:52px;}
+.myloca_wrap .myloca_left {float: left; width: 370px; height:1692px; overflow-y:auto; border-right:1px solid #ccc; position: relative; box-sizing: border-box; padding-bottom: 14px;}
+.myloca_wrap .myloca_right {float: right; width: 700px; height: 1692px; position: relative; box-sizing: border-box; border-left:1px solid #ccc; padding-bottom:52px;}
 /* 관심지역 리스트 */
 .content_myloca {width: 100%; height: auto; position: relative;}
 .myloca_list_card {width: 100%; height:93px; position: relative; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-top: 10px; box-sizing: border-box; padding: 0px 10px; cursor: pointer;}

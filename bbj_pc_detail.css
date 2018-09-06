@@ -287,3 +287,8 @@
 .btn_change_phone{position: absolute; top:10px; right:8px; bottom:8px; width:95px; height:30px;}
 .btn_change_phone a{display:block; width:100%; height:100%; line-height:28px; padding-right:10px; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_phone_more.png") no-repeat 92% center; background-size:7px 10px; border:1px solid #d4d4d4; border-radius:5px; box-sizing:border-box; text-align:center;}
 .btn_change_phone a:active{background:#f0f0f0 url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_phone_more.png") no-repeat 92% center; background-size:7px 10px;}
+
+/* 관심지역 수정 */
+.myloca_filter {height: 30px; padding: 10px 10px; border-bottom:1px solid #ccc; background: #eaf5ff;}
+.filter_slct {width: 31%; float: left; margin-right: 10px;}
+.myloca_filter .filter_slct:last-of-type {margin-right: 0px;}
