@@ -134,3 +134,9 @@
 
 /*------ 180608 매물등록수표시-관리자에게만 보이기(정우아) ------*/
 .local_txt .admin_rgm{padding-left:2px; font-weight:600; color:#3652aa;}
+
+/*------ 일감2475 신고건수 뱃지 추가 -----*/
+.btn_report_badge{position:absolute; z-index:100; width:30px; height:30px; background-color:transparent; border:none; outline:none; box-shadow:none; text-align:left;}
+.btn_report_badge .report_badge{position:absolute; top:0; left:0; display:inline-block; vertical-align:top; width:25px; height:16px; line-height:16px; border-radius:2px; background-color:#ffd863; color:#000; font-size:12px; font-weight:900; text-align:center;}
+.sub_content .btn_report_badge{top:4px; left:13px;}
+.main_content .btn_report_badge{top:7px; left:3px;}
