@@ -13,6 +13,7 @@
 .con_bg{background-color:transparent;}
 .pop_container .pop_content .pop_u{background-color:#fff;}
 .pop_wid300{width:300px; margin-left:-150px;}
+.pop_wid400{width:400px; margin-left:-200px;}
 .pop_wid500{width:500px; margin-left:-250px;}
 .pop_mt100{margin-top:-100px;}
 .pop_mt150{margin-top:-150px;}
@@ -637,3 +638,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .popup_btn .navy_btn {background-color: #004c80; color:#fff; border-top:1px solid #00416d; box-sizing: border-box;}
 .popup_btn .navy_btn:hover {background-color: #08568c;}
 .popup_btn .navy_btn:active {background-color: #00416d;}
+
+/*------ 일감2475 신고건수 뱃지 추가 -----*/
+.pop_clicks_all .report_layer .all_li{margin:5px 0;}
+.pop_clicks_all .report_layer .all_li .label{width:auto; margin-right:5px;}

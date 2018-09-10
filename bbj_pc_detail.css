@@ -20,6 +20,7 @@
 .wrap_rad label{display:block; width:100%; height:34px; line-height:34px; padding-left:21px; box-sizing:border-box; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/rad_off.png") no-repeat left center; background-size:16px 16px; font-size:14px;}
 .wrap_rad input[type="radio"]:checked ~ label {background:url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/rad_on.png") no-repeat left center; background-size:16px 16px;}
 .wrap_rad label.rad_disable{background:url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/rad_disable.png") no-repeat left center; background-size:16px 16px; color:#818181;}
+.wrap_rad .txt_info{float:left; line-height:34px; font-size:14px; color:#808080;}
 /* 체크박스wrap */
 .box_chk{position:relative; width:auto; height:auto; margin:2px 0; padding:3px 8px; box-sizing:border-box; border:1px solid #d4d4d4; border-radius:5px; background:#fdfdfd;}
 /* 체크박스 */
@@ -287,3 +288,8 @@
 .btn_change_phone{position: absolute; top:10px; right:8px; bottom:8px; width:95px; height:30px;}
 .btn_change_phone a{display:block; width:100%; height:100%; line-height:28px; padding-right:10px; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_phone_more.png") no-repeat 92% center; background-size:7px 10px; border:1px solid #d4d4d4; border-radius:5px; box-sizing:border-box; text-align:center;}
 .btn_change_phone a:active{background:#f0f0f0 url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_phone_more.png") no-repeat 92% center; background-size:7px 10px;}
+
+/* 관심지역 수정 */
+.myloca_filter {height: 30px; padding: 10px 10px; border-bottom:1px solid #ccc; background: #eaf5ff;}
+.filter_slct {width: 31%; float: left; margin-right: 10px;}
+.myloca_filter .filter_slct:last-of-type {margin-right: 0px;}
