@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-/* ---------- 기본 라디오버튼(회색배경 > 흰배경 파란원) ---------- */
+/* ---------- 기본 라디오버튼(흰배경 회색원 > 흰배경 파란원) ---------- */
 .rdo_wrap {position:relative;}
 .rdo_wrap .rdo_input {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
-.rdo_wrap .rdo_lb {display:inline-block; position:relative; width:auto; height:23px; padding-left:30px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_rdo_off.png) no-repeat left center; background-size:23px 23px; line-height:24px; vertical-align:middle;}
+.rdo_wrap .rdo_lb {display:inline-block; position:relative; width:auto; height:23px; padding-left:30px; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_rdo_off2.png") no-repeat left center; background-size:23px 23px; line-height:24px; vertical-align:middle;}
 .rdo_wrap .rdo_input:checked ~ .rdo_lb {background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_rdo_on.png) no-repeat left center; background-size:23px 23px;}
 
 /* ---------- 팝업공통 ---------- */
