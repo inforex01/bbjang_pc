@@ -78,7 +78,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0086bd', end
 .lg_social .fb_lg .area_icon{background:#3b579d url(http://image.bbjang.com/imgs/bbjang/jsp_new/sc_facebook.png) no-repeat 9px center; background-size:9px 16px;}
 .content_lg .fr_join{position:relative; width:250px; height:auto; margin:14px auto 0 auto;}
 .content_lg .fr_join a{padding:10px 0; margin-bottom:10px; border-radius:20px; background-color:#0ca2ed; font-size:15px; font-weight:600; color:#fff; border:1px solid #0ca2ed;}
-.content_lg .fr_join a:active{background-color:#f0f9fe;}
+.content_lg .fr_join a:active{position:relative; top:1px;}
 
 /* 하단 인포렉스, 고객센터 */
 .wrap_login .inforex_foot{position:absolute; bottom:0; left:0; width:100%; height:auto; border-top:1px solid #e6e6e6; text-align:center; font-size:0; padding:10px 20px 30px 20px; box-sizing:border-box;}
