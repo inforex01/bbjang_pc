@@ -18,6 +18,9 @@
 .dt_my_wrap .my_right_box .btn_right:hover{background-color:#f0f0f0;}
 .dt_my_wrap .my_right_box .btn_right:active{background-color:#f0f0f0;}
 .dt_my_wrap .my_right_box .btn_right img{vertical-align:top; margin:6px 6px 0 0;}
+.dt_my_wrap .my_left_box .btn_blue{background-color:#017db4; color:#fff; border:1px solid #017db4;}
+.dt_my_wrap .my_left_box .btn_blue:hover{background-color:#006e9e;}
+.dt_my_wrap .my_left_box .btn_blue:active{background-color:#006e9e;}
 
 /*-------------------- 사진 영역 --------------------*/
 .dt_photo_wrap{position:relative; width:100%; height:430px; margin-bottom:10px; background-color:#f8f8f8; overflow:hidden;}
