@@ -63,6 +63,10 @@ td,th {padding:0;}
 
 .blind{position:absolute; width:1px; height:1px; margin:-1px; overflow:hidden; clip:rect(0 0 0 0);}
 
+.ft_blue {color:#0b7fd0;}
+      /* 블루 텍스트 */
+.ft_navy {color:#004c80;}
+      /* 네이비 텍스트 */
 
 /*
  ** HEADER **
