@@ -28,7 +28,7 @@
 .pop_common_h h2 {width:100%; height:100%; color:#555555; font-size:15px; font-weight:400; text-align:center; letter-spacing:3px;}
 
 /* 알림창 콘텐츠 */
-.pop_common_con {position:relative; width:100%; height:auto; padding:20px 0px; font-size:15px; text-align:center; line-height:18px; box-sizing:border-box;}
+.pop_common_con {position:relative; width:100%; height:auto; padding:20px; font-size:15px; text-align:center; line-height:18px; box-sizing:border-box;}
 
 /* 알림창 하단 */
 .pop_common_bot{position:relative; width:100%; height:auto; border-top:1px solid #dcdcdc;}
@@ -628,3 +628,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /*--- #2495 주소검색팝업 ---*/
 .slct_adrs_wrap {position:relative; top:0; left:0; right:0; width:540px; height:auto;}
+
+/* #2505 미인증회원 매물등록시 */
+.num_btn_finish.on, .num_btn_finish.off {margin-top:20px;}
+.num_btn_finish.off a {background:#787d82;}
+.num_btn_finish.on a {animation:btn_finish 1s infinite; animation-timing-function:steps(1,end);}
+@keyframes btn_finish {
+	50% { background:#2b597d; }
+	100% { background:#1e4563; }
+}
+@-webkit-keyframes btn_finish {
+	50% { background:#2b597d; }
+	100% { background:#1e4563; }
+}
+@-ms-keyframes btn_finish {
+	50% { background:#2b597d; }
+	100% { background:#1e4563; }
+}
+@-moz-keyframes btn_finish {
+	50% { background:#2b597d; }
+	100% { background:#1e4563; }
+}
+@-o-keyframes btn_finish {
+	50% { background:#2b597d; }
+	100% { background:#1e4563; }
+}
