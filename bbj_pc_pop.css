@@ -631,8 +631,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /* #2505 미인증회원 매물등록시 */
 .num_btn_finish.btn_on, .num_btn_finish.btn_off {margin-top:20px;}
-.num_btn_finish.btn_off a {background:#787d82;}
-.num_btn_finish.btn_on a {animation:btn_finish 1s infinite; animation-timing-function:steps(1,end);}
+.num_btn_finish.btn_off a, .num_btn_finish.off a {background:#787d82;}
+.num_btn_finish.btn_on a, .num_btn_finish.on a {animation:btn_finish 1s infinite; animation-timing-function:steps(1,end);}
 @keyframes btn_finish {
 	50% { background:#2b597d; }
 	100% { background:#1e4563; }
