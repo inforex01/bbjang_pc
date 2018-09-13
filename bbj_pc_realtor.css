@@ -18,11 +18,13 @@
 .realtor_photo_num {height: 25px; line-height: 25px; border-radius: 12.5px; padding: 0px 15px; color:#fff; background: rgba(0,0,0,.7); position: absolute; top:7px; right:7px;}
 /* 상세정보 */
 .realtor_info {width:410px; height: 250px; border:1px solid #ccc; padding: 10px 24px; box-sizing: border-box;}
-.realtor_info > li {border-bottom: 1px solid #ccc; height: 50px; font-size:15px; display: table; position: relative;}
-.realtor_info > li:last-child {border-bottom: 0 none; height: 77px;}
-.realtor_info .info_title {display: inline-block; line-height: 50px; width: 100px; color:#707070; font-weight: 600;}
-.realtor_info .info_txt {display: table-cell; width: 260px; height: 50px!important; vertical-align: middle;}
-.realtor_info .info_txt .realtor_spacialty {display: inline-block; font-size:14px; padding: 2px 4px; border-radius: 3px; background-color: #f7fcff; border: 1px solid #add4ed; color: #2891d4; font-weight: 400;}
+.realtor_info > li {border-bottom: 1px solid #ccc; height: 45px; font-size:15px; display: table; position: relative;}
+.realtor_info .info_title {display: inline-block; line-height: 45px; width: 100px; color:#707070; font-weight: 600;}
+.realtor_info .info_txt {display: table-cell; width: 260px; height: 45px!important; vertical-align: middle;}
+.realtor_info .special .info_txt {height: auto!important; padding-top:5px; padding-bottom:2px;}
+.realtor_info > li:last-child {border-bottom: 0 none; height:auto;}
+.realtor_info > li:last-child .info_txt {padding:5px 0;}
+.realtor_info .info_txt .realtor_spacialty {display: inline-block; font-size:14px; padding: 2px 4px; margin-bottom:4px; border-radius: 3px; background-color: #f7fcff; border: 1px solid #add4ed; color: #2891d4; font-weight: 400;}
 .realtor_info .info_txt .realtor_spacialty:nth-of-type(3) {margin-top: 2px;}
 .realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 50px;}
 .realtor_info .info_txt .phone_wrap td {height: 26px;}
