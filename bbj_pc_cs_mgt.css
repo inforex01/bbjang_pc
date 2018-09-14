@@ -918,3 +918,33 @@ b {font-weight:600;}
 .apt_wrap .apt_container {width: 100%; height: 100%; overflow: auto; box-sizing: border-box;}
 /* 단지정보 */
 .apt_info_box {padding-top: 10px;}
+
+/*********** 관심단지 등록하기 팝업창 ***********/
+.srch_apt_h {height: 130px; background:url(http://image.bbjang.com/imgs/bbjang/interest/bg_srch_apt.png) no-repeat; background-position: right bottom; border-bottom:1px solid #ccc;}
+.srch_apt_container {height: 555px; margin-bottom:50px; box-sizing: border-box; overflow: hidden; }
+
+.srch_apt_h h1 {font-size:17px; padding-top: 20px; padding-left:30px; line-height: 35px; color:#0077c0; background: url(http://image.bbjang.com/imgs/bbjang/interest/ico_srch.png) no-repeat 10px 29px; background-size:16px 16px;}
+.srch_apt_h .rg_tb {margin: 0 10px;}
+
+.srch_apt_container .slct_field {width: 100%; height: 65px; padding: 0px 10px; background: #efefef; width:100%; border-bottom:1px solid #ccc; box-sizing: border-box; overflow: auto;}
+.slct_field .center_align {display: table; width: 100%; height: 100%;}
+.slct_field .slct_apt_box {display: table-cell; vertical-align: middle;}
+.slct_field .slct_apt {float:left; position: relative; padding-left: 5px; padding-right: 20px; width: 75px; height: 25px; line-height: 25px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border:1px solid #0077c0; border-radius: 3px; background: #fff; margin-right: 5px; margin-top: 2px; font-size:13px; color:#0077c0;}
+.slct_field .slct_apt_del {position: absolute; width: 13px; height: 13px; background:url(http://image.bbjang.com/imgs/bbjang/interest/btn_srch_apt_del.png) no-repeat center; right: 5px; top:6px; text-indent: -9999px;}
+
+
+.srch_apt_u {background-color: #bec7cc; width: 100%; height: 490px; overflow-x: hidden; overflow-y: auto;}
+.srch_apt_l {width: auto; height: auto; background: #fff; position: relative; transition: background 0.16s ease-in-out; cursor: pointer; margin-top:3px;}
+.srch_apt_l:hover {background: #f2f2f2;}
+.srch_apt_l.on .srch_apt_content {background: url(http://image.bbjang.com/imgs/bbjang/img01/chk_pic_on.png) no-repeat right 20px center; background-size: 24px 24px;}
+.srch_apt_l:first-child {margin-top: 5px; border-top:1px solid #ccc;}
+.srch_apt_l:last-child {margin-bottom: 10px;}
+.srch_apt_l .srch_apt_content {width: 100%; padding: 0px 10px; padding-right: 85px; box-sizing: border-box; background: url(http://image.bbjang.com/imgs/bbjang/img01/chk_pic_off.png) no-repeat right 20px center; background-size: 24px 24px;}
+.srch_apt_l .srch_apt_content .card_name.srch_apt {height: 40px; line-height: 55px; font-size:17px; font-weight: 900;}
+.srch_apt_l .srch_apt_content > p {height: 25px; line-height: 25px;}
+
+.srch_apt_l .deal_list_u {padding: 5px 0px 10px;}
+.srch_apt_l .deal_list_l {width: 70px; float: left; margin-right:10px; background: url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar05.png) right center no-repeat; background-size: 1px 12px; font-weight: 600;}
+.srch_apt_l .deal_list_l:first-child {padding-left: 0;}
+.srch_apt_l .deal_list_l:last-child {background: none; padding-right: 0;}
+.srch_apt_l .deal_list_u .deal_list_l span {font-weight: 900; margin-left: 10px; color:#0070b4;}
