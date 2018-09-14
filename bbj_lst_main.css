@@ -92,7 +92,6 @@
 .rc_wrap .card_content a{width:86%;}
 .rc_wrap .card_content .yscrape{position:absolute; width:36px; height:100%; overflow:hidden; white-space:nowrap; background:url(http://image.bbjang.com/imgs/bbjang/img_button/ico_star.png) no-repeat center center; background-size:26px 25px; cursor:pointer; top:0; right:5px;}
 .rc_wrap .card_content .yscrape_active{background:url(http://image.bbjang.com/imgs/bbjang/img_button/ico_star_active.png) no-repeat center center; background-size:26px 25px;}
-.card_div{background-color:#e1e7ea;}
 .card_u{position:relative; width:100%; height:auto; transform:translateZ(0px); -webkit-transform:translateZ(0px);}
 .card_l{position:relative; width:100%; height:auto; padding-top:2px;}
 
