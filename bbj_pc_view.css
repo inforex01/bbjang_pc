@@ -331,6 +331,9 @@
 /*-------------------- 단지정보 & 공공정보 영역 --------------------*/
 .dt_data_wrap .complex_h3{margin-bottom:12px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_h3_complex.png") no-repeat left center; background-size:130px 20px;}
 .dt_data_wrap .public_h3{margin-bottom:12px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_h3_public.png") no-repeat left center; background-size:130px 20px;}
+/*관심단지 추가버튼*/
+.set_wrap.view {margin-left:75px; height: 28px; line-height: 28px; vertical-align: top; text-indent:18px; box-sizing: border-box; border-radius: 3px; font-weight: 400; border: 1px solid #8b8b8b; background: #fff url(http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_off.png) no-repeat 5px center; color: #525252;}
+.set_wrap.view.on {border: 1px solid #0077c0; background: #fff url(http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_on.png) no-repeat 5px center; color: #0077c0;}
 
 /* 간단정보 */
 .dt_data_wrap .complex_icon_ul{position:relative; width:100%; height:auto; padding-bottom:12px; border-bottom:1px solid #d4d4d4;}
