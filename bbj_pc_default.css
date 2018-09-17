@@ -260,3 +260,6 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 #header .mymenu .login_naver a{padding-left:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_naver2.png) left 7px no-repeat; background-size:20px 20px;}
 #header .mymenu .login_kakao a{padding-left:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_kakao2.png) left 7px no-repeat; background-size:20px 20px;}
 #header .mymenu .login_facebook a{padding-left:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_facebook.png) left 7px no-repeat; background-size:20px 20px;}
+
+/* 관리자노출 구분 */
+.admin_border{border:1px dashed #f44336;}
