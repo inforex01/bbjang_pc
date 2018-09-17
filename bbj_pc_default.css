@@ -262,7 +262,7 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 #header .mymenu .login_facebook a{padding-left:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_facebook.png) left 7px no-repeat; background-size:20px 20px;}
 
 /* 관리자노출 구분 */
-.admin_border{border:2px dashed #f44336;}
+.admin_border{border:2px dashed #f44336!important;}
 
 /* 건설회사(분양.대행) 뱃지 */
 .badge_constcom {display:inline-block; position:absolute; z-index:10; top:-1px; left:-1px; width:50px; height:40px; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/badge_constcom.png') no-repeat; background-size:cover;}
