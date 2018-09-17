@@ -145,8 +145,8 @@
 .danji_price{position:relative; width:100%; height:auto; padding-top:10px; font-size:16px; font-weight:900; color:#0070b4;}
 .danji_info{position:relative; width:100%; height:auto; padding-top:5px; font-size:14px; color:#333;}
 .danji_info span.bar{padding:0 8px 0 10px; color:#a8a8a8;}
-.danji_num{position:absolute; width:100%; height:auto; bottom:12px; font-size:15px; font-weight:900; color:#0070b4;}
-.danji_num .type{float:left; width:75px;}
+.danji_num{position:absolute; width:auto; height:auto; bottom:12px; font-size:15px; font-weight:900; color:#0070b4;}
+.danji_num .type{float:left; width:72px;}
 .danji_num .type:first-of-type{padding-left:0; background:none;}
 /* 단지 거래유형뱃지 */
 .danji_badge{display:inline-block; width:34px; height:20px; margin-right:3px; font-size:13px; font-weight:600; line-height:20px; letter-spacing:0; color:#fff; text-align:center;}
