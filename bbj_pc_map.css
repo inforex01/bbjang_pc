@@ -170,15 +170,19 @@
 .wrap_map .view_button_wrap{position:fixed; width:auto; height:auto; top:133px; right:516px; z-index:2;}
 .wrap_map .view_button_wrap:after{display:block; clear:both; content:'';}
 /*버튼 누르기 전*/
-.wrap_map .view_button_wrap .view_air_off, .wrap_map .view_button_wrap .view_sky_off, .wrap_map .view_button_wrap .view_road_off, .wrap_map .view_button_wrap .view_emap_off{float:left; width:82px; height:34px; line-height:30px; border-radius:4px; border:1px solid #bdbdbd; font-size:14px; margin-right:5px; background-color:#fff; box-sizing:border-box; font-weight:600;}
-.wrap_map .view_button_wrap .view_air_off a, .wrap_map .view_button_wrap .view_sky_off a, .wrap_map .view_button_wrap .view_road_off a, .wrap_map .view_button_wrap .view_emap_off a{display:block; width:100%; height:100%; padding-left:20px; text-align:center; box-sizing:border-box;}
+.wrap_map .view_button_wrap .view_agency_off, .wrap_map .view_button_wrap .view_air_off, .wrap_map .view_button_wrap .view_sky_off, .wrap_map .view_button_wrap .view_road_off, .wrap_map .view_button_wrap .view_emap_off{float:left; width:82px; height:34px; line-height:30px; border-radius:4px; border:1px solid #bdbdbd; font-size:14px; margin-right:5px; background-color:#fff; box-sizing:border-box; font-weight:600;}
+.wrap_map .view_button_wrap .view_agency_off{width:106px;}
+.wrap_map .view_button_wrap .view_agency_off a, .wrap_map .view_button_wrap .view_air_off a, .wrap_map .view_button_wrap .view_sky_off a, .wrap_map .view_button_wrap .view_road_off a, .wrap_map .view_button_wrap .view_emap_off a{display:block; width:100%; height:100%; padding-left:20px; text-align:center; box-sizing:border-box;}
+.wrap_map .view_button_wrap .view_agency_off a, .wrap_map .view_button_wrap .view_agency_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_agency.png) no-repeat 8px center; background-size:15px auto;}
 .wrap_map .view_button_wrap .view_air_off a, .wrap_map .view_button_wrap .view_air_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_air.png) no-repeat 5px center; background-size:20px 16px;}
 .wrap_map .view_button_wrap .view_sky_off a, .wrap_map .view_button_wrap .view_sky_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_sky.png) no-repeat 6px 7px; background-size:15px 16px;}
 .wrap_map .view_button_wrap .view_road_off a, .wrap_map .view_button_wrap .view_road_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_road.png) no-repeat 8px 8px; background-size:13px 16px;}
 .wrap_map .view_button_wrap .view_emap_off a, .wrap_map .view_button_wrap .view_emap_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_emap.png) no-repeat 8px 9px; background-size:17px 13px;}
 /*버튼누른 후*/
-.wrap_map .view_button_wrap .view_air_on, .view_button_wrap .view_sky_on, .wrap_map .view_button_wrap .view_road_on, .wrap_map .view_button_wrap .view_emap_on{float:left; width:82px; height:34px; line-height:29px; border-radius:4px; border:2px solid #3081f0; font-size:14px; font-weight:600; color:#3081f0; margin-right:5px; background-color:#fff; box-sizing:border-box;}
-.wrap_map .view_button_wrap .view_air_on a, .wrap_map .view_button_wrap .view_sky_on a, .wrap_map .view_button_wrap .view_road_on a, .wrap_map .view_button_wrap .view_emap_on a{display:block; width:100%; height:100%; padding-left:20px; text-align:center; box-sizing:border-box;}
+.wrap_map .view_button_wrap .view_agency_on, .wrap_map .view_button_wrap .view_air_on, .view_button_wrap .view_sky_on, .wrap_map .view_button_wrap .view_road_on, .wrap_map .view_button_wrap .view_emap_on{float:left; width:82px; height:34px; line-height:29px; border-radius:4px; border:2px solid #3081f0; font-size:14px; font-weight:600; color:#3081f0; margin-right:5px; background-color:#fff; box-sizing:border-box;}
+.wrap_map .view_button_wrap .view_agency_on{width:106px;}
+.wrap_map .view_button_wrap .view_agency_on a, .wrap_map .view_button_wrap .view_air_on a, .wrap_map .view_button_wrap .view_sky_on a, .wrap_map .view_button_wrap .view_road_on a, .wrap_map .view_button_wrap .view_emap_on a{display:block; width:100%; height:100%; padding-left:20px; text-align:center; box-sizing:border-box;}
+
 .wrap_map .view_button_wrap .view_emap_on{margin-bottom:0;}
 .wrap_map .view_air_loca{right:12px!important; bottom:50px!important; left:inherit!important;}
 
