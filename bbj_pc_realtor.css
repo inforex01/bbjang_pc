@@ -87,6 +87,8 @@
 .wrap_tel_lst{position:relative; width:auto; height:auto; padding-top:8px;}
 .wrap_tel_lst:after{content:""; display:block; clear:both;}
 .wrap_tel_lst span{float:left; width:auto; height:auto; margin-right:8px; padding:6px 24px 6px 10px; background:#fafcff url("http://image.bbjang.com/imgs/bbjang/img_pc/btn_slct_dlt.png") no-repeat 95% center; border:1px solid #add4ed; border-radius:5px; font-size:13px; font-weight:600;  color:#539fd0; cursor:pointer;}
+/* 대표연락처 안심번호 */
+.secure_num {margin:6px 0px 0px 8px;}
 /* 지도 */
 .view_ag_map {position:relative; width:100%; height:auto; padding:8px 20px 8px 0; box-sizing:border-box; border:none;}
 .view_ag_map #map{display:block; width:100%; height:200px; border:1px solid #bcc0c2; box-sizing:border-box;}
