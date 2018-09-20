@@ -138,6 +138,7 @@
 .local_txt .admin_rgm{padding-left:2px; font-weight:600; color:#3652aa;}
 
 /*----- #2304 단지리스트 -----*/
+.danji_photo a img{object-fit:contain;}
 .danji_content{position:relative; width:100%; height:142px; padding:12px 5px 12px 143px; box-sizing:border-box; background-color:#fff; cursor:pointer;}
 .danji_content:active{background-color:#f4f8fb;}
 .danji_title{position:relative; width:100%; height:auto; font-size:20px; font-weight:900; color:#141516; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;text-overflow: ellipsis;}
