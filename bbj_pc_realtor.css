@@ -88,7 +88,10 @@
 .wrap_tel_lst:after{content:""; display:block; clear:both;}
 .wrap_tel_lst span{float:left; width:auto; height:auto; margin-right:8px; padding:6px 24px 6px 10px; background:#fafcff url("http://image.bbjang.com/imgs/bbjang/img_pc/btn_slct_dlt.png") no-repeat 95% center; border:1px solid #add4ed; border-radius:5px; font-size:13px; font-weight:600;  color:#539fd0; cursor:pointer;}
 /* 대표연락처 안심번호 */
-.secure_num {margin:6px 0px 0px 8px;}
+.secure_num {margin:1px 0px 0px 8px;}
+.secure_num .chk_input {position: absolute; width: 1px; height: 1px; margin-left:-1px; overflow: hidden; visibility: hidden;}
+.secure_num .btn_secure {display:block; width:90px; height: 30px; line-height: 30px; border:1px solid #bcc0c2; border-radius: 5px; background: #fff url("http://image.bbjang.com/imgs/bbjang/pop/ico_chk_off.png") no-repeat 7px 50%; background-size:20px 20px; text-align: center; text-indent: 22px; cursor: pointer;}
+.secure_num .chk_input:checked ~ .btn_secure {border:1px solid #118ecc; color:#fff; background:#0ca2ed url("http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on2.png") no-repeat 7px 50%; background-size:20px 20px; }
 /* 지도 */
 .view_ag_map {position:relative; width:100%; height:auto; padding:8px 20px 8px 0; box-sizing:border-box; border:none;}
 .view_ag_map #map{display:block; width:100%; height:200px; border:1px solid #bcc0c2; box-sizing:border-box;}
