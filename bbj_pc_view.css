@@ -202,10 +202,12 @@
 .dt_data_wrap .school_box .school_li:nth-of-type(even){padding-left:5px;}
 
 .dt_data_wrap .school_box .school_bg{position:relative; width:100%; height:auto; padding:6px 6px 6px 52px; border:1px solid #d4d4d4; box-sizing:border-box;}
-.dt_data_wrap .school_box .school_badge{position:absolute; top:8px; left:8px; width:36px; height:36px; line-height:36px; color:#fff; text-align:center;}
-.dt_data_wrap .school_box .element{background-color:#f4a43d;}
-.dt_data_wrap .school_box .middle{background-color:#61b28b;}
-.dt_data_wrap .school_box .high{background-color:#9161b2;}
+.dt_data_wrap .school_box .bg_assign{background-color:#fff6e1;}
+.dt_data_wrap .school_box .school_badge{position:absolute; top:8px; left:8px; width:36px; height:36px; line-height:36px; box-sizing:border-box; color:#fff; text-align:center;}
+.dt_data_wrap .school_box .element{background-color:#45bd64;}
+.dt_data_wrap .school_box .middle{background-color:#0cb2ac;}
+.dt_data_wrap .school_box .high{background-color:#5e73f1;}
+.dt_data_wrap .school_box .assign{height:38px; line-height:32px; background:url("http://image.bbjang.com/imgs/bbjang/img01/pc_badge_assign.png") no-repeat center top; background-size:100% 100%;}
 .dt_data_wrap .school_box .school_top{height:21px; line-height:21px; color:#303030; font-size:15px; font-weight:600;}
 .dt_data_wrap .school_box .school_top .bar{margin:0 5px 0 6px; font-size:13px; font-weight:normal;}
 .dt_data_wrap .school_box .school_top .distance{font-size:13px; font-weight:normal;}
@@ -652,6 +654,7 @@
 /*-------------------- 공공DB출처 표시 --------------------*/
 .dt_h3 .db_source{position:absolute; top:0; left:67px; color:#707070; font-size:15px; font-weight:normal;}
 .school_box .db_source{color:#707070; font-size:13px;}
+.school_box .db_source img{vertical-align:top; width:22px; height:22px; margin:5px 3px 0 3px;}
 .price_box .db_source{color:#707070; font-size:13px;}
 .floating_box .db_source{color:#707070; font-size:13px;}
 
