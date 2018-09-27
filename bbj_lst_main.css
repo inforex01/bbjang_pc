@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .card_div{position:absolute; width:100%; height:auto; top:0; bottom:0; padding:105px 0px 138px 2px; background-color:#e1e7ea; box-sizing:border-box; overflow-y:hidden;}
-.danji_info_div{padding:165px 0px 138px 0; background:#fff;}/*단지-단지정보*/
+.danji_info_div{padding:158px 0px 136px 0; background:#fff;}/*단지-단지정보*/
 .danji_mamul_div{padding:198px 0px 138px 2px;}/*단지-등록매물*/
 
 .card_u{position:relative; width:100%; height:auto; transform:translateZ(0px); -webkit-transform:translateZ(0px);}
