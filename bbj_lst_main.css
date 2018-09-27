@@ -1,9 +1,12 @@
 @charset "utf-8";
 
-.card_div{position:absolute; width:100%; height:auto; top:0; bottom:0; padding:40px 0px 142px 2px; box-sizing:border-box; overflow-y:hidden;}
+.card_div{position:absolute; width:100%; height:auto; top:0; bottom:0; padding:105px 0px 138px 2px; background-color:#e1e7ea; box-sizing:border-box; overflow-y:hidden;}
+.danji_info_div{padding:158px 0px 136px 0; background:#fff;}/*단지-단지정보*/
+.danji_mamul_div{padding:198px 0px 138px 2px;}/*단지-등록매물*/
+
 .card_u{position:relative; width:100%; height:auto; transform:translateZ(0px); -webkit-transform:translateZ(0px);}
 .card_l{position:relative; width:100%; height:auto; padding-top:2px;}
-.card_l .main_content{position:relative; border-top:1px solid #b2b9bc;  border-bottom:1px solid #b2b9bc; box-sizing:border-box;}
+.card_l:first-of-type{padding-top:0;}.card_l .main_content{position:relative; border-top:1px solid #b2b9bc;  border-bottom:1px solid #b2b9bc; box-sizing:border-box;}
 .card_l .border_list { border-left:1px solid #b2b9bc; border-right:1px solid #b2b9bc; }
 
 /* 사진영역 */
@@ -89,7 +92,6 @@
 .rc_wrap .card_content a{width:86%;}
 .rc_wrap .card_content .yscrape{position:absolute; width:36px; height:100%; overflow:hidden; white-space:nowrap; background:url(http://image.bbjang.com/imgs/bbjang/img_button/ico_star.png) no-repeat center center; background-size:26px 25px; cursor:pointer; top:0; right:5px;}
 .rc_wrap .card_content .yscrape_active{background:url(http://image.bbjang.com/imgs/bbjang/img_button/ico_star_active.png) no-repeat center center; background-size:26px 25px;}
-.card_div{background-color:#e1e7ea;}
 .card_u{position:relative; width:100%; height:auto; transform:translateZ(0px); -webkit-transform:translateZ(0px);}
 .card_l{position:relative; width:100%; height:auto; padding-top:2px;}
 
@@ -135,8 +137,29 @@
 /*------ 180608 매물등록수표시-관리자에게만 보이기(정우아) ------*/
 .local_txt .admin_rgm{padding-left:2px; font-weight:600; color:#3652aa;}
 
+/*----- #2304 단지리스트 -----*/
+.danji_photo a img{object-fit:contain;}
+.danji_content{position:relative; width:100%; height:142px; padding:12px 5px 12px 143px; box-sizing:border-box; background-color:#fff; cursor:pointer;}
+.danji_content:active{background-color:#f4f8fb;}
+.danji_title{position:relative; width:100%; height:auto; font-size:18px; font-weight:900; color:#141516; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;text-overflow: ellipsis;}
+.danji_adrs{position:relative; width:100%; height:auto; padding-top:6px; font-size:13px; font-weight:900; color:#935837;}
+.danji_price{position:relative; width:100%; height:auto; padding-top:6px; font-size:16px; font-weight:900; color:#0070b4;}
+.danji_info{position:relative; width:100%; height:auto; padding-top:5px; font-size:14px; color:#333;}
+.danji_info span.bar{padding:0 8px 0 10px; color:#a8a8a8;}
+.danji_num{position:absolute; width:auto; height:auto; bottom:12px; font-size:15px; font-weight:900; color:#0070b4;}
+.danji_num .type{float:left; width:72px;}
+.danji_num .type:first-of-type{padding-left:0; background:none;}
+/* 단지 거래유형뱃지 */
+.danji_badge{display:inline-block; width:34px; height:20px; margin-right:3px; font-size:13px; font-weight:600; line-height:20px; letter-spacing:0; color:#fff; text-align:center;}
+.danji_month{background-color:#33a381;}
+.danji_rent{background-color:#92982a;}
+.danji_sale{background-color:#267ba2;}
+.danji_short{background-color:#d77327;}
+/*----------------------------*/
+
 /*------ 일감2475 신고건수 뱃지 추가 -----*/
-.btn_report_badge{position:absolute; z-index:100; width:30px; height:30px; background-color:transparent; border:none; outline:none; box-shadow:none; text-align:left;}
-.btn_report_badge .report_badge{position:absolute; top:0; left:0; display:inline-block; vertical-align:top; width:25px; height:16px; line-height:16px; border-radius:2px; background-color:#ffd863; color:#000; font-size:12px; font-weight:900; text-align:center;}
-.sub_content .btn_report_badge{top:4px; left:13px;}
+.btn_report_badge{position:absolute; z-index:100; width:30px; height:30px; margin:98px 0 0 99px; background-color:transparent; border:none; outline:none; box-shadow:none; text-align:left;}
+.btn_report_badge .report_badge{position:absolute; right:0; bottom:0; display:inline-block; vertical-align:top; width:25px; height:16px; line-height:16px; border-radius:2px; background-color:#ffd863; color:#000; font-size:12px; font-weight:900; text-align:center;}
+
+.sub_content .btn_report_badge{top:8px; left:0px;}
 .main_content .btn_report_badge{top:7px; left:3px;}

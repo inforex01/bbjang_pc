@@ -856,3 +856,179 @@ b {font-weight:600;}
 /* 관리시 평면도 유무 표시 */
 .plan_badge_wrap { position: absolute; right: 6px; top: 45px; }
 .plan_badge_wrap .plan_badge { position: relative; bottom: 0; left: 0; }
+
+/********************** 관심목록 (지역/단지) 위성노 **********************/
+/*********** 관심목록 등록건수 ***********/
+.interest_list_count {display: inline-block; height: 40px; line-height: 40px; margin-left: 10px;}
+.interest_list_count .result_txt {font-size:16px; font-weight: 600;}
+.interest_list_count .result_txt .ft_blue {font-weight: 900;}
+/*********** 관심목록 등록버튼 ***********/
+.set_wrap {display: inline-block; margin-left: 20px; width: 100px; height: 22px; line-height: 22px;}
+.set_wrap .btn_interest_set {font-size: 13px; text-align: center;}
+.set_wrap.interest {border: 1px solid #0ca2ed; border-radius: 3px; background:#fff;}
+.set_wrap.interest:hover {background: #0ca2ed;}
+.set_wrap.interest:hover .btn_interest_set {color:#fff;}
+.set_wrap.interest:hover .btn_interest_set path {fill:#fff;}
+.set_wrap.interest:active {background: #0b94d9}
+.set_wrap.interest:active .btn_interest_set {color:#fff;}
+.set_wrap.interest:active .btn_interest_set path {fill:#fff;}
+/* 관심지역 등록버튼 아이콘*/
+.set_wrap .btn_interest_set svg.ico_myloca {vertical-align: text-top; width:12.762px; height:14.285px;}
+/* 관심단지 등록버튼 아이콘 */
+.set_wrap .btn_interest_set svg.ico_myapt {vertical-align: text-top; width:16.631px; height:14.279px;}
+
+/*********** 관심지역 영역 나누기 ***********/
+.myloca_wrap {width: 100%; height: 100%; position: relative;}
+.myloca_wrap:after {content:""; display: block; clear: both;}
+.myloca_wrap .myloca_left {float: left; width: 370px; min-height:1692px;  border-right:1px solid #ccc; position: relative; box-sizing: border-box; padding-bottom: 14px;}
+.myloca_wrap .myloca_right {float: right; width: 700px; min-height: 1692px; position: relative; box-sizing: border-box; border-left:1px solid #ccc; padding-bottom:52px;}
+/*********** 관심단지 영역 나누기 ***********/
+.full_screen {height: 100%; overflow: hidden; padding-top: 40px;}
+.myapt_wrap {width: 100%; height: 100%; position: absolute; top:0; left: 0; box-sizing: border-box; padding-top: 81px;}
+.myapt_wrap:after {content:""; display: block; clear: both;}
+.myapt_wrap .myapt_left {float: left; width: 440px; height: 100%; overflow-y:auto; border-right:1px solid #ccc; position: relative; box-sizing: border-box;}
+.myapt_wrap .myapt_right {float: right; width: 630px; height: 100%; overflow-y:auto; position: relative; box-sizing: border-box; border-left:1px solid #ccc;}
+
+/*********** 관심목록 리스트 ***********/
+.content_interest {width: 100%; height: auto; position: relative;}
+.interest_list_card {width: 100%; position: relative; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-top: 10px; box-sizing: border-box; padding: 0px 10px; cursor: pointer;}
+.interest_list_card:first-child {margin-top:0px; border-top:0;}
+.interest_list_card:hover {background: #f2f2f2;}
+.interest_list_card .card_name {font-size:17px; font-weight: 600; color:#858686; }
+.interest_list_card:hover .card_name {cursor: pointer; color:#505152;}
+.interest_list_card .deal_list_l {float:left; width: 20%; height: 40px; line-height: 20px; color:#6b6b6b; font-size: 13px; font-weight: 600; cursor: pointer;}
+.interest_list_card .deal_list_u:after {display: block; content:''; clear: both}
+.interest_list_card .deal_list_l .deal_num {font-weight: 600; font-size:15px; color:#5e99c1; margin-left: 5px; vertical-align: bottom;}
+.interest_list_card:hover .deal_num {color:#196da6;}
+.interest_list_card .deal_list_l:hover .deal_num {border-bottom: 1px solid #196da6; cursor: pointer;}
+.interest_list_card .btn_mylist_del {position: absolute; right: 0; top:0; width: 30px; height: 30px; background: url("http://image.bbjang.com/imgs/bbjang/img01/btn_pop_x_2.png") no-repeat center; background-size: 10px 10px;}
+.interest_list_card .btn_mylist_del a {width: 100%; height: 100%;}
+.interest_list_card.on {background: #f2f2f2;  }
+.interest_list_card.on .deal_list_l {color:#1c1e1f;}
+.interest_list_card.on .deal_list_l .deal_num {color:#004c80; font-weight: 900;}
+.interest_list_card.on .deal_list_l:hover .deal_num {border-bottom: 1px solid #004c80;}
+/* 관심목록 리스트 매물종류뱃지 */
+.my_badge_total, .my_badge_sale, .my_badge_rent, .my_badge_month, .my_badge_short {padding:2px 4px; box-sizing: border-box; color:#fff;}
+.my_badge_total {background-color:#fff; color:inherit; border:1px solid #ccc;}
+.my_badge_sale {background-color:#267ba2;}
+.my_badge_rent {background-color:#92982a;}
+.my_badge_month {background-color:#33a381;}
+.my_badge_short {background-color:#d77327;}
+.interest_list_card .my_badge_total {background-color:#fff; color:inherit; border:1px solid #b8bcbd;}
+.interest_list_card .my_badge_sale {background-color:#68a3be;}
+.interest_list_card .my_badge_rent {background-color:#b3b76a;}
+.interest_list_card .my_badge_month {background-color:#71bfa7;}
+.interest_list_card .my_badge_short {background-color:#e39d68;}
+.interest_list_card:hover .my_badge_total {background-color:#fff; color:inherit; border:1px solid #ccc;}
+.interest_list_card:hover .my_badge_sale {background-color:#267ba2;}
+.interest_list_card:hover .my_badge_rent {background-color:#92982a;}
+.interest_list_card:hover .my_badge_month {background-color:#33a381;}
+.interest_list_card:hover .my_badge_short {background-color:#d77327;}
+.interest_list_card.on .my_badge_total {background-color:#fff; color:inherit; border:1px solid #ccc;}
+.interest_list_card.on .my_badge_sale {background-color:#267ba2;}
+.interest_list_card.on .my_badge_rent {background-color:#92982a;}
+.interest_list_card.on .my_badge_month {background-color:#33a381;}
+.interest_list_card.on .my_badge_short {background-color:#d77327;}
+/* 관심지역 리스트*/
+.interest_list_card.myloca {height: 93px;}
+.interest_list_card .card_name.myloca {height: 53px; line-height: 53px; }
+.interest_list_card.on .card_name.myloca {color:#1c1e1f;}
+/* 관심단지 리스트 */
+.interest_list_card.myapt {height: 150px;}
+.interest_list_card .card_name.myapt {height: 55px; line-height: 55px; font-size:20px; }
+.interest_list_card .myapt_info {font-size:15px; color:#858686; line-height: 25px;}
+.interest_list_card:hover .myapt_info {cursor: pointer; color:#505152;}
+.interest_list_card.myapt .deal_list_l {line-height: 40px;}
+.interest_list_card.myapt .deal_list_l .deal_num {font-size:17px;}
+.interest_list_card.on .card_name.myapt {color:#1c1e1f; font-weight: 900;}
+.interest_list_card.on .myapt_info {color:#1c1e1f; font-weight: 600;}
+
+/*********** 리스트 페이징 ***********/
+.interest_paging{width: 100%; height: 50px; bottom: 0; left: 0; border-top:1px solid #ccc; box-sizing: border-box; background: #fff;}
+/* 관심지역 */
+.interest_paging.myloca {position: absolute;}
+/* 관심단지 */
+.interest_paging.myapt{position: relative;}
+
+/*********** 관심목록 없을 때 ***********/
+.set_wrap.interest_none {display: block; width:150px; height: 35px; line-height: 35px; margin: 50px auto; border:1px solid #0ca2ed;}
+.set_wrap.interest_none:hover {background: #0ca2ed;}
+.set_wrap.interest_none:hover .btn_interest_set {color:#fff;}
+.set_wrap.interest_none:hover .btn_interest_set path {fill:#fff;}
+.set_wrap.interest_none:active {background: #0b94d9}
+.set_wrap.interest_none:active .btn_interest_set {color:#fff;}
+.set_wrap.interest_none:active .btn_interest_set path {fill:#fff;}
+
+/*********** 관심목록 매물리스트 ***********/
+/* 관심목록 매물리스트 */
+.interest_deal_list .card_u {background: #e1e7ea; padding: 2px; box-sizing: border-box;}
+/*관심지역 매물리스트 상단*/
+.myloca_right .result_txt {height: 30px; line-height: 30px; font-weight: 600; text-indent: 10px; background: #e1e7ea;}
+.myloca_right .result_txt span:before {content:"'";}
+.myloca_right .result_txt span:after {content:"'";}
+/* 매물 없을 경우 */
+.none_deal_list .list_empty_row2 {line-height: 25px;}
+
+/*********** 관심단지 오른쪽영역 ***********/
+.apt_wrap {width: 100%; height: 100%; box-sizing: border-box; overflow: hidden; transition: 0.3s ease-out;}
+.pt_150 {padding-top: 150px;}
+.pt_45 {padding-top: 45px;}
+.pt_90 {padding-top: 90px;}
+.pt_195 {padding-top: 195px;}
+/* 단지헤더 */
+.apt_wrap .apt_header {width: 100%; height: 105px; position: absolute; top:0; left: 0; box-sizing: border-box; border-bottom:1px solid #ccc; transition: 0.3s ease-out;}
+.apt_header .apt_name {padding-top: 40px; font-size:28px; line-height: 28px; font-weight: 900; text-indent: 20px;}
+.apt_header .apt_name span {font-size:12px; font-weight: 400; color:#595959; margin-left: 10px;}
+.apt_header .apt_info {padding-left: 10px;}
+.apt_header .apt_info:after {content:""; display: block; clear: both;}
+.apt_header .apt_info li {float:left; padding: 5px 10px; font-size:14px; color:#595959; position: relative;}
+.line_bar:after {content: ""; position: absolute; right: 0; top:50%; margin-top: -5px; display: block; background: #ccc; width: 1px; height: 10px;}
+/* 단지탭메뉴 */
+.apt_wrap .apt_tabmenu {width: 100%; height: 45px; position: absolute; top:105px; left: 0; box-sizing: border-box; border-bottom: 1px solid #ccc; transition: 0.3s ease-out;}
+.apt_tabmenu ul:after {content:""; display: block; clear: both;}
+.apt_tabmenu li {float:left; margin: 0px 20px; height: 45px; line-height: 45px; text-align: center; color:#595959; font-weight: 600; font-size:15px; box-sizing: border-box;}
+.apt_tabmenu li .ft_navy {color:#004c80; font-weight: 900;}
+.apt_tabmenu li.tab_on {color:#0077c0; border-bottom:2px solid #0b7fd0;}
+.apt_tabmenu li.tab_on .ft_navy {color:#0077c0;}
+.apt_tabmenu .deal_count {position: absolute; display: none; left: 0; top: 45px; width: 100%; height: 45px; background: #fff; box-sizing: border-box; border-bottom: 1px solid #ccc;}
+.apt_tabmenu li.tab_on .deal_count {display: block;}
+.apt_tabmenu .deal_count:after {content: ""; display: block; clear: both;}
+.apt_tabmenu .deal_count a {float:left; padding: 0px 20px; color:#1c1e1f; font-weight: 500; position: relative;}
+.apt_tabmenu .deal_count a .ft_blue {margin-left: 5px;}
+.apt_tabmenu .deal_count a.on {background: #65aedb; color:#fff; font-weight: 600;}
+.apt_tabmenu .deal_count a.on .ft_blue {color:#fff;}
+.apt_tabmenu .deal_count a.line_bar:after {height: 24px; margin-top: -12px; background: #dadada;}
+/* 단지컨테이너*/
+.apt_wrap .apt_container {width: 100%; height: 100%; overflow: auto; box-sizing: border-box;}
+/* 단지정보 */
+.apt_info_box {padding-top: 10px;}
+
+/*********** 관심단지 등록하기 팝업창 ***********/
+.srch_apt_h {height: 130px; background:url(http://image.bbjang.com/imgs/bbjang/interest/bg_srch_apt.png) no-repeat; background-position: right bottom; border-bottom:1px solid #ccc;}
+.srch_apt_container {height: 555px; margin-bottom:50px; box-sizing: border-box; overflow: hidden; }
+
+.srch_apt_h h1 {font-size:17px; padding-top: 20px; padding-left:30px; line-height: 35px; color:#0077c0; background: url(http://image.bbjang.com/imgs/bbjang/interest/ico_srch.png) no-repeat 10px 29px; background-size:16px 16px;}
+.srch_apt_h .rg_tb {margin: 0 10px;}
+
+.srch_apt_container .slct_field {width: 100%; height: 65px; padding: 0px 10px; background: #efefef; width:100%; border-bottom:1px solid #ccc; box-sizing: border-box; overflow: auto;}
+.slct_field .center_align {display: table; width: 100%; height: 100%;}
+.slct_field .slct_apt_box {display: table-cell; vertical-align: middle;}
+.slct_field .slct_apt {float:left; position: relative; padding-left: 5px; padding-right: 20px; width: 75px; height: 25px; line-height: 25px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border:1px solid #0077c0; border-radius: 3px; background: #fff; margin-right: 5px; margin-top: 2px; font-size:13px; color:#0077c0;}
+.slct_field .slct_apt_del {position: absolute; width: 13px; height: 13px; background:url(http://image.bbjang.com/imgs/bbjang/interest/btn_srch_apt_del.png) no-repeat center; right: 5px; top:6px; text-indent: -9999px;}
+
+
+.srch_apt_u {background-color: #bec7cc; width: 100%; height: 490px; overflow-x: hidden; overflow-y: auto;}
+.srch_apt_l {width: auto; height: auto; background: #fff; position: relative; transition: background 0.16s ease-in-out; cursor: pointer; margin-top:3px;}
+.srch_apt_l:hover {background: #f2f2f2;}
+.srch_apt_l.on .srch_apt_content {background: url(http://image.bbjang.com/imgs/bbjang/img01/chk_pic_on.png) no-repeat right 20px center; background-size: 24px 24px;}
+.srch_apt_l:first-child {margin-top: 5px; border-top:1px solid #ccc;}
+.srch_apt_l:last-child {margin-bottom: 10px;}
+.srch_apt_l .srch_apt_content {width: 100%; padding: 0px 10px; padding-right: 85px; box-sizing: border-box; background: url(http://image.bbjang.com/imgs/bbjang/img01/chk_pic_off.png) no-repeat right 20px center; background-size: 24px 24px;}
+.srch_apt_l .srch_apt_content .card_name.srch_apt {height: 40px; line-height: 55px; font-size:17px; font-weight: 900;}
+.srch_apt_l .srch_apt_content > p {height: 25px; line-height: 25px;}
+
+.srch_apt_l .deal_list_u {padding: 5px 0px 10px;}
+.srch_apt_l .deal_list_l {width: 70px; float: left; margin-right:10px; background: url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar05.png) right center no-repeat; background-size: 1px 12px; font-weight: 600;}
+.srch_apt_l .deal_list_l:first-child {padding-left: 0;}
+.srch_apt_l .deal_list_l:last-child {background: none; padding-right: 0;}
+.srch_apt_l .deal_list_u .deal_list_l span {font-weight: 900; margin-left: 10px; color:#0070b4;}

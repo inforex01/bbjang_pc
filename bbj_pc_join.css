@@ -18,6 +18,7 @@ input:-ms-placeholder {color:#8d96a7; font-size:13px; line-height:15px; letter-s
 
 /* ---------- form ---------- */
 .form_1{position:relative; width:100%; height:auto; border-bottom:1px solid #d8deea; text-align:left;}
+.form_1.tv{margin:-11px 0 0 0;}
 .form_1 .form_tit{position:absolute; padding:15px 14px 15px 10px; font-size:15px; color:#606060; font-weight:600; box-sizing:border-box;} /* label */
 .form_1 .form_tit2{float:left; width:95px; padding:14px 0 14px 1px; font-size:15px; letter-spacing:-0.5px; color:#8d96a7; font-weight:600; cursor:pointer;} /* label */
 .form_1 label{cursor:inherit;}
@@ -92,7 +93,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0086bd', end
 /* layout */
 #wrap_join{position:relative; text-align:center; width:420px; height:640px;}
 #wrap_join .tab_jn{position:relative; width:86%; height:auto; top:54px; margin:0 auto; overflow:auto;}
-#wrap_join .bbj_logo{position:relative; padding:44px 0 16px 0;}
+#wrap_join .bbj_logo{position:relative; padding:44px 0 0 0;}
+#wrap_join .bbj_logo.tv{height:108px;}
 #wrap_join .contents_jn{position:relative; width:100%; height:auto; padding:10px 20px 16px 20px; box-sizing:border-box;}
 /* tab */
 .tab_jn .tab_p{float:left; width:50%; padding:10px 0; font-size:13px; line-height:13px; color:#fff; background:#0ca2ed; border:1px solid #0ca2ed; border-radius:17.5px 0 0 17.5px; box-sizing:border-box;}
@@ -422,7 +424,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .set_profile .nomal_prf{position:relative; width:100%; height:auto; padding:20px 25px 20px 140px; box-sizing:border-box; letter-spacing:-0.2px;}
 .set_profile .nomal_prf .prf_txt{position:relative; width:100%; height:32px; line-height:32px; margin-top:7px; padding-left:68px; box-sizing:border-box;}
 .nomal_prf .prf_txt .name_b{position:absolute; top:0; left:0; width:68px; height:32px; font-size:15px; font-weight:600; text-indent:12px;}
-.nomal_prf .prf_txt .my_name{position:relative; width:100%; height:32px; line-height:32px; border-bottom:1px solid #e7e7e7; font-size:15px;}
+.nomal_prf .prf_txt .my_name{position:relative; width:100%; height:32px; line-height:32px; border-bottom:1px solid #e7e7e7; font-size:15px;box-sizing: border-box;}
 .nomal_prf .prf_txt .my_name .m_name_txt{color:#373b3d; font-size:15px;}
 
 /* ----- 방부장 전체소개 ----- */
@@ -430,3 +432,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .intro_list{position:relative; width:100%; height:auto;}
 .intro_list .intro_l{width:100%; height:auto; padding:10px 8px 8px 18px; border-bottom:1px solid #e5e5e5; box-sizing:border-box; font-size:15px; line-height:20px; letter-spacing:-0.1px; background:url(http://image.bbjang.com/imgs/bbjang/img_pc/roll_mark.png) no-repeat 8px 17px; background-size:5px 5px;}
 .intro_list .intro_l .fc_blue{color:#007acc;}
+
+/* 내정보 이름수정하기 */
+.pr_60 {padding-right:60px;}
+.btn_name_change {position:absolute; top:0; right:0;}
+.btn_name_change button { border:none; outline: none; background-color: transparent; box-shadow: none; color:#000;}
+.btn_name_change .blue_btn {display:block; font-weight: 400; width: 50px; height: 32px; line-height: 32px; border-radius: 2px; background-color: #069ae4; color: #fff; font-size:14px; text-align: center;}
+.btn_name_change .blue_btn:active {background-color:#0093dc;}
