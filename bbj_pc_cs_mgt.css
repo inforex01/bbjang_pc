@@ -593,6 +593,90 @@ b {font-weight:600;}
 .my_deal_url{width:1080px; margin:0 auto; background-color:#fff;}
 .my_url_bg{background-color:#f6f6f6!important; border:1px solid #ccc!important;}
 
+/*********** 관심지역수정 180425 위성노 ***********/
+.card_name {font-size:17px; font-weight: 600;}
+/* 지역건수 */
+.myloca_count {display: inline-block; height: 40px; line-height: 40px; margin-left: 10px;}
+.myloca_count .result_txt {font-size:16px; font-weight: 600;}
+.myloca_count .result_txt .ft_blue {font-weight: 900;}
+/* 관심지역등록버튼 */
+.set_wrap {display: inline-block; margin-left: 20px; width: 100px; height: 22px; line-height: 22px;}
+.set_wrap .btn_my_set {font-size: 13px; text-align: center;}
+.set_wrap .btn_my_set svg.ico_myloca {vertical-align: text-top; width:12.762px; height:14.285px;}
+.set_wrap.myloca {border: 1px solid #0ca2ed; border-radius: 3px; background:#fff;}
+.set_wrap.myloca:hover {background: #0ca2ed;}
+.set_wrap.myloca:hover .btn_my_set {color:#fff;}
+.set_wrap.myloca:hover .btn_my_set path {fill:#fff;}
+.set_wrap.myloca:active {background: #0b94d9}
+.set_wrap.myloca:active .btn_my_set {color:#fff;}
+.set_wrap.myloca:active .btn_my_set path {fill:#fff;}
+/* 관심지역 영역 나누기 */
+.myloca_wrap {width: 100%; height: 100%; position: relative;}
+.myloca_wrap:after {content:""; display: block; clear: both;}
+.myloca_wrap .myloca_left {float: left; width: 370px; height:1692px; overflow-y:auto; border-right:1px solid #ccc; position: relative; box-sizing: border-box; padding-bottom: 14px;}
+.myloca_wrap .myloca_right {float: right; width: 700px; height: 1692px; position: relative; box-sizing: border-box; border-left:1px solid #ccc; padding-bottom:52px;}
+/* 관심지역 리스트 */
+.content_myloca {width: 100%; height: auto; position: relative;}
+.myloca_list_card {width: 100%; height:93px; position: relative; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-top: 10px; box-sizing: border-box; padding: 0px 10px; cursor: pointer;}
+.myloca_list_card:first-child {margin-top:0px; border-top:0;}
+.myloca_list_card:hover {background: #f2f2f2;}
+.myloca_list_card .card_name.myloca {height: 53px; line-height: 53px; color:#858686; }
+.myloca_list_card:hover .card_name.myloca {cursor: pointer; color:#505152;}
+.myloca_list_card .deal_list_u {display: flex;}
+.myloca_list_card .deal_list_l {width: 100%; height: 40px; line-height: 20px; color:#6b6b6b; font-size: 13px; font-weight: 600; cursor: pointer;}
+.myloca_list_card .deal_list_l .deal_num {font-weight: 600; font-size:15px; color:#5e99c1; margin-left: 5px; vertical-align: bottom;}
+.myloca_list_card:hover .deal_num {color:#196da6;}
+.myloca_list_card .deal_list_l:hover .deal_num {border-bottom: 1px solid #196da6; cursor: pointer;}
+.myloca_list_card .btn_myloca_del {position: absolute; right: 0; top:0; width: 30px; height: 30px; background: url("http://image.bbjang.com/imgs/bbjang/img01/btn_pop_x.png") no-repeat center; background-size: 10px 10px;}
+.myloca_list_card .btn_myloca_del a {width: 100%; height: 100%;}
+.myloca_list_card.on {background: #f2f2f2;  }
+.myloca_list_card.on .card_name.myloca {color:#1c1e1f;}
+.myloca_list_card.on .deal_list_l {color:#1c1e1f;}
+.myloca_list_card.on .deal_list_l .deal_num {color:#004c80; font-weight: 900;}
+.myloca_list_card.on .deal_list_l:hover .deal_num {border-bottom: 1px solid #004c80;}
+/* 리스트 페이징*/
+.myloca_paging{width: 100%; height: 50px; position: absolute; bottom: 0; left: 0; border-top:1px solid #ccc; box-sizing: border-box; background: #fff;}
+/* 관심지역 없을 때 */
+.set_wrap.myloca_none {display: block; width:150px; height: 35px; line-height: 35px; margin: 50px auto; border:1px solid #0ca2ed;}
+.set_wrap.myloca_none:hover {background: #0ca2ed;}
+.set_wrap.myloca_none:hover .btn_my_set {color:#fff;}
+.set_wrap.myloca_none:hover .btn_my_set path {fill:#fff;}
+.set_wrap.myloca_none:active {background: #0b94d9}
+.set_wrap.myloca_none:active .btn_my_set {color:#fff;}
+.set_wrap.myloca_none:active .btn_my_set path {fill:#fff;}
+/* 관심지역리스트 매물종류뱃지 */
+.my_badge_total, .my_badge_sale, .my_badge_rent, .my_badge_month, .my_badge_short {padding:2px 4px; box-sizing: border-box; color:#fff;}
+.my_badge_total {background-color:#fff; color:inherit; border:1px solid #ccc;}
+.my_badge_sale {background-color:#267ba2;}
+.my_badge_rent {background-color:#92982a;}
+.my_badge_month {background-color:#33a381;}
+.my_badge_short {background-color:#d77327;}
+
+.myloca_list_card .my_badge_total {background-color:#fff; color:inherit; border:1px solid #b8bcbd;}
+.myloca_list_card .my_badge_sale {background-color:#68a3be;}
+.myloca_list_card .my_badge_rent {background-color:#b3b76a;}
+.myloca_list_card .my_badge_month {background-color:#71bfa7;}
+.myloca_list_card .my_badge_short {background-color:#e39d68;}
+
+.myloca_list_card:hover .my_badge_total {background-color:#fff; color:inherit; border:1px solid #ccc;}
+.myloca_list_card:hover .my_badge_sale {background-color:#267ba2;}
+.myloca_list_card:hover .my_badge_rent {background-color:#92982a;}
+.myloca_list_card:hover .my_badge_month {background-color:#33a381;}
+.myloca_list_card:hover .my_badge_short {background-color:#d77327;}
+
+.myloca_list_card.on .my_badge_total {background-color:#fff; color:inherit; border:1px solid #ccc;}
+.myloca_list_card.on .my_badge_sale {background-color:#267ba2;}
+.myloca_list_card.on .my_badge_rent {background-color:#92982a;}
+.myloca_list_card.on .my_badge_month {background-color:#33a381;}
+.myloca_list_card.on .my_badge_short {background-color:#d77327;}
+/* 관심지역 매물리스트 */
+.myloca_right .result_txt {height: 30px; line-height: 30px; font-weight: 600; text-indent: 10px; background: #e1e7ea;}
+.myloca_right .result_txt span:before {content:"'";}
+.myloca_right .result_txt span:after {content:"'";}
+.myloca_deal_list .card_u {background: #e1e7ea; padding: 2px; box-sizing: border-box;}
+/* 매물 없을 경우 */
+.none_deal_list .list_empty_row2 {line-height: 25px;}
+
 /*--- 방부장앱 다운로드 및 설치주소 받기 ---*/
 	/*-- 180322 수정_ my-phone-number 수정 (이규호) --*/
 	/*-- 180518 .linked2부분(설치주소 받기) 제거, 요소배치 정렬 수정, 스크린샷 이미지 부분교체 (이규호) --*/
