@@ -33,13 +33,16 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 .nav .map_slct{display:block; position:relative; width:100%; height:44px; top:0; padding-left:48px; box-sizing:border-box;}
 .nav .map_slct:after{content:""; display:block; clear:both;}
 .nav .map_slct .slct{float:left; height:auto;}
+.map_slct .slct .slct_01, .box_slct_01{width:150px;}
+.map_slct .slct .slct_02, .box_slct_02{width:180px;}
+.map_slct .slct .slct_03, .box_slct_03{width:180px;}
+.map_slct .slct .slct_04{width:200px;}
 .nav .map_slct .slct a{display:block; width:100%; height:44px; padding:0 30px 0 28px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bg_line.png") no-repeat center left; background-size:2px 18px; box-sizing:border-box;}
 .nav .map_slct .slct a:active{background-color:#f8f8f8;}
 .nav .map_slct .slct a span{display:block; padding-right:20px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct.png") no-repeat right center; font-weight:600; line-height:44px; color:#606060;}
 .nav .map_slct .slct a.slct_on{background:#0076bf;}
 .nav .map_slct .slct a.slct_on:active{background:#006eb2;}
 .nav .map_slct .slct a.slct_on span{background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct_on.png") no-repeat right center; color:#fff;}
-.nav .map_slct .slct a.selected{background:rgba(219,78,78,0.18);}
 .nav .map_slct .slct a.selected span{background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct5.png") no-repeat right center; color:#d82021;}
 /* 필터레이어 */
 .box_slct{position:relative; height:auto; box-sizing:border-box; background:#fff; box-shadow:1px 1px 10px rgba(179, 179, 179, 0.75);}
@@ -196,7 +199,7 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 /*---------------------------------------------------------------*/
 
 /*----- #2523 관심지역추가 버튼 -----*/
-.btn_add_myloca {position: fixed; width:116px; height: 32px; top:134px; left:267px; z-index: 2; background-color:#0077c0; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);}
+.btn_add_myloca {position: fixed; width:116px; height: 32px; top:138px; left:410px; z-index: 2; background-color:#0077c0; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);}
 .btn_add_myloca a {width: 100%; padding-left:18px; text-align: center; color:#d82021; font-size:14px; line-height:30px; height:100%;
 background: #fff url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;  animation:myloca 1s; animation-iteration-count:2; animation-timing-function:steps(1); border:1px solid #d82021; box-sizing:border-box; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);}
 @keyframes myloca{
