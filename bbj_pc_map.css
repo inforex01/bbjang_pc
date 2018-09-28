@@ -167,7 +167,7 @@
 /*-------------------------------------------------------*/
 
 /*------ 일감2377 스카이뷰, 항공뷰 버튼 추가 -----*/
-.wrap_map .view_button_wrap{position:fixed; width:auto; height:auto; top:133px; right:516px; z-index:2;}
+.wrap_map .view_button_wrap{position:fixed; width:auto; height:auto; top:137px; right:516px; z-index:2;}
 .wrap_map .view_button_wrap:after{display:block; clear:both; content:'';}
 /*버튼 누르기 전*/
 .wrap_map .view_button_wrap .view_agency_off, .wrap_map .view_button_wrap .view_air_off, .wrap_map .view_button_wrap .view_sky_off, .wrap_map .view_button_wrap .view_road_off, .wrap_map .view_button_wrap .view_emap_off{float:left; width:82px; height:34px; line-height:30px; border-radius:4px; border:1px solid #bdbdbd; font-size:14px; margin-right:5px; background-color:#fff; box-sizing:border-box; font-weight:600;}
