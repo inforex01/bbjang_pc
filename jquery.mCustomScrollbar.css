@@ -234,7 +234,7 @@ VERTICAL SCROLLBAR
 		bottom: 0;
 	}
 	.mCS-bb2.mCSB_scrollTools .mCSB_draggerRail{
-		width: 8px;
+		width: 12px;
 		height: 100%;
 		margin: 0 auto;
     }

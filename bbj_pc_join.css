@@ -18,6 +18,7 @@ input:-ms-placeholder {color:#8d96a7; font-size:13px; line-height:15px; letter-s
 
 /* ---------- form ---------- */
 .form_1{position:relative; width:100%; height:auto; border-bottom:1px solid #d8deea; text-align:left;}
+.form_1.tv{margin:-11px 0 0 0;}
 .form_1 .form_tit{position:absolute; padding:15px 14px 15px 10px; font-size:15px; color:#606060; font-weight:600; box-sizing:border-box;} /* label */
 .form_1 .form_tit2{float:left; width:95px; padding:14px 0 14px 1px; font-size:15px; letter-spacing:-0.5px; color:#8d96a7; font-weight:600; cursor:pointer;} /* label */
 .form_1 label{cursor:inherit;}
@@ -92,7 +93,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0086bd', end
 /* layout */
 #wrap_join{position:relative; text-align:center; width:420px; height:640px;}
 #wrap_join .tab_jn{position:relative; width:86%; height:auto; top:54px; margin:0 auto; overflow:auto;}
-#wrap_join .bbj_logo{position:relative; padding:44px 0 16px 0;}
+#wrap_join .bbj_logo{position:relative; padding:44px 0 0 0;}
+#wrap_join .bbj_logo.tv{height:108px;}
 #wrap_join .contents_jn{position:relative; width:100%; height:auto; padding:10px 20px 16px 20px; box-sizing:border-box;}
 /* tab */
 .tab_jn .tab_p{float:left; width:50%; padding:10px 0; font-size:13px; line-height:13px; color:#fff; background:#0ca2ed; border:1px solid #0ca2ed; border-radius:17.5px 0 0 17.5px; box-sizing:border-box;}
