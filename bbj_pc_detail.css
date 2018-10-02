@@ -298,5 +298,5 @@
 
 /* 관심지역 수정 */
 .myloca_filter {height: 30px; padding: 10px 10px; border-bottom:1px solid #ccc; background: #eaf5ff;}
-.filter_slct {width: 31%; float: left; margin-right: 10px;}
+.filter_slct {width: 49%; float: left; margin-right: 2%;}
 .myloca_filter .filter_slct:last-of-type {margin-right: 0px;}
