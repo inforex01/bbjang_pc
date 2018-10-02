@@ -2,7 +2,7 @@
 
 .min_wd{min-width:100%!important;}
 /*----------------------------- 지도 -----------------------------*/
-.wrap_map{position:fixed; width:100%; height:100%; padding:134px 460px 0 0; box-sizing:border-box; z-index:100; overflow:hidden;}
+.wrap_map{position:fixed; width:100%; height:100%; padding:134px 460px 44px 0; box-sizing:border-box; z-index:100; overflow:hidden;}
 #map{display:block; width:100%; height:100%; z-index:1;}
 
 /* 커스텀오버레이 */
