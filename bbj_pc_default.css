@@ -286,6 +286,7 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 .wrap_layer_more .wrap_btn li.btn_qna{background:url(http://image.bbjang.com/imgs/bbjang/img_pc/more/img_float_qna02.png) 6px center no-repeat;}
 .wrap_layer_more .wrap_btn li.btn_center{background:url(http://image.bbjang.com/imgs/bbjang/img_pc/more/img_float_center02.png) 6px center no-repeat;}
 .wrap_layer_more .wrap_btn li:active{background-color:rgba(0,0,0,0.05);}
+.wrap_layer_more .wrap_btn li:hover{background-color:rgba(0,0,0,0.05);}
 /*--- 로그인 관련 ---*/
 .wrap_layer_more .btn_state{position:absolute; width:160px; height:43px; padding-left:5px;}
 .wrap_layer_more .btn_state:after{display:block; content:""; clear:both;}
