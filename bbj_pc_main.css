@@ -199,9 +199,12 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 /*---------------------------------------------------------------*/
 
 /*----- #2523 관심지역추가 버튼 -----*/
-.btn_add_myloca {position: fixed; width:116px; height: 32px; top:138px; left:410px; z-index: 2; background-color:#0077c0; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);}
+.btn_add_myloca {position: fixed; width:116px; height: 32px; top:138px; left:410px; z-index: 2;}
 .btn_add_myloca a {width: 100%; padding-left:18px; text-align: center; color:#d82021; font-size:14px; line-height:30px; height:100%;
 background: #fff url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;  animation:myloca 1s; animation-iteration-count:2; animation-timing-function:steps(1); border:1px solid #d82021; box-sizing:border-box; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);}
+/*----- #2585 관심지역해제 버튼 -----*/
+.btn_remove_myloca {position: fixed; width:116px; height: 32px; top:138px; left:410px; z-index: 2;}
+.btn_remove_myloca a {width: 100%; text-align: center; color:#757575; font-size:13px; line-height:32px; height:100%; background: #fff; border:1px solid #ababab; box-sizing:border-box; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21); transition:0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
 @keyframes myloca{
 	0%{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;}
 	50%{background:#f9dfdf url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;}
