@@ -1032,3 +1032,7 @@ b {font-weight:600;}
 .srch_apt_l .deal_list_l:first-child {padding-left: 0;}
 .srch_apt_l .deal_list_l:last-child {background: none; padding-right: 0;}
 .srch_apt_l .deal_list_u .deal_list_l span {font-weight: 900; margin-left: 10px; color:#0070b4;}
+
+/*공지사항 이미지확대 추가*/
+#notice-lists_wrap .list1ea_opened_wrap .view2 .btn_zoom_photoview {position: absolute; z-index: 200; left: 10px; bottom: 10px; width: 40px; height: 40px;}
+.position_r {position: relative;}
