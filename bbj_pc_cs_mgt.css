@@ -188,7 +188,7 @@ b {font-weight:600;}
 .card_my_btn .my_btn_sb a:active {-webkit-box-shadow:0 1px 0 rgba(0,0,0,.05); box-shadow:0 1px 0 rgba(0,0,0,.05); background:rgba(0,0,0,.05);}
 .card_my_btn .my_btn_sb.width_5ea_3 {width:26%;}
 .card_my_btn .my_btn_sb.width_5ea_4 {width:50%;}
-.card_my_btn .my_btn_sb_sky {height:100%; box-shadow:none; border-top:1px solid #cad1d4; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:13px; font-weight:800; text-align:center;}
+.card_my_btn .my_btn_sb_sky {height:100%; border-top:1px solid #cad1d4; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:13px; font-weight:800; text-align:center;}
 /*---------------------------------------------------------*/
 
 /*--- 매물 관리- 리스트보기- 날짜 구분선 ---*/
