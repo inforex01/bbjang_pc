@@ -54,5 +54,5 @@
 .card_my_btn .my_btn_sky a:active{background:rgba(0,0,0,0.05);}
 .card_my_btn .my_btn_sb {float:left; height:100%; background-color:#0ca2ed; color:#fff; font-size: 13px; font-weight:400; text-align:center; }
 .card_my_btn .my_btn_sb a:active{background:rgba(0,0,0,0.05);}
-.card_my_btn .my_btn_sb_sky {height:100%; border-top:1px solid #cad1d4; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:13px; font-weight:800; text-align:center;}
+.card_my_btn .my_btn_sb_sky {height:100%; -webkit-box-shadow:0 1px 0 #c9d0d3; box-shadow:0 1px 0 #c9d0d3; border-top:1px solid #cad1d4; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:13px; font-weight:800; text-align:center;}
 /*---------------------------------*/
