@@ -193,7 +193,7 @@
 .dt_data_wrap .school_box .bar_box .bar_input{display:block; position:absolute; width:100%; height:100%; opacity:0;}
 .dt_data_wrap .school_box .bar_box .bar_lb{display:inline-block; vertical-align:middle; width:auto; height:26px; line-height:26px; color:#525252; font-size:15px; font-weight:600;}
 .dt_data_wrap .school_box .bar_box .bar_input:checked + .bar_lb{color:#0ca2ed; border-bottom:2px solid #0ca2ed; box-sizing:border-box;}
-.dt_data_wrap .school_box .school_ul{position:relative; width:100%; max-height:185px; margin-top:15px; overflow:auto;}
+.dt_data_wrap .school_box .school_ul{position:relative; width:100%; max-height:185px; margin-top:15px; padding-right:10px; box-sizing:border-box; overflow:hidden auto;}
 .dt_data_wrap .school_box .school_ul:after{content:""; display:block; clear:both;}
 .dt_data_wrap .school_box .school_li{position:relative; width:50%; height:auto; margin-top:10px; box-sizing:border-box; float:left;}
 .dt_data_wrap .school_box .school_li:nth-of-type(1){margin-top:0px;}
