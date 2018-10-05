@@ -116,8 +116,18 @@
 .bb-board_lists .list1ea .prev-or-next {color:#666;}
 .bb-board_lists .between {display:block; position:relative; width:100%; height:22px; border-bottom:1px solid #e0e0e0;}
 .bb-board_lists .nolist {position:relative; padding:68px 0 58px 0; border-bottom:1px solid #e0e0e0; text-align:center;}
+.bb-board_lists .nolist.transform2 {padding:205px 0 0 0; border-bottom:none;}
+.bb-board_lists .nolist.transform3 {padding:110px 0 96px 0; border-bottom:none;}
 .bb-board_lists .nolist .sign_empty {display:inline-block; position:relative; width:67px; height:67px; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/bb-board/sign_empty.png') no-repeat; background-size:67px;}
 .bb-board_lists .nolist .t {display:block; margin:7px 0 0 0; font-size:15px; color:#737373;}
+.bb-board_lists.transform2 {margin:-40px 0 0 0;}
+.bb-board_lists.transform2 .line_right_1px,
+.bb-board_lists.transform2 .line_left_1px {display:inline-block; position:absolute; z-index:10; width:1px; height:100%; background-color:#d8d8d8;}
+.bb-board_lists.transform2 .line_right_1px {right:1px;}
+.bb-board_lists.transform3 {margin:0; border-bottom:1px solid #d8d8d8;}
+.bb-board_lists.transform3 .line_right_1px,
+.bb-board_lists.transform3 .line_left_1px {display:inline-block; position:absolute; z-index:10; width:1px; height:100%; background-color:#d8d8d8;}
+.bb-board_lists.transform3 .line_right_1px {right:0;}
 /*----------------------------------*/
 
 /*--- 방부장게시판 하단 ---*/
@@ -203,6 +213,11 @@
 .bb-board_page_top .writtenby .t {position:absolute; left:87px;}
 .bb-board_page_top .ctgr .t {color:#5878b3;}
 .bb-board_page_top .writtenby .t {color:#303030;}
+.bb-board_page_top .writtenby .thum_wrap {position:absolute; left:87px; width:28px; height:28px;}
+.bb-board_page_top .writtenby .thum {display:inline-block; position:relative; width:28px; height:28px; margin:1px 0 0 0; -webkit-border-radius:50%; border-radius:50%;}
+.bb-board_page_top .writtenby .thum img {position:absolute; width:26px; height:26px; -webkit-border-radius:50%; border-radius:50%; object-fit:cover;}
+.bb-board_page_top .writtenby .thum .inner {position:absolute; z-index:10; width:26px; height:26px; margin:-1px 0 0 -1px; border:1px solid #6ea2e2; -webkit-border-radius:50%; border-radius:50%;}
+.bb-board_page_top .writtenby .t.link {display:inline-block; top:2px; left:117px; height:24px; padding:0 5px; -webkit-border-radius:5px; border-radius:5px; background-color:#6ea2e2; font-size:17px; color:#fff; line-height:24px;}
 .bb-board_page_top .dot {display:inline-block; position:relative; width:4px; height:4px; margin:-2px 7px 0 0; -webkit-border-radius:3px; border-radius:3px; background-color:#60c8fb; vertical-align:middle;}
 .bb-board_page_top .nums {position:absolute; right:42px; width:auto; bottom:16px; text-align:right;}
 .bb-board_page_top .nums .opened-num,
@@ -506,15 +521,16 @@
 .board_page_feedbacks .log_area .bangsiris {position:relative; height:auto; padding:9px 0 11px 0; border-bottom:1px solid #d6e6ff;}
 .board_page_feedbacks .log_area .bangsiris {margin:-1px 0 0 0; border-top:1px solid #d6e6ff; background-color:#f3f8ff;}
 .board_page_feedbacks .log_area .members .name,
-.board_page_feedbacks .log_area .bangsiris .name {display:inline-block; max-width:81%; margin:-7px 0 0 17px; padding:5px; font-size:17px; font-weight:600; line-height:19px; vertical-align:top; white-space:pre-line;}
+.board_page_feedbacks .log_area .bangsiris .name {display:inline-block; max-width:81%; margin:-7px 0 0 17px; padding:5px; font-size:17px; line-height:19px; vertical-align:top; white-space:pre-line;}
 .board_page_feedbacks .log_area .name .by {margin:0 10px 0 0;}
-.board_page_feedbacks .log_area .members .name .by {color:#333;}
-.board_page_feedbacks .log_area .bangsiris .name .by {color:#097ab2;}
+.board_page_feedbacks .log_area .members .name .by {display:inline-block; position:relative; top:2px; margin:0 9px 0 -3px; height:24px; padding:0 5px; -webkit-border-radius:5px; border-radius:5px; background-color:#6ea2e2; color:#fff; line-height:24px;}
+.board_page_feedbacks .log_area .bangsiris .name .by {margin:0 9px 0 -2px; font-weight:600; color:#097ab2;}
 .board_page_feedbacks .log_area .name .wrap {display:inline-block;}
 .board_page_feedbacks .log_area .name .thum {display:inline-block; position:relative; top:3px; width:26px; height:26px; margin:0 7px 0 0; -webkit-border-radius:50%; border-radius:50%; vertical-align:bottom;}
 .board_page_feedbacks .log_area .name .thum img {position:absolute; width:26px; height:26px; -webkit-border-radius:50%; border-radius:50%; object-fit:cover;}
-.board_page_feedbacks .log_area .name .thum .inner {position:absolute; z-index:10; width:24px; height:24px; border:1px solid rgba(0,0,0,.06); -webkit-border-radius:50%; border-radius:50%;}
-.board_page_feedbacks .log_area .name .badge_me {display:inline-block; position:relative; top:4px; width:52px; height:20px; -webkit-border-radius:11px; border-radius:11px; background-color:#6e92ff;}
+.board_page_feedbacks .log_area .name .thum .inner {position:absolute; z-index:10; width:26px; height:26px; margin:-1px 0 0 -1px; border:1px solid #6ea2e2; -webkit-border-radius:50%; border-radius:50%;}
+.board_page_feedbacks .log_area .bangsiris .name .thum .inner {border:1px solid #1a99db;}
+.board_page_feedbacks .log_area .name .badge_me {display:inline-block; position:absolute; top:14px; width:52px; height:20px; -webkit-border-radius:11px; border-radius:11px; background-color:#6e92ff; vertical-align:middle;}
 .board_page_feedbacks .log_area .name .badge_me .t {display:inline-block; position:absolute; width:100%; height:100%; margin:0 0 0 -1px; font-size:13.5px; font-weight:normal; color:#fff; text-align:center; line-height:20px;}
 .board_page_feedbacks .log_area .members .msgs,
 .board_page_feedbacks .log_area .bangsiris .msgs {display:block; height:auto; margin:2px 152px 0 23px; font-size:16px; line-height:24px; white-space:pre-wrap; word-break:break-all;}
