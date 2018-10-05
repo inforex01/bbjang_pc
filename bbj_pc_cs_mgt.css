@@ -732,7 +732,7 @@ b {font-weight:600;}
 #notice-lists_wrap .list1ea_opened_wrap .view2,
 #notice-lists_wrap2 .list1ea_opened_wrap .view2 {display:block; height:auto; margin:0 40px; padding-bottom:9px; color:#222; line-height:22px;}
 #notice-lists_wrap .list1ea_opened_wrap .view2 img,
-#notice-lists_wrap2 .list1ea_opened_wrap .view2 img {width:60%; height:auto;}
+#notice-lists_wrap2 .list1ea_opened_wrap .view2 img {width:100%; height:auto;}
 #notice-lists_wrap .list1ea_opened_wrap .video_framesize,
 #notice-lists_wrap2 .list1ea_opened_wrap .video_framesize {width:600px; height:336px;}
 .noti_feedbacks_cue {display:inline-block; position:relative; z-index:10; left:0; bottom:-2px; width:auto; height:18px; margin:0 0 0 6px; cursor:pointer;}
@@ -742,6 +742,10 @@ b {font-weight:600;}
 #notice-lists_wrap a.list1ea_wrap .preview-in .line {display:inline-block; position:relative; top:2px; width:1px; height:17px; margin:0 0 0 11px; background-color:#ddd; vertical-align:middle;}
 .noti_opened-num {display:inline-block; position:relative; z-index:10; left:0; bottom:-2px; width:auto; margin:0 0 0 8px; font-size:12.5px; color:#7a7a7a;}
 .noti_opened-num .eye {display:inline-block; position:relative; top:-1px; width:17px; height:11px; margin:0 2px 0 0; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/cs_mgt/ico_hits3.png') no-repeat; background-size:cover; vertical-align:middle;}
+
+/*공지사항 이미지확대 추가*/
+#notice-lists_wrap .list1ea_opened_wrap .view2 .photo_area {width:60%; position:relative;}
+#notice-lists_wrap .list1ea_opened_wrap .view2 .photo_area .btn_zoom_photoview {position: absolute; z-index: 200; right: 10px; bottom: 10px; width: 40px; height: 40px;}
 /*--------------*/
 
 /*--------------------- 일감2424 검색결과 ----------------------*/
