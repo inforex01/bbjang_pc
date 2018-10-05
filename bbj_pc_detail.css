@@ -6,7 +6,7 @@
 
 /* 셀렉박스 */
 .wrap_slct{position:relative; width:100%; height:100%;}
-.wrap_slct select{display:block; width:100%; height:100%; padding-left:8px; padding-right:20px; border:1px solid #bcc0c2; border-radius:3px; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/bullet_slct.png") no-repeat right center; font-size:14px; letter-spacing:-0.5px; color:#000; outline:none;}
+.wrap_slct select{display:block; width:100%; height:100%; padding-left:8px; padding-right:20px; border:1px solid #bcc0c2; border-radius:3px; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/bullet_slct.png") no-repeat right center; font-size:16px; letter-spacing:-0.5px; color:#000; outline:none;}
 .wrap_slct .slct_disable{background:#c5c5c5 url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/bullet_slct_disa.png") no-repeat right center; border:1px solid #aeaeae; color:#6e6e6e;}
 .slct_disable::-ms-value{background-color:#c5c5c5; color:#6e6e6e;}
 /* 라디오버튼 */
@@ -305,5 +305,5 @@
 
 /* 관심지역 수정 */
 .myloca_filter {height: 30px; padding: 10px 10px; border-bottom:1px solid #ccc; background: #eaf5ff;}
-.filter_slct {width: 31%; float: left; margin-right: 10px;}
+.filter_slct {width: 49%; float: left; margin-right: 2%;}
 .myloca_filter .filter_slct:last-of-type {margin-right: 0px;}

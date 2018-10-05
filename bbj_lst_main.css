@@ -29,15 +29,18 @@
 .main_badge_buy{ position:absolute; background-color:#70369d;}
 .card_title .area_span{padding-left:12px; background:url("http://image.bbjang.com/imgs/bbjang/img01/bg_bar05.png") no-repeat 5px 2px; background-size:1px 10px;}
 .card_price{display:inline; position:relative; width:100%; line-height:27px; font-size:18px; color:#0070b4; font-weight:900; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-top:2px;}
-.card_info{display:inline-block; position:relative; height:17px; top:1px; line-height:17px; font-size:14px; color:#1c1e1f; overflow:hidden;}
+.card_info{display:inline-block; position:relative; height:17px; top:1px; line-height:20px; font-size:14px; color:#1c1e1f; overflow:hidden;}
 .card_info .area_span{line-height:19px;}
 .card_info_buy{width:100%; height:15px; line-height:16px; font-size:12px; color:#1c1e1f; padding-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .card_content .wt_day, .card_content .wt_nday{float:right; position:relative; top:4px; font-size:11px; font-weight:700; text-align:center; width:35px; height:14px; line-height:15px; border-top-left-radius:100%; border-top-right-radius:50%; border-bottom-right-radius:100%; border-bottom-left-radius:50%; transform:rotate(-4deg);}
 .card_content .txt_rot{display:block; width:100%; height:100%; transform:rotate(4deg);}
 .card_content .wt_day{background-color:#c57387; color:#fff;}
 .card_content .wt_nday{background-color:#7d7375; color:#fff;}
-.card_txt, .local_txt{line-height: 20px; font-size: 14px; padding-top: 1px; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; -webkit-box-orient: vertical; position: relative; white-space: nowrap; margin-top: 5px;}
-.local_txt{font-size:14px; font-weight:600; color:#935837;}
+.main_bot_txt{line-height:20px; font-size:14px; font-weight:bold; color:#cc5a70; padding-top:1px; overflow:hidden; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical;  position:relative; white-space:nowrap; margin-top:3px;
+}
+.main_bot_txt .apt_name{padding-right:3px;}
+.card_txt{line-height: 20px; font-size: 14px; padding-top: 1px; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; -webkit-box-orient: vertical; position: relative; white-space: nowrap; margin-top: 5px;}
+.local_txt{font-weight:600; color:#935837;}
 .title_txt { line-height: 18px; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; -webkit-box-orient: vertical; position: relative;white-space: nowrap; margin-top: 5px; font-weight: bold; font-size:16px; }
 .admin_sect { display:inline-block; width:45px; border-radius:3px; text-align:center; background:#5abff1; color:#fff; margin-left:5px; }
 .photo_num{position:absolute; top:-3px; right:-3px; width:25px; height:26px; line-height:26px; color:#fff; font-size:15px; font-weight:600; text-align:center; background:linear-gradient(to bottom, rgb(65,187,248) 1%,rgb(14,142,252) 100%); border-radius:50px; *background-color:#0ca2ed; _background-color:#0ca2ed;}
@@ -53,6 +56,7 @@
 .card_my_btn .my_btn_sky a:active{background:rgba(0,0,0,0.05);}
 .card_my_btn .my_btn_sb {float:left; height:100%; background-color:#0ca2ed; color:#fff; font-size: 13px; font-weight:bold; text-align:center; }
 .card_my_btn .my_btn_sb a:active{background:rgba(0,0,0,0.05);}
+.card_my_btn .my_btn_sb_sky {height:100%; -webkit-box-shadow:0 1px 0 #c9d0d3; box-shadow:0 1px 0 #c9d0d3; border-top:1px solid #cad1d4; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:13px; font-weight:800; text-align:center;}
 /*---------------------------------*/
 
 /* 서브리스트 ui 수정 */
@@ -135,7 +139,7 @@
 .list_none{display:none; position:relative; width:100%; height:auto; padding-top:210px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/ico_list_empty.png") no-repeat center 80px; background-size:100px auto; color:#828b90; font-size:16px; font-weight:600; text-align:center;}
 
 /*------ 180608 매물등록수표시-관리자에게만 보이기(정우아) ------*/
-.local_txt .admin_rgm{padding-left:2px; font-weight:600; color:#3652aa;}
+.card_info .admin_rgm{padding-left:7px; font-weight:bold; color:#3652aa;}
 
 /*----- #2304 단지리스트 -----*/
 .danji_photo a img{object-fit:contain;}
