@@ -317,4 +317,4 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 }
 
 /* 분양권 뱃지 */
-.badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
+.card_photo .badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
