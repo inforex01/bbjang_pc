@@ -193,7 +193,7 @@
 .dt_data_wrap .school_box .bar_box .bar_input{display:block; position:absolute; width:100%; height:100%; opacity:0;}
 .dt_data_wrap .school_box .bar_box .bar_lb{display:inline-block; vertical-align:middle; width:auto; height:26px; line-height:26px; color:#525252; font-size:15px; font-weight:600;}
 .dt_data_wrap .school_box .bar_box .bar_input:checked + .bar_lb{color:#0ca2ed; border-bottom:2px solid #0ca2ed; box-sizing:border-box;}
-.dt_data_wrap .school_box .school_ul{position:relative; width:100%; height:auto; margin-top:15px;}
+.dt_data_wrap .school_box .school_ul{position:relative; width:100%; max-height:185px; margin-top:15px; padding-right:10px; box-sizing:border-box; overflow:hidden auto;}
 .dt_data_wrap .school_box .school_ul:after{content:""; display:block; clear:both;}
 .dt_data_wrap .school_box .school_li{position:relative; width:50%; height:auto; margin-top:10px; box-sizing:border-box; float:left;}
 .dt_data_wrap .school_box .school_li:nth-of-type(1){margin-top:0px;}
@@ -392,7 +392,7 @@
 .dt_data_wrap .plan_box .plan_img_div .img_prev, .dt_data_wrap .plan_box .plan_img_div .img_next{position:absolute; top:0; z-index:100; width:70px; height:100%; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_prev{left:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_prev.png") no-repeat center center; background-size:15px 29px;}
 .dt_data_wrap .plan_box .plan_img_div .img_next{right:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_next.png") no-repeat center center; background-size:15px 29px;}
-.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:200; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
+.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:100; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:hover{background-color:#686868;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:active{background-color:#686868;}
 /*평면도 타입 라벨(기본,확장,복층)*/

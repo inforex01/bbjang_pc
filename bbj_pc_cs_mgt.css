@@ -188,6 +188,7 @@ b {font-weight:600;}
 .card_my_btn .my_btn_sb a:active {-webkit-box-shadow:0 1px 0 rgba(0,0,0,.05); box-shadow:0 1px 0 rgba(0,0,0,.05); background:rgba(0,0,0,.05);}
 .card_my_btn .my_btn_sb.width_5ea_3 {width:26%;}
 .card_my_btn .my_btn_sb.width_5ea_4 {width:50%;}
+.card_my_btn .my_btn_sb_sky {height:100%; -webkit-box-shadow:0 1px 0 #c9d0d3; box-shadow:0 1px 0 #c9d0d3; border-top:1px solid #cad1d4; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:13px; font-weight:800; text-align:center;}
 /*---------------------------------------------------------*/
 
 /*--- 매물 관리- 리스트보기- 날짜 구분선 ---*/
@@ -620,15 +621,21 @@ b {font-weight:600;}
 .myloca_list_card {width: 100%; height:93px; position: relative; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-top: 10px; box-sizing: border-box; padding: 0px 10px; cursor: pointer;}
 .myloca_list_card:first-child {margin-top:0px; border-top:0;}
 .myloca_list_card:hover {background: #f2f2f2;}
-.myloca_list_card .card_name.myloca {height: 53px; line-height: 53px; color:#858686; }
+.myloca_list_card .card_name.myloca {height: 40px; line-height: 40px; color:#858686; font-size:18px; font-weight: 900;}
 .myloca_list_card:hover .card_name.myloca {cursor: pointer; color:#505152;}
+.myloca_list_card .myloca_more_count {height:auto;}
+.myloca_list_card .myloca_more_count .myloca_count_l {float:left; font-size:13px; width:90px; height: 23px; box-sizing: border-box; padding-left:20px;}
+.myloca_list_card .myloca_more_count .myloca_count_l:first-child {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_deal_count.png) no-repeat 0px 0px; background-size:16px 16px;}
+.myloca_list_card .myloca_more_count .myloca_count_l:last-child {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_apt_count.png) no-repeat 0px 0px; background-size:16px 16px;}
 .myloca_list_card .deal_list_u {display: flex;}
-.myloca_list_card .deal_list_l {width: 100%; height: 40px; line-height: 20px; color:#6b6b6b; font-size: 13px; font-weight: 600; cursor: pointer;}
+.myloca_list_card .deal_list_l {width: 100%; height: 25px; line-height: 25px; color:#6b6b6b; font-size: 13px; font-weight: 600; cursor: pointer;}
 .myloca_list_card .deal_list_l .deal_num {font-weight: 600; font-size:15px; color:#5e99c1; margin-left: 5px; vertical-align: bottom;}
 .myloca_list_card:hover .deal_num {color:#196da6;}
 .myloca_list_card .deal_list_l:hover .deal_num {border-bottom: 1px solid #196da6; cursor: pointer;}
-.myloca_list_card .btn_myloca_del {position: absolute; right: 0; top:0; width: 30px; height: 30px; background: url("http://image.bbjang.com/imgs/bbjang/img01/btn_pop_x.png") no-repeat center; background-size: 10px 10px;}
-.myloca_list_card .btn_myloca_del a {width: 100%; height: 100%;}
+.myloca_list_card .btn_myloca_del {position: absolute; top:7px; right:10px;}
+.myloca_list_card .btn_myloca_del a {width:55px; height: 25px; line-height: 25px; color:#444; text-align: center; background:transparent; border:1px solid #ccc; border-radius: 3px; box-sizing: border-box;}
+.myloca_list_card .btn_myloca_del a:hover {background:#fafafa;}
+.myloca_list_card .btn_myloca_del a:active {background:#f0f0f0;}
 .myloca_list_card.on {background: #f2f2f2;  }
 .myloca_list_card.on .card_name.myloca {color:#1c1e1f;}
 .myloca_list_card.on .deal_list_l {color:#1c1e1f;}
@@ -725,7 +732,7 @@ b {font-weight:600;}
 #notice-lists_wrap .list1ea_opened_wrap .view2,
 #notice-lists_wrap2 .list1ea_opened_wrap .view2 {display:block; height:auto; margin:0 40px; padding-bottom:9px; color:#222; line-height:22px;}
 #notice-lists_wrap .list1ea_opened_wrap .view2 img,
-#notice-lists_wrap2 .list1ea_opened_wrap .view2 img {width:60%; height:auto;}
+#notice-lists_wrap2 .list1ea_opened_wrap .view2 img {width:100%; height:auto;}
 #notice-lists_wrap .list1ea_opened_wrap .video_framesize,
 #notice-lists_wrap2 .list1ea_opened_wrap .video_framesize {width:600px; height:336px;}
 .noti_feedbacks_cue {display:inline-block; position:relative; z-index:10; left:0; bottom:-2px; width:auto; height:18px; margin:0 0 0 6px; cursor:pointer;}
@@ -735,6 +742,10 @@ b {font-weight:600;}
 #notice-lists_wrap a.list1ea_wrap .preview-in .line {display:inline-block; position:relative; top:2px; width:1px; height:17px; margin:0 0 0 11px; background-color:#ddd; vertical-align:middle;}
 .noti_opened-num {display:inline-block; position:relative; z-index:10; left:0; bottom:-2px; width:auto; margin:0 0 0 8px; font-size:12.5px; color:#7a7a7a;}
 .noti_opened-num .eye {display:inline-block; position:relative; top:-1px; width:17px; height:11px; margin:0 2px 0 0; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/cs_mgt/ico_hits3.png') no-repeat; background-size:cover; vertical-align:middle;}
+
+/*공지사항 이미지확대 추가*/
+#notice-lists_wrap .list1ea_opened_wrap .view2 .position_r {display:inline-block; max-width:60%; position:relative;}
+#notice-lists_wrap .list1ea_opened_wrap .view2 .position_r .btn_zoom_photoview {position: absolute; z-index: 200; right: 10px; bottom: 10px; width: 40px; height: 40px;}
 /*--------------*/
 
 /*--------------------- 일감2424 검색결과 ----------------------*/
