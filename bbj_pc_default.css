@@ -243,7 +243,7 @@ input[type=number]::-webkit-outer-spin-button {
 .lst_bt .lst_page li.btn_next a{background-image:url("http://image.bbjang.com/imgs/bbjang/img_pc/btn_page_next.png"); background-repeat:no-repeat; background-position:center center;}
 
 /* #2148 평면도 유무 표시 위성노 */
-.plan_badge { position: absolute; bottom: 3px; left: 3px; z-index: 100; display: inline-block; vertical-align: top; width: auto; height: 16px; line-height: 17px; padding: 0 5px; border-radius: 2px; background-color: #bb00ff; color: #fff; font-size: 12px; text-align: center; font-weight: 600;}
+.plan_badge { position: absolute; bottom:0; left:0; z-index: 100; display: inline-block; vertical-align: top; width: auto; height: 16px; line-height: 17px; padding: 0 4px; background-color: #bb00ff; color: #fff; font-size: 11px; text-align: center; font-weight: 600;}
 
 /*------ #2318 비공개메모 수정-매물관리에 비공개메모 표시 ------*/
 .sub_hide_memo {width: 100%; padding: 0px 10px 0px 10px; box-sizing: border-box; height: 30px; line-height: 30px; }
@@ -315,3 +315,6 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 @media(max-width:1680px){
 	.wrap_layer_more{left:520px;}
 }
+
+/* 분양권 뱃지 */
+.badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}

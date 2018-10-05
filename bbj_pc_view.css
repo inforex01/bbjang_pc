@@ -392,7 +392,7 @@
 .dt_data_wrap .plan_box .plan_img_div .img_prev, .dt_data_wrap .plan_box .plan_img_div .img_next{position:absolute; top:0; z-index:100; width:70px; height:100%; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_prev{left:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_prev.png") no-repeat center center; background-size:15px 29px;}
 .dt_data_wrap .plan_box .plan_img_div .img_next{right:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_next.png") no-repeat center center; background-size:15px 29px;}
-.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:200; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
+.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:100; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:hover{background-color:#686868;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:active{background-color:#686868;}
 /*평면도 타입 라벨(기본,확장,복층)*/
