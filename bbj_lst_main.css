@@ -173,8 +173,11 @@
 /*----------------------------*/
 
 /*------ 일감2475 신고건수 뱃지 추가 -----*/
-.btn_report_badge{position:absolute; z-index:100; width:30px; height:30px; margin:98px 0 0 99px; background-color:transparent; border:none; outline:none; box-shadow:none; text-align:left;}
+.btn_report_badge{position:absolute; z-index:100; width:auto; height:auto; background-color:transparent; border:none; outline:none; box-shadow:none; text-align:left; padding:17px;}
 .btn_report_badge .report_badge{position:absolute; right:0; bottom:0; display:inline-block; vertical-align:top; width:25px; height:16px; line-height:16px; border-radius:2px; background-color:#ffd863; color:#000; font-size:12px; font-weight:900; text-align:center;}
 
-.sub_content .btn_report_badge{top:8px; left:0px;}
-.main_content .btn_report_badge{top:7px; left:3px;}
+.sub_content .btn_report_badge{top:36px; left:54px;}
+.main_content .btn_report_badge{top:43px; left:46px;}
+
+/* 분양권 뱃지 */
+.sub_card_photo .badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
