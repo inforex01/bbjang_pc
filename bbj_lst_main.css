@@ -167,3 +167,6 @@
 
 .sub_content .btn_report_badge{top:36px; left:54px;}
 .main_content .btn_report_badge{top:43px; left:46px;}
+
+/* 분양권 뱃지 */
+.sub_card_photo .badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
