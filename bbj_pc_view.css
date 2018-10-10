@@ -193,7 +193,7 @@
 .dt_data_wrap .school_box .bar_box .bar_input{display:block; position:absolute; width:100%; height:100%; opacity:0;}
 .dt_data_wrap .school_box .bar_box .bar_lb{display:inline-block; vertical-align:middle; width:auto; height:26px; line-height:26px; color:#525252; font-size:15px; font-weight:600;}
 .dt_data_wrap .school_box .bar_box .bar_input:checked + .bar_lb{color:#0ca2ed; border-bottom:2px solid #0ca2ed; box-sizing:border-box;}
-.dt_data_wrap .school_box .school_ul{position:relative; width:100%; height:auto; margin-top:15px;}
+.dt_data_wrap .school_box .school_ul{position:relative; width:100%; max-height:185px; margin-top:15px; padding-right:10px; box-sizing:border-box; overflow:hidden auto;}
 .dt_data_wrap .school_box .school_ul:after{content:""; display:block; clear:both;}
 .dt_data_wrap .school_box .school_li{position:relative; width:50%; height:auto; margin-top:10px; box-sizing:border-box; float:left;}
 .dt_data_wrap .school_box .school_li:nth-of-type(1){margin-top:0px;}
@@ -202,10 +202,12 @@
 .dt_data_wrap .school_box .school_li:nth-of-type(even){padding-left:5px;}
 
 .dt_data_wrap .school_box .school_bg{position:relative; width:100%; height:auto; padding:6px 6px 6px 52px; border:1px solid #d4d4d4; box-sizing:border-box;}
-.dt_data_wrap .school_box .school_badge{position:absolute; top:8px; left:8px; width:36px; height:36px; line-height:36px; color:#fff; text-align:center;}
-.dt_data_wrap .school_box .element{background-color:#f4a43d;}
-.dt_data_wrap .school_box .middle{background-color:#61b28b;}
-.dt_data_wrap .school_box .high{background-color:#9161b2;}
+.dt_data_wrap .school_box .bg_assign{background-color:#fff6e1;}
+.dt_data_wrap .school_box .school_badge{position:absolute; top:8px; left:8px; width:36px; height:36px; line-height:36px; box-sizing:border-box; color:#fff; text-align:center;}
+.dt_data_wrap .school_box .element{background-color:#45bd64;}
+.dt_data_wrap .school_box .middle{background-color:#0cb2ac;}
+.dt_data_wrap .school_box .high{background-color:#5e73f1;}
+.dt_data_wrap .school_box .assign{height:38px; line-height:32px; background:url("http://image.bbjang.com/imgs/bbjang/img01/pc_badge_assign.png") no-repeat center top; background-size:100% 100%;}
 .dt_data_wrap .school_box .school_top{height:21px; line-height:21px; color:#303030; font-size:15px; font-weight:600;}
 .dt_data_wrap .school_box .school_top .bar{margin:0 5px 0 6px; font-size:13px; font-weight:normal;}
 .dt_data_wrap .school_box .school_top .distance{font-size:13px; font-weight:normal;}
@@ -331,6 +333,9 @@
 /*-------------------- 단지정보 & 공공정보 영역 --------------------*/
 .dt_data_wrap .complex_h3{margin-bottom:12px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_h3_complex.png") no-repeat left center; background-size:130px 20px;}
 .dt_data_wrap .public_h3{margin-bottom:12px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_h3_public.png") no-repeat left center; background-size:130px 20px;}
+/*관심단지 추가버튼*/
+.set_wrap.view {margin-left:75px; height: 28px; line-height: 28px; vertical-align: top; text-indent:18px; box-sizing: border-box; border-radius: 3px; font-weight: 400; border: 1px solid #8b8b8b; background: #fff url(http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_off.png) no-repeat 5px center; color: #525252;}
+.set_wrap.view.on {border: 1px solid #0077c0; background: #fff url(http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_on.png) no-repeat 5px center; color: #0077c0;}
 
 /* 간단정보 */
 .dt_data_wrap .complex_icon_ul{position:relative; width:100%; height:auto; padding-bottom:12px; border-bottom:1px solid #d4d4d4;}
@@ -354,6 +359,7 @@
 .dt_data_wrap .complex_info_li .complex_info_left{position:absolute; top:0; left:0; width:100px; height:auto; line-height:20px; padding:12px 0; color:#707070; font-size:15px;}
 .dt_data_wrap .complex_info_li .complex_info_left .sub_txt{display:block; font-size:13px;}
 .dt_data_wrap .complex_info_li .complex_info_right{position:relative; height:auto; line-height:20px; margin:12px 10px 12px 100px; color:#000; font-size:15px; word-break:keep-all;}
+.dt_data_wrap .complex_info_li:last-of-type .complex_info_100 .complex_info_left{top:50%; margin-top:-20px; padding:0;}
 .dt_data_wrap .complex_info_li .complex_info_100 .complex_info_right{margin:22px 10px 22px 100px;}
 
 /* 관리비 */
@@ -386,7 +392,7 @@
 .dt_data_wrap .plan_box .plan_img_div .img_prev, .dt_data_wrap .plan_box .plan_img_div .img_next{position:absolute; top:0; z-index:100; width:70px; height:100%; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_prev{left:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_prev.png") no-repeat center center; background-size:15px 29px;}
 .dt_data_wrap .plan_box .plan_img_div .img_next{right:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_next.png") no-repeat center center; background-size:15px 29px;}
-.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:200; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
+.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:100; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:hover{background-color:#686868;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:active{background-color:#686868;}
 /*평면도 타입 라벨(기본,확장,복층)*/
@@ -652,6 +658,7 @@
 /*-------------------- 공공DB출처 표시 --------------------*/
 .dt_h3 .db_source{position:absolute; top:0; left:67px; color:#707070; font-size:15px; font-weight:normal;}
 .school_box .db_source{color:#707070; font-size:13px;}
+.school_box .db_source img{vertical-align:top; width:22px; height:22px; margin:5px 3px 0 3px;}
 .price_box .db_source{color:#707070; font-size:13px;}
 .floating_box .db_source{color:#707070; font-size:13px;}
 

@@ -2,7 +2,7 @@
 
 .min_wd{min-width:100%!important;}
 /*----------------------------- 지도 -----------------------------*/
-.wrap_map{position:fixed; width:100%; height:100%; padding:130px 460px 44px 0; box-sizing:border-box; z-index:100; overflow:hidden;}
+.wrap_map{position:fixed; width:100%; height:100%; padding:134px 460px 44px 0; box-sizing:border-box; z-index:100; overflow:hidden;}
 #map{display:block; width:100%; height:100%; z-index:1;}
 
 /* 커스텀오버레이 */
@@ -30,15 +30,20 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 /*---------------------------------------------------------------*/
 
 /*----------------------------- nav -----------------------------*/
-.nav .map_slct{display:block; position:relative; width:100%; height:40px; top:0; padding-left:48px; box-sizing:border-box;}
+.nav .map_slct{display:block; position:relative; width:100%; height:44px; top:0; padding-left:48px; box-sizing:border-box;}
 .nav .map_slct:after{content:""; display:block; clear:both;}
 .nav .map_slct .slct{float:left; height:auto;}
-.nav .map_slct .slct a{display:block; width:100%; height:40px; padding:0 30px 0 28px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bg_line.png") no-repeat center left; background-size:2px 18px; box-sizing:border-box;}
+.map_slct .slct .slct_01, .box_slct_01{width:150px;}
+.map_slct .slct .slct_02, .box_slct_02{width:180px;}
+.map_slct .slct .slct_03, .box_slct_03{width:180px;}
+.map_slct .slct .slct_04{width:200px;}
+.nav .map_slct .slct a{display:block; width:100%; height:44px; padding:0 30px 0 28px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bg_line.png") no-repeat center left; background-size:2px 18px; box-sizing:border-box;}
 .nav .map_slct .slct a:active{background-color:#f8f8f8;}
-.nav .map_slct .slct a span{display:block; padding-right:20px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct.png") no-repeat right center; font-weight:600; line-height:40px; color:#606060;}
+.nav .map_slct .slct a span{display:block; padding-right:20px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct.png") no-repeat right center; font-weight:600; line-height:44px; color:#606060;}
 .nav .map_slct .slct a.slct_on{background:#0076bf;}
 .nav .map_slct .slct a.slct_on:active{background:#006eb2;}
 .nav .map_slct .slct a.slct_on span{background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct_on.png") no-repeat right center; color:#fff;}
+.nav .map_slct .slct a.selected span{background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct5.png") no-repeat right center; color:#d82021;}
 /* 필터레이어 */
 .box_slct{position:relative; height:auto; box-sizing:border-box; background:#fff; box-shadow:1px 1px 10px rgba(179, 179, 179, 0.75);}
 .box_slct_01{width:auto;}
@@ -108,15 +113,26 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 
 /*----------------------- 매물리스트 상,하단 -----------------------*/
 .wrap_list{position:fixed; width:460px; height:100%; top:90px; right:0; bottom:0; background:#e1e7ea; border-left:1px solid #a6adb0; box-sizing:border-box; z-index:850; overflow-y:hidden;}
+/* 매물,단지 탭 */
+.wrap_list .lst_tab{position:absolute; width:100%; height:56px; top:0px; left:0; z-index:10;}
+.wrap_list .lst_tab li{float:left; position:relative; width:50%; height:100%; border-bottom:1px solid #dfdfdf; box-sizing:border-box; background:#fff;}
+.wrap_list .lst_tab li a{display:block; width:100%; height:100%;}
+.wrap_list .lst_tab .tab01 a{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/tab_01_off.png") no-repeat center center;}
+.wrap_list .lst_tab .tab01 a.tab_on{ border-bottom:none; background:#0077c0 url("http://image.bbjang.com/imgs/bbjang/img_pc/tab_01_on.png") no-repeat center center;}
+.wrap_list .lst_tab .tab02 a{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/tab_02_off.png") no-repeat center center;}
+.wrap_list .lst_tab .tab02 a.tab_on{border-bottom:none; background:#0077c0 url("http://image.bbjang.com/imgs/bbjang/img_pc/tab_02_on.png") no-repeat center center;}
+.wrap_list .lst_tab .tab02 span.badge_new{position:absolute; width:38px; height:20px; top:19px; right:56px;}
 /* 상단 */
-.wrap_list .lst_hd{position:absolute; width:100%; height:40px; top:0px; left:0; background:#0077c0; z-index:10; font-size:15px; font-weight:600; color:#fff; line-height:38px; letter-spacing:0;}
-.wrap_list .lst_hd .slct_array{position:absolute; width:auto; height:40px; left:0px; top:0;}
-.wrap_list .lst_hd .slct_array a{display:block; width:auto; height:100%; padding:0 32px 0 17px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct3.png") no-repeat 88% 46%; text-align:center;}
-.wrap_list .lst_hd .slct_array a:active{background:#026daf url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct3.png") no-repeat 88% 46%;}
-.wrap_list .lst_hd .lst_count{position:absolute; width:auto; height:100%; right:35px; top:0;}
-.wrap_list .lst_hd .slct_array_on a{background:#026daf url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct3_on.png") no-repeat 88% 46%; text-align:center;}
+.wrap_list .lst_hd{position:absolute; width:100%; height:auto; top:56px; left:0; background:#fff; border-bottom:4px solid #e1e7ea; z-index:10;}
+.wrap_list .lst_hd .top{position:relative; width:100%; height:45px; letter-spacing:0; background:#fff; font-size:15px; font-weight:600; color:#333333; line-height:43px; letter-spacing:0;}
+.wrap_list .lst_hd .top .slct_array{position:absolute; width:auto; height:45px; left:0px; top:0;}
+.wrap_list .lst_hd .top .slct_array a{display:block; width:auto; height:100%; padding:0 32px 0 17px; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct4.png") no-repeat 88% 46%; text-align:center;}
+.wrap_list .lst_hd .top .slct_array a:active{background:#f1f1f1 url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct4.png") no-repeat 88% 46%;}
+.wrap_list .lst_hd .top .lst_count{position:absolute; width:auto; height:100%; right:18px; top:0;}
+.wrap_list .lst_hd .top .lst_count span.color_b{padding:0 4px; color:#0077c0;}
+.wrap_list .lst_hd .top .slct_array_on a{background:#f1f1f1 url("http://image.bbjang.com/imgs/bbjang/img_pc/bullet_slct4_on.png") no-repeat 88% 46%; text-align:center;}
 /* 정렬방식셀렉 */
-.box_array{position:absolute; width:120px; height:auto; top:40px; right:337px; box-shadow:1px 1px 10px rgba(179, 179, 179, 0.75);}
+.box_array{position:absolute; width:120px; height:auto; top:45px; right:339px; box-shadow:1px 1px 10px rgba(179, 179, 179, 0.75);}
 .box_array ul{position:relative; width:100%; height:auto; background:#fff;}
 .box_array ul li{display:block; width:100%; text-align:center;}
 .box_array ul li input{display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:auto; opacity:0; cursor:pointer;}
@@ -156,15 +172,9 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 .wrap_filter .btn_filter_cls a:active{background:#f7f7f7;}
 /*---------------------------------------------------------------*/
 
-/*------------------관심지역추가 버튼 추가_위성노-----------------*/
-.btn_add_myloca {position: fixed; width: 50px; height: 50px; right: 500px; bottom:90px; z-index: 9000; background-color: #fff; border: 2px solid #0ca2ed; border-radius: 50%; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.24); overflow: hidden;}
-.btn_add_myloca a {width: 100%; height: 100%; background: url(http://image.bbjang.com/imgs/bbjang/img_map/ico_add_myloca2.png) center no-repeat; background-size: 29.5px 33px}
-.btn_add_myloca:hover {background-color: #f7f7f7}
-.btn_add_myloca.on {transform: scale(0.9); transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);}
-
 /*--------------------------- 플로팅버튼 ---------------------------*/
     /*--- 180903 방부장 전체소개 메뉴추가 (정우아) ---*/
-.wrap_float{position:fixed; z-index:20;}
+.wrap_float{position:fixed; z-index:100;}
 .wrap_float .btn_floating{position:fixed; width:52px; height:52px; bottom:90px; right:30px; border-radius:50%; background:#ffb04a url("http://image.bbjang.com/imgs/bbjang/img_pc/btn_floating.png") no-repeat center center; box-shadow:1px 2px 3px rgba(0,0,0,0.4); cursor:pointer;}
 .wrap_float_on{z-index:1600;}
 .wrap_float_on .bg_float_modal{display:none; position:fixed; width:100%; height:100%; background:rgba(0,0,0,0.7);}
@@ -187,3 +197,107 @@ box-shadow:1px 1px 4px rgba(9, 36, 74, 0.6); font-size:18px; line-height:18px; c
 .float_bb-board{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/img_float_bb-board.png") no-repeat 13px 15px;}
 .float_intro{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/img_float_intro.png") no-repeat 15px 13px;}
 /*---------------------------------------------------------------*/
+
+/*----- #2523 관심지역추가 버튼 -----*/
+.btn_add_myloca {position: fixed; width:116px; height: 32px; top:138px; left:410px; z-index: 2;}
+.btn_add_myloca a {width: 100%; padding-left:18px; text-align: center; color:#d82021; font-size:14px; line-height:30px; height:100%;
+background: #fff url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;  animation:myloca 1s; animation-iteration-count:2; animation-timing-function:steps(1); border:1px solid #d82021; box-sizing:border-box; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21);}
+/*----- #2585 관심지역해제 버튼 -----*/
+.btn_remove_myloca {position: fixed; width:116px; height: 32px; top:138px; left:410px; z-index: 2;}
+.btn_remove_myloca a {width: 100%; text-align: center; color:#757575; font-size:13px; line-height:32px; height:100%; background: #fff; border:1px solid #ababab; box-sizing:border-box; box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.21); transition:0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
+@keyframes myloca{
+	0%{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;}
+	50%{background:#f9dfdf url("http://image.bbjang.com/imgs/bbjang/img_map/img_plus.png") no-repeat 8px center; background-size:13px 13px;}
+}
+
+/*----- #2403 단지마커(숫자) -----*/
+/* 숫자마커 */
+.apartments.num{position:relative; width:auto; right:0px; bottom:0px; z-index:100;}
+.apartments.num a{display:block; width:45px; height:45px; background-color:rgba(146,116,216,1); 
+box-shadow:1px 1px 4px rgba(49, 39, 77, 0.6); font-size:18px; line-height:45px; color:#fff; font-weight:700; text-align:center; overflow:hidden; border-radius: 50%;}
+.apartments.num.active a{background-color: #fff; width:50px; height: 50px; margin: -9px 0px 0px -9px; line-height: 50px; font-size:22px; border:4px solid rgba(146,116,216,1); color:rgba(146,116,216,1);}
+/*단지마커(250m이하 1개일경우)*/
+.apartments.info{position:relative; width:auto; height:auto; right:0px; bottom:0px; z-index:100;}
+.apartments.info a{display:block; width:100%; height:100%; padding:7px; box-sizing:border-box; background-color:rgba(146,116,216,1); 
+font-size:14px; line-height:18px; color:#fff; font-weight:600; text-align:center; overflow:hidden; border-radius:2px;}
+.apartments.info a span{display:block;}
+.apartments.info:after{display:block; content:''; position:absolute; top:100%; left:50%; margin-left:-8px; width:0; height:0; border-right:8px solid transparent; border-left:8px solid transparent; border-top:15px solid rgba(146,116,216,0.8); }
+.apartments.info.active a{background-color:#fff; padding:7px; border:4px solid rgba(146,116,216,1); color:rgba(146,116,216,1); margin:-4px 0px 0px -4px;}
+.apartments.info.active:after{border-top-color:rgba(146,116,216,1); margin-left: -10px;}
+/*-------------------------------------*/
+
+/*----- #2403 단지 상단 -----*/
+/* 단지 헤더 */
+.lst_hd .danji_top{position:relative; width:100%; height:50px; background:#ffffff; border-bottom:1px solid #dfdfdf;}
+.lst_hd .danji_top .btn_prev{position:absolute; width:50px; height:50px; top:0; left:0;}
+.lst_hd .danji_top .btn_prev a{display:block; width:100%; height:100%; background:url(
+"http://image.bbjang.com/imgs/bbjang/img_pc/btn_prev_danji.png") no-repeat center center;}
+.lst_hd .danji_top .danji_tit{position:relative; width:100%; height:100%; font-size:20px; font-weight:900; line-height:50px; color:#141516; text-align:center;}
+/* 단지 탭 */
+.lst_hd .danji_tab{position:relative; width:100%; height:45px;}
+.lst_hd .danji_tab li{float:left; position:relative; width:33.3333%; height:100%;}
+.lst_hd .danji_tab li:first-of-type{background:url("http://image.bbjang.com/imgs/bbjang/img_pc/bar_mamul_num.png") no-repeat right center; background-size:1px 20px;}
+.lst_hd .danji_tab li a{display:block; width:100%; height:100%; font-size:17px; font-weight:600; line-height:45px; color:#9b9b9b; text-align:center;}
+.lst_hd .danji_tab li a .mamul_num{padding-left:4px; color:#6aa4bc;}
+.lst_hd .danji_tab li a.tab_on{border-bottom:3px solid #0077c0; box-sizing:border-box; font-weight:900; color:#0077c0;}
+.lst_hd .danji_tab li a.tab_on .mamul_num{color:#005b80;}
+/* 단지 매물종류 분류탭 */
+.lst_hd .mamul_type{position:relative; width:auto; height:auto; padding-top:4px; padding-left:4px; box-sizing:border-box; background:#e1e7ea;}
+.lst_hd .mamul_type:after{display:block; content:""; clear:both;}
+.lst_hd .mamul_type li{float:left; width:auto; height:38px; padding-right:4px;}
+.lst_hd .mamul_type li:last-of-type{padding-right:0;}
+.lst_hd .mamul_type li a{display:block; width:100%; height:100%; padding:0 10px; background:#fff; box-sizing:border-box; font-size:16px; line-height:38px; color:#141516; text-align:center;}
+.lst_hd .mamul_type li a span{padding-left:4px; color:#0077c0;}
+.lst_hd .mamul_type li a.type_on{background:#65aedb; font-weight:600; color:#fff;}
+.lst_hd .mamul_type li a.type_on span{font-weight:600; color:#fff;}
+/* 관심단지설정버튼 */
+.lst_hd .danji_tab li .btn_favo_danji{position:absolute; width:auto; height:27px; top:10px; right:12px;}
+.lst_hd .danji_tab li .btn_favo_danji a{display:block; width:auto; height:100%; padding:0 5px 0 24px; border:1px solid #8b8b8b; border-radius:3px; box-sizing:border-box; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_off.png") no-repeat 5px center; font-size:14px; font-weight:600; line-height:25px; color:#525252; text-align:right;}
+.lst_hd .danji_tab li .btn_favo_danji a:active{border:1px solid #7b7b7b; background:#f7f7f7 url("http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_off.png") no-repeat 5px center; color:#484848;}
+.lst_hd .danji_tab li .btn_favo_danji a.on{border:1px solid #0077c0; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/ico_interest_on.png") no-repeat 5px center; color:#0077c0;}
+/*----------------*/
+/*--- 단지정보뷰(베이스-뷰페이지css) ---*/
+.dt_data_wrap{border:none; padding:16px; margin-bottom:0; border-bottom:4px solid #e1e7ea;}
+.dt_data_wrap .complex_info_li .complex_info_100 .complex_info_right{margin:12px 10px 12px 100px;}
+.dt_data_wrap .plan_box .plan_tab_div .tab_box{width:93px;}
+.dt_data_wrap .plan_box .plan_img_div .img_ul{height:260px;}
+.dt_data_wrap .maintain_box .maintain_table .sub_txt{display:block; line-height:12px; padding-bottom:8px;}
+.dt_data_wrap .around_tab .tab_box{width:82.2px;}
+.dt_data_wrap .school_box .bar_box{width:58px;}
+.dt_data_wrap .school_box .school_li{width:100%; margin-top:4px;}
+.dt_data_wrap .school_box .school_li:nth-of-type(odd){padding-right:0;}
+.dt_data_wrap .school_box .school_li:nth-of-type(even){padding-left:0;}
+.dt_data_wrap .school_box .school_li:nth-of-type(2){margin-top:4px;}
+.dt_loca_wrap .map_li .map{height:220px;}
+.dt_transport_wrap{border:none; padding:16px; margin-bottom:0;}
+.dt_transport_wrap .transport_li .transport_right .metro{width:100%;}
+.dt_transport_wrap .transport_li:nth-of-type(2){padding-bottom:0;}
+/* 인구분석 */
+.dt_data_wrap .resident_chart .loca{right:-8px}
+/* 업종분석 */
+.dt_data_wrap .business_slct .slct_left{display:block; width:100%; padding-right:0; padding-bottom:4px;}
+.dt_data_wrap .business_slct .slct_right{display:block; width:100%;}
+.dt_data_wrap .business_slct .slct_right select{background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/view/ico_slct_drop.png") no-repeat 97% center}
+.dt_data_wrap .business_list .list_li .list_50{width:100%;}
+.dt_data_wrap .business_list .list_li .list_50:first-of-type{padding-right:0;}
+.dt_data_wrap .business_list .list_li .list_50:last-of-type{padding-left:0;}
+.dt_data_wrap .floating_loca{margin-bottom:0;}
+/* 유동인구 */
+.dt_data_wrap .floating_loca .loca_li{width:100%;}
+.dt_data_wrap .floating_day .day_how_content{top:-220px; right:-14px; width:378px; font-size:14px; letter-spacing:-1px; box-shadow:2px 2px 10px rgba(0,0,0,0.27);}
+.dt_data_wrap .floating_day .day_how_content:after{right:42px;}
+.dt_data_wrap .floating_day .day_how_content .txt_sub{line-height:20px; color:#555; font-size:14px;}
+/*----------------------------------------------*/
+/* 주변시설 */
+.surround_place_choice{position:relative; z-index:50; top:7px; left:0; width:417px; height:auto; padding:5px 10px 0 10px; overflow:auto; box-sizing:border-box;}
+.surround_place_choice .pl17, .surround_place_choice .pl18, .surround_place_choice .pl09, .surround_place_choice .pl08, .surround_place_choice .pl04, .surround_place_choice .pl03, .surround_place_choice .pl05, .surround_place_choice .pl12, .surround_place_choice .pl01, .surround_place_choice .pl02, .surround_place_choice .pl15, .surround_place_choice .pl16, .surround_place_choice .pl14, .surround_place_choice .pl10, .surround_place_choice .pl13, .surround_place_choice .pl06, .surround_place_choice .pl07, .surround_place_choice .pl11{float:left; position:relative; width:74px; height:30px; left:0; right:0; top:0; margin-right:4px; margin-bottom:4px; border:1px solid #c9c9c9; -webkit-border-radius:0px; border-radius:0px; box-shadow:none; background-color:#fff; background-repeat:no-repeat; background-position:center; background-size:72px 24px; font-size:13px; color:rgba(0,0,0,0); line-height:32px; text-align:center;}
+.surround_place_choice a:nth-of-type(5n){margin-right:0;}
+
+/*--- 단지 등록매물 내역 비어있음 ---*/
+.list_empty_row1 {text-align:center;}
+.list_empty_row1.padding1 {padding-top:150px;}
+.list_empty_row1 img.size1 {width:75px; height:82px;}
+.list_empty_row1.padding2 {padding-top:220px;}
+.list_empty_row1 img.size2 {width:68px; height:68px;}
+.list_empty_row2 {padding-top:12px; color:#808080; font-size:15px; text-align:center; letter-spacing:-0.3px;}
+/*---------------------------*/
