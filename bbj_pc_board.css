@@ -525,6 +525,8 @@
 .board_page_feedbacks .log_area .name .by {margin:0 10px 0 0;}
 .board_page_feedbacks .log_area .members .name .by {display:inline-block; position:relative; top:2px; margin:0 9px 0 -3px; height:24px; padding:0 5px; -webkit-border-radius:5px; border-radius:5px; background-color:#6ea2e2; color:#fff; line-height:24px;}
 .board_page_feedbacks .log_area .bangsiris .name .by {margin:0 9px 0 -2px; font-weight:600; color:#097ab2;}
+.board_page_feedbacks .log_area .members .name .wrap .thum,
+.board_page_feedbacks .log_area .members .name .wrap .by {cursor:pointer;}
 .board_page_feedbacks .log_area .name .wrap {display:inline-block;}
 .board_page_feedbacks .log_area .name .thum {display:inline-block; position:relative; top:3px; width:26px; height:26px; margin:0 7px 0 0; -webkit-border-radius:50%; border-radius:50%; vertical-align:bottom;}
 .board_page_feedbacks .log_area .name .thum img {position:absolute; width:26px; height:26px; -webkit-border-radius:50%; border-radius:50%; object-fit:cover;}
