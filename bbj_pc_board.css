@@ -213,11 +213,11 @@
 .bb-board_page_top .writtenby .t {position:absolute; left:87px;}
 .bb-board_page_top .ctgr .t {color:#5878b3;}
 .bb-board_page_top .writtenby .t {color:#303030;}
-.bb-board_page_top .writtenby .thum_wrap {position:absolute; left:87px; width:28px; height:28px;}
+.bb-board_page_top .writtenby .thum_wrap {position:absolute; left:87px; width:28px; height:28px; cursor:pointer;}
 .bb-board_page_top .writtenby .thum {display:inline-block; position:relative; width:28px; height:28px; margin:1px 0 0 0; -webkit-border-radius:50%; border-radius:50%;}
 .bb-board_page_top .writtenby .thum img {position:absolute; width:26px; height:26px; -webkit-border-radius:50%; border-radius:50%; object-fit:cover;}
 .bb-board_page_top .writtenby .thum .inner {position:absolute; z-index:10; width:26px; height:26px; margin:-1px 0 0 -1px; border:1px solid #6ea2e2; -webkit-border-radius:50%; border-radius:50%;}
-.bb-board_page_top .writtenby .t.link {display:inline-block; top:2px; left:117px; height:24px; padding:0 5px; -webkit-border-radius:5px; border-radius:5px; background-color:#6ea2e2; font-size:17px; color:#fff; line-height:24px;}
+.bb-board_page_top .writtenby .t.link {display:inline-block; top:2px; left:117px; height:24px; padding:0 5px; -webkit-border-radius:5px; border-radius:5px; background-color:#6ea2e2; font-size:17px; color:#fff; line-height:24px; cursor:pointer;}
 .bb-board_page_top .dot {display:inline-block; position:relative; width:4px; height:4px; margin:-2px 7px 0 0; -webkit-border-radius:3px; border-radius:3px; background-color:#60c8fb; vertical-align:middle;}
 .bb-board_page_top .nums {position:absolute; right:42px; width:auto; bottom:16px; text-align:right;}
 .bb-board_page_top .nums .opened-num,
