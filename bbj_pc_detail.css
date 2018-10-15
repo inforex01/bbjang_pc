@@ -193,7 +193,7 @@
 .btn_up_img{position:absolute; width:70px; height:30px; top:27px; right:10px;}
 .btn_up_img a{display:block; width:100%; height:100%; background:#fff; border:1px solid #bcc0c2; border-radius:5px; box-sizing:border-box; line-height:28px; text-align:center;}
 .btn_up_img a:active{background:#f0f0f0;}
-.up_img_prev{position:relative; width:100%; height:auto; padding:16px 0; padding-left:130px; padding-right:220px; box-sizing:border-box; border-top:1px solid #c9c9e9; border-bottom:1px solid #c9c9e9; background:#fafaff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/img_photo.png") no-repeat 36px center; background-size:60px 60px; font-size:15px; font-weight:600; line-height:28px; cursor:pointer;}
+.up_img_prev{position:relative; width:100%; height:auto; padding:16px 0; padding-left:130px; padding-right:220px; box-sizing:border-box; border-top:1px solid #c9c9e9; border-bottom:1px solid #c9c9e9; background:#fafaff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/img_photo.png") no-repeat 36px center; background-size:60px 60px; font-size:15px; line-height:28px; cursor:pointer;}
 .up_img_prev .btn_upload{position:absolute; width:180px; height:58px; top:50%; right:10px; margin-top:-29px;}
 .up_img_prev .btn_upload a{display:block; width:100%; height:100%; padding-left:58px; border:1px solid #a9bdc9; border-radius:8px; box-sizing:border-box; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_img_up.png") no-repeat 22px center; font-size:17px; font-weight:600; color:#236997; line-height:55px;}
 .up_img_prev .btn_upload a:active{background-color:#f9f9fd;}
@@ -217,7 +217,7 @@
 .photo_view{position:relative; width:100%; height:auto; padding-top:6px;}
 /* 사진 드래그영역 */
 .up_img_drag{position:relative; width:100%; height:150px; margin-top:6px; border-top:1px solid #c9c9e9; border-bottom:1px solid #c9c9e9; box-sizing:border-box; background:#fafaff url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/bg_drag.png") no-repeat center center; cursor:pointer;}
-.up_img_drag span{position:absolute; width:400px; height:50px; top:50%; left:50%; margin-top:-25px; margin-left:-200px; background:rgba(217,217,237,0.5); border-radius:25px; font-size:17px; font-weight:600; line-height:50px; letter-spacing:-1px; color:#09293e; text-align:center;}
+.up_img_drag span{position:absolute; width:400px; height:50px; top:50%; left:50%; margin-top:-25px; margin-left:-200px; background:rgba(217,217,237,0.5); border-radius:25px; font-size:17px; line-height:50px; letter-spacing:-1px; color:#09293e; text-align:center;}
 /*------------------*/
 
 /*----- 등록자정보 -----*/
