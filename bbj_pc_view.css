@@ -299,7 +299,7 @@
 .sch_more_wrap{position:relative; width:100%; height:auto; padding:10px 0 15px 0;}
 .sch_more_wrap .btn_sch_more{margin:0 10px; height:35px; line-height:35px; text-align:center; color:#fff; font-size:14px; font-weight:600;}
 
-.loca_ul .view_button_wrap2{position:absolute; width:84px; height:auto; bottom:46px; right:8px; z-index:2;}
+.loca_ul .view_button_wrap2{position:absolute; width:84px; height:auto; bottom:38px; right:8px; z-index:2;}
 /*버튼 누르기 전*/
 .loca_ul .view_button_wrap2 .view_air_off, .loca_ul .view_button_wrap2 .view_sky_off{width:84px; height:34px; line-height:34px; border-radius:4px; border:1px solid #bdbdbd; font-size:14px; text-align:right; margin-bottom:6px; background-color:#fff; box-sizing:border-box;}
 .loca_ul .view_button_wrap2 .view_air_off a, .loca_ul .view_button_wrap2 .view_sky_off a{display:block; width:100%; height:100%; padding-right:5px; box-sizing:border-box;}
@@ -608,10 +608,8 @@
 .dt_loca_wrap .loca_li .loca_right_2{position:relative; height:auto; line-height:20px; padding:4px 0 4px 90px; box-sizing:border-box; color:#000; font-size:14px; word-break:keep-all;}
 .dt_loca_wrap .map_li_2{position:relative; width:100%; height:auto; margin:-43px 0 0 0;}
 .dt_loca_wrap .map_li_2 .map{position:relative; width:100%; height:180px; border:1px solid #a9a9a9; box-sizing:border-box;}
-.dt_loca_wrap .map_li_2 .btn_view_large{position:absolute; top:12px; z-index:10; right:8px; width:70px; height:28px; line-height:28px; border:1px solid #118ecc; border-radius:3px; box-sizing:border-box; background-color:#0ca2ed; color:#fff; text-align:center; font-size:14px; font-weight:900; cursor:pointer;}
-.dt_loca_wrap .map_li_2 .btn_view_large:active{background-color:#1196d8;}
 .dt_loca_wrap .map_li_2 .map_info{position:absolute; width:250px; height:auto; top:45%; left:50%; z-index:10; margin-top:-32px; margin-left:-125px; padding:9px 0; border-radius:5px; background:rgba(0,0,0,0.7); box-shadow:0px 1px 5px rgba(54, 86, 108, 0.76); font-size:14px; color:#fff; line-height:22px; text-align:center;}
-.dt_loca_wrap .map_li_2 .btn_box{position:relative; width:100%; height:auto; border-right:1px solid #a9a9a9; border-bottom: 1px solid #a9a9a9; border-left:1px solid #a9a9a9; box-sizing:border-box;}
+.dt_loca_wrap .map_li_2 .btn_box{position:relative; width:100%; height:auto; margin:45px 0 0 0; border-right:1px solid #a9a9a9; border-bottom: 1px solid #a9a9a9; border-left:1px solid #a9a9a9; box-sizing:border-box;}
 .dt_loca_wrap .map_li_2 .btn_box:after{content:""; display:block; clear:both;}
 		/*-- 메뉴4개 --*/
 .dt_loca_wrap .map_li_2 .btn_box .btn_map_4menu{width:25%;}
