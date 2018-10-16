@@ -98,6 +98,8 @@
 .wrap_box04{position:relative; width:160px; height:34px;}
 .wrap_box05{position:relative; width:60px; height:34px;}
 .wrap_box06{position:relative; width:110px; height:34px;}
+.wrap_box07{position:relative; width:600px; height:34px;}
+.wrap_box08{position:relative; width:220px; height:34px;}
 /*-----------------------------*/
 
 /*----- 가격 단위값 -----*/
@@ -309,3 +311,7 @@
 .myloca_filter {height: 30px; padding: 10px 10px; border-bottom:1px solid #ccc; background: #eaf5ff;}
 .filter_slct {width: 49%; float: left; margin-right: 2%;}
 .myloca_filter .filter_slct:last-of-type {margin-right: 0px;}
+/*----- 등록페이지 연락처 변경-----*/
+.btn_num_change{position:absolute; top:8px; right:10px; width:170px; height:34px; line-height:30px; box-sizing:border-box; text-align:center;}
+.btn_num_change a{display:block; width:100%; height:100%; border:1px solid #bcc0c2; box-sizing:border-box; background:#fff; border-radius:5px;}
+.btn_num_change a:active{background:#f0f0f0;}
