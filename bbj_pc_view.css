@@ -490,7 +490,7 @@
 .dt_data_wrap .plan_box .plan_img_div .img_prev, .dt_data_wrap .plan_box .plan_img_div .img_next{position:absolute; top:0; z-index:100; width:70px; height:100%; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_prev{left:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_prev.png") no-repeat center center; background-size:15px 29px;}
 .dt_data_wrap .plan_box .plan_img_div .img_next{right:0; background:url("http://image.bbjang.com/imgs/bbjang/img_pc/view/img_next.png") no-repeat center center; background-size:15px 29px;}
-.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:200; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
+.dt_data_wrap .plan_box .plan_img_div .img_zoom{position:absolute; top:10px; right:11px; z-index:100; width:85px; height:30px; line-height:30px; background-color:#707070; color:#fff; text-align:center; font-size:15px; cursor:pointer;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:hover{background-color:#686868;}
 .dt_data_wrap .plan_box .plan_img_div .img_zoom:active{background-color:#686868;}
 /*평면도 타입 라벨(기본,확장,복층)*/
@@ -544,61 +544,61 @@
 .dt_loca_wrap .map_li .map{position:relative; width:100%; height:200px; background-color:#f8f8f8;}
 .dt_loca_wrap .map_li .map_info{position:absolute; width:250px; height:auto; top:45%; left:50%; z-index:10; margin-top:-32px; margin-left:-125px; padding:9px 0; border-radius:5px; background:rgba(0,0,0,0.7); box-shadow:0px 1px 5px rgba(54, 86, 108, 0.76); font-size:13px; color:#fff; line-height:21px; text-align:center;}
 	/*-- 탭메뉴 영역 --*/
-.dt_loca_wrap .map_li .btn_box{position:relative; width:100%; height:auto; border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4; box-sizing:border-box;}
-.dt_loca_wrap .map_li .btn_box:after{content:""; display:block; clear:both;}
+.map_li .btn_box{position:relative; width:100%; height:auto; border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4; box-sizing:border-box;}
+.map_li .btn_box:after{content:""; display:block; clear:both;}
 		/*-- 4개(지도,로드뷰,주변시설,지적도) --*/
-.dt_loca_wrap .map_li .btn_box .btn_map{width:33%; height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
-.dt_loca_wrap .map_li .btn_box .btn_map:active{background-color:#f8f8f8;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def{width:22%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map.road,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround,
-.dt_loca_wrap .map_li .btn_box .btn_map.land{width:26%; border-right:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def.on,
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on,
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on{font-weight:bold;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def.on .on_border{left:0; width:22%; border:2px solid #505050;}
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on .on_border{left:22%;}
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on .on_border{left:48%;}
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on .on_border{left:74%;}
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on .on_border{width:26%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
+.map_li .btn_box .btn_map{width:33%; height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
+.map_li .btn_box .btn_map:active{background-color:#f8f8f8;}
+.map_li .btn_box .btn_map.def{width:22%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map.road,
+.map_li .btn_box .btn_map.surround,
+.map_li .btn_box .btn_map.land{width:26%; border-right:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map.def.on,
+.map_li .btn_box .btn_map.road.on,
+.map_li .btn_box .btn_map.surround.on,
+.map_li .btn_box .btn_map.land.on{font-weight:bold;}
+.map_li .btn_box .btn_map.def.on .on_border,
+.map_li .btn_box .btn_map.road.on .on_border,
+.map_li .btn_box .btn_map.surround.on .on_border,
+.map_li .btn_box .btn_map.land.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
+.map_li .btn_box .btn_map.def.on .on_border{left:0; width:22%; border:2px solid #505050;}
+.map_li .btn_box .btn_map.road.on .on_border{left:22%;}
+.map_li .btn_box .btn_map.surround.on .on_border{left:48%;}
+.map_li .btn_box .btn_map.land.on .on_border{left:74%;}
+.map_li .btn_box .btn_map.road.on .on_border,
+.map_li .btn_box .btn_map.surround.on .on_border,
+.map_li .btn_box .btn_map.land.on .on_border{width:26%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
 		/*-- // 4개(지도,로드뷰,주변시설,지적도) --*/
 		/*-- 5개(지도,로드뷰,주변시설,지적도,길찾기) --*/
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5{height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5:active{background-color:#f8f8f8;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def{width:20%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path{width:20%; border-right:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on{font-weight:bold;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def.on .on_border{left:0; width:20%; border:2px solid #505050;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on .on_border{left:20%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on .on_border{left:40%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on .on_border{left:60%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on .on_border{left:80%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on .on_border{width:20%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
+.map_li .btn_box .btn_map_menu5{height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
+.map_li .btn_box .btn_map_menu5:active{background-color:#f8f8f8;}
+.map_li .btn_box .btn_map_menu5.def{width:20%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map_menu5.road,
+.map_li .btn_box .btn_map_menu5.surround,
+.map_li .btn_box .btn_map_menu5.land,
+.map_li .btn_box .btn_map_menu5.path{width:20%; border-right:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map_menu5.def.on,
+.map_li .btn_box .btn_map_menu5.road.on,
+.map_li .btn_box .btn_map_menu5.surround.on,
+.map_li .btn_box .btn_map_menu5.land.on,
+.map_li .btn_box .btn_map_menu5.path.on{font-weight:bold;}
+.map_li .btn_box .btn_map_menu5.def.on .on_border,
+.map_li .btn_box .btn_map_menu5.road.on .on_border,
+.map_li .btn_box .btn_map_menu5.surround.on .on_border,
+.map_li .btn_box .btn_map_menu5.land.on .on_border,
+.map_li .btn_box .btn_map_menu5.path.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
+.map_li .btn_box .btn_map_menu5.def.on .on_border{left:0; width:20%; border:2px solid #505050;}
+.map_li .btn_box .btn_map_menu5.road.on .on_border{left:20%;}
+.map_li .btn_box .btn_map_menu5.surround.on .on_border{left:40%;}
+.map_li .btn_box .btn_map_menu5.land.on .on_border{left:60%;}
+.map_li .btn_box .btn_map_menu5.path.on .on_border{left:80%;}
+.map_li .btn_box .btn_map_menu5.road.on .on_border,
+.map_li .btn_box .btn_map_menu5.surround.on .on_border,
+.map_li .btn_box .btn_map_menu5.land.on .on_border,
+.map_li .btn_box .btn_map_menu5.path.on .on_border{width:20%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
 		/*-- // 5개(지도,로드뷰,주변시설,지적도,길찾기) --*/
-.dt_loca_wrap .map_li .btn_box .btn_map img{vertical-align:top; margin:10px 5px 0 -5px;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5 img.style2{vertical-align:middle; margin:-3px 5px 0 -5px;}
+.map_li .btn_box .btn_map img{vertical-align:top; margin:10px 5px 0 -5px;}
+.map_li .btn_box .btn_map_menu5 img.style2{vertical-align:middle; margin:-3px 5px 0 -5px;}
 	/*-- // 탭메뉴 영역 --*/
 
 	/*-- 학군정보 상세창용 --*/
@@ -810,8 +810,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .air_mini_layer .map_view_btn a:active{background:#efefef;}
 
 /*----- 지도 부가기능 비활성화 -----*/
-.dt_loca_wrap .map_li .btn_box .menu5_disable{background-color:#cacaca; color:#838383;}
-.dt_loca_wrap .map_li .btn_box .menu5_disable:active{background-color:#cacaca;}
+.map_li .btn_box .menu5_disable{background-color:#cacaca; color:#838383;}
+.map_li .btn_box .menu5_disable:active{background-color:#cacaca;}
 
 /*----- 뷰페이지내 미니지도하단버튼 -----*/
 .btn_box .sky_v{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_sky.png) no-repeat 0px 0px; background-size:15px 16px; padding-left:22px;}
