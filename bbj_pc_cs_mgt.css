@@ -1066,14 +1066,16 @@ b {font-weight:600;}
 /* 내 매물 정보 관리 통합페이지 */
 .move_regist.margin2{margin:40px 0 0 0;}
 #container.margin2{margin-top:40px;}
-.result-sorting_wrap_mana {position:relative; width:100%; height:30px; padding:14px 0 2px 0; line-height:20px;}
-.result-sorting_wrap_mana .title_my {display:inline-block; position:absolute; width:130px; margin:0 0 0 13px; font-size:16px; font-weight:600; color:#1c1e1f; text-align:center; line-height:30px;}
+.result-sorting_wrap_mana {position:relative; width:100%; height:36px; padding:14px 0 2px 0; line-height:24px;}
+.result-sorting_wrap_mana .title_my {display:inline-block; position:absolute; width:130px; margin:0 0 0 13px; font-size:16px; font-weight:600; color:#1c1e1f; text-align:center; line-height:36px;}
 	/* -- 셀렉트박스같은 버튼 -- */
-.btn_slctbox_mgt_sorting {display:inline-block; position:absolute; top:15px; left:157px; width:172px; height:28px; padding:0 5px; border:1px solid #d2d2d2; -webkit-border-radius:3px; border-radius:3px; background-size:10px 5px; font-size:13px; color:#535353; line-height:24px; text-indent:0;}
-.btn_slctbox_mgt_sorting .in {display:inline-block; overflow:hidden; width:148px; text-overflow:ellipsis; white-space:nowrap;}
-.btn_slctbox_mgt_sorting.margin2 {margin-left:181px;}
-.btn_slctbox_mgt_sorting .arrow {display:inline-block; position:absolute; top:10px; right:9px; width:14px; height:8px; background:url('http://image.bbjang.com/imgs/bbjang/img01/btn_slctbox_sorting_arrow.png') no-repeat; background-size:14px 8px;}
-.btn_slctbox_mgt_sorting .t2 {margin:0 0 0 8px; font-size:15px; color:#535353; letter-spacing:-1px; line-height:26px;}
+.btn_slctbox_mgt_sorting {display:inline-block; position:absolute; top:15px; left:156px; width:182px; height:34px; padding:0 5px; border:1px solid #ccc; background-size:10px 5px; font-size:13px; color:#535353; line-height:32px; text-indent:0;}
+.btn_slctbox_mgt_sorting.width2 {width:252px;}
+.btn_slctbox_mgt_sorting .in {display:inline-block; overflow:hidden; width:158px; text-overflow:ellipsis; white-space:nowrap;}
+.btn_slctbox_mgt_sorting.width2 .in {width:229px;}
+.btn_slctbox_mgt_sorting.margin2 {margin-left:191px;}
+.btn_slctbox_mgt_sorting .arrow {display:inline-block; position:absolute; top:14px; right:9px; width:12px; height:6px; background:url('http://image.bbjang.com/imgs/bbjang/img01/btn_slctbox_sorting_arrow.png') no-repeat; background-size:12px 6px;}
+.btn_slctbox_mgt_sorting .t2 {margin:0 0 0 8px; font-size:16px; color:#535353; letter-spacing:-1px; line-height:30px;}
 .btn_slctbox_mgt_sorting .t2_2 {margin:0 0 0 5px;}
 	/* --//-- */
 .result-sorting_wrap_mana .guide_text {position:absolute; top:21px; left:523px; font-size:13px; color:#5c5c5c;}
