@@ -29,7 +29,7 @@
 .realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 50px;}
 .realtor_info .info_txt .phone_wrap td {height: 26px;}
 /* 인사말 */
-.realtor_intro {width: 100%; height: auto; border:1px solid #ccc; box-sizing: border-box; margin-top: 10px; padding: 30px; color: #707070; font-size: 15px;}
+.realtor_intro {width: 750px; height: auto; border:1px solid #ccc; box-sizing: border-box; margin-top: 10px; padding: 30px; color: #707070; font-size: 15px;}
 /* 매물현황 */
 .deal_area {width:100%; height: auto; position: relative; padding-top:60px; border:1px solid #ccc; border-top:0 none; box-sizing: border-box;}
 .deal_type_paging {border-top:1px solid #ccc;}
