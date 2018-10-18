@@ -214,6 +214,104 @@
 .dt_data_wrap .school_box .school_top .distance{font-size:13px; font-weight:normal;}
 .dt_data_wrap .school_box .school_bottom{line-height:20px; color:#808080; font-size:13px; letter-spacing:0;}
 .dt_data_wrap .school_box .data_sub_more{margin-top:10px;}
+.dt_data_wrap .school_box .cue_detailview{position:absolute; top:0; right:0; width:39px; height:55px; border-left:1px solid #ebebeb; background:#fff url("http://image.bbjang.com/imgs/bbjang/img_pc/view/school_cue_detailview.png") no-repeat 11px 18px; background-size:17px;}
+
+/*-------- 학군정보 상세창 --------*/
+.wrap_school_detailview{position:relative; overflow-x:hidden; overflow-y:auto; width:420px; height:736px;}
+.wrap_school_detailview .area_wrap{position:relative; width:100%; height:100%;}
+
+.bg_element #header{background-color:#43c164;}
+.bg_element .sch_title{background-color:#43c164;}
+.bg_element .btn_sch_more{background-color:#43c164;}
+
+.bg_middle #header{background-color:#05b9b3;}
+.bg_middle .sch_title{background-color:#05b9b3;}
+.bg_middle .btn_sch_more{background-color:#05b9b3;}
+
+.bg_high #header{background-color:#5c73ff;}
+.bg_high .sch_title{background-color:#5c73ff;}
+.bg_high .btn_sch_more{background-color:#5c73ff;}
+
+/* 상단 타이틀 */
+.sch_title{position:relative; width:100%; height:auto; line-height:25px; padding:7px 16px 13px 10px; box-sizing:border-box; font-size:21px; color:#fff; text-align:center;}
+.sch_title img{vertical-align:top; margin:3px 6px 0 0;}
+.sch_score_wrap{position:relative; width:100%; height:auto; padding:10px 0; color:#7c7c7c; font-size:14px; text-align:center;}
+.sch_score_wrap .sub_txt{font-size:12px;}
+.sch_score_wrap .score_txt{height:23px; line-height:23px; margin-bottom:3px; color:#fa5d49; font-size:16px; font-weight:600;}
+.sch_score_wrap .score_txt .score{font-size:21px; margin-right:3px;}
+.sch_money_wrap{position:relative; width:100%; height:auto; padding:10px 0; color:#7c7c7c; font-size:14px; text-align:center;}
+.sch_money_wrap:after{content:""; display:block; clear:both;}
+.sch_money_wrap .money_left{width:50%; float:left; padding-left:6px; box-sizing:border-box;}
+.sch_money_wrap .money_right{width:50%; float:right; padding-right:6px; box-sizing:border-box;}
+.sch_money_wrap .money_txt{height:23px; line-height:23px; margin-top:3px; color:#ff8f22; font-size:16px; font-weight:600;}
+.sch_money_wrap .money_txt .money{font-size:21px; margin-right:3px;}
+
+/* 기본정보 영역 */
+.sch_info_wrap{position:relative; width:100%; height:auto;}
+.sch_info_wrap .info_ul{position:relative; height:auto; margin:7px 10px;}
+.sch_info_wrap .info_li{position:relative; width:100%; height:auto;}
+.sch_info_wrap .info_li .info_left{position:absolute; top:0; left:0; width:90px; height:28px; line-height:28px; color:#7c7c7c; font-size:14px; font-weight:900;}
+.sch_info_wrap .info_li .info_right{position:relative; height:auto; line-height:20px; padding-top:4px; padding-bottom:4px; padding-left:90px; box-sizing:border-box; color:#000; font-size:14px; word-break:keep-all; word-wrap:break-word;}
+.sch_info_wrap .info_li .btn_school_call{display:inline-block; vertical-align:top; width:60px; height:22px; margin-top:-1px; padding:0 10px; cursor:pointer;}
+.sch_info_wrap .info_li .sch_link{text-decoration:underline;}
+
+/* 파이차트 영역 */
+.sch_pie_wrap{position:relative; width:100%; height:auto;}
+.sch_pie_wrap .pie_chart{width:100%; height:200px;}
+.sch_pie_wrap .pie_total{position:absolute; top:54%; left:31%; width:60px; margin-left:-30px; text-align:center;}
+.sch_pie_wrap .pie_total .total{line-height:19px; color:#000000;font-size:14px;}
+.sch_pie_wrap .pie_total .limit{color:#7c7c7c; font-size:12px;}
+
+/* 교사구성,교사현황 영역 */
+.sch_teacher_wrap{position:relative; width:100%; height:auto;}
+.sch_teacher_wrap .teacher_num{position:relative; width:100%; height:auto; padding:15px 0px 5px 0; color:#7c7c7c; font-size:14px; text-align:center;}
+.sch_teacher_wrap .teacher_num .num_txt{height:23px; line-height:23px; margin-bottom:3px; color:#000; font-size:16px; font-weight:600;}
+.sch_teacher_wrap .teacher_num .num_txt .num{font-size:21px; margin-right:3px;}
+.sch_teacher_wrap .teacher_chart_4{width:100%; height:200px; padding:7px 0;}
+.sch_teacher_wrap .teacher_chart_3{width:100%; height:159px; padding:7px 0;}
+
+/* 학생현황 영역 */
+.sch_student_wrap{position:relative; width:100%; height:auto;}
+.sch_student_wrap .student_chart{width:100%; height:159px;}
+.sch_student_wrap .gender_chart{width:100%; height:159px;}
+.sch_student_wrap .student_ul{position:relative; height:auto; margin:7px 10px;}
+.sch_student_wrap .student_li, .sch_student_wrap .total_li{position:relative; width:100%; height:auto;}
+.sch_student_wrap .student_li:after, .sch_student_wrap .total_li:after{content:""; display:block; clear:both;}
+.sch_student_wrap .student_li{border-bottom:1px solid #eaeaea;}
+.sch_student_wrap .total_li{font-weight:600;}
+.sch_student_wrap .first_div, .sch_student_wrap .second_div, .sch_student_wrap .third_div{height:32px; line-height:32px; color:#5c5c5c; text-align:center; font-size:14px; float:left;}
+.sch_student_wrap .first_div{width:34%;}
+.sch_student_wrap .second_div{width:33%;}
+.sch_student_wrap .third_div{width:33%;}
+    
+/* 방과후학교,급식 영역 */
+.sch_life_wrap{position:relative; width:100%; height:auto;}
+.sch_life_wrap:after{content:""; display:block; clear:both;}
+.sch_life_wrap .life_left, .sch_life_wrap .life_right{width:50%; height:60px; line-height:60px; box-sizing:border-box; color:#7c7c7c; font-size:14px; text-align:center;}
+.sch_life_wrap .life_left{float:left;}
+.sch_life_wrap .life_right{float:right; padding-right:6px;}
+.sch_life_wrap .lift_num{margin-left:6px; color:#3c3c3c; font-size:21px; font-weight:600;}
+.sch_life_wrap .lift_unit{margin-left:3px; color:#3c3c3c; font-size:16px; font-weight:600;}
+
+/* 제공서비스 영역 */
+.sch_service_wrap .option_ul{padding:12px 10px 8px 10px;}
+
+/* 자세히보기 영역 */
+.sch_more_wrap{position:relative; width:100%; height:auto; padding:10px 0 15px 0;}
+.sch_more_wrap .btn_sch_more{margin:0 10px; height:35px; line-height:35px; text-align:center; color:#fff; font-size:14px; font-weight:600;}
+
+.loca_ul .view_button_wrap2{position:absolute; width:84px; height:auto; bottom:38px; right:18px; z-index:2;}
+/*버튼 누르기 전*/
+.loca_ul .view_button_wrap2 .view_air_off, .loca_ul .view_button_wrap2 .view_sky_off{width:84px; height:34px; line-height:34px; border-radius:4px; border:1px solid #bdbdbd; font-size:14px; text-align:right; margin-bottom:6px; background-color:#fff; box-sizing:border-box;}
+.loca_ul .view_button_wrap2 .view_air_off a, .loca_ul .view_button_wrap2 .view_sky_off a{display:block; width:100%; height:100%; padding-right:5px; box-sizing:border-box;}
+.loca_ul .view_button_wrap2 .view_view_sky_off{margin-bottom:0;}
+.loca_ul .view_button_wrap2 .view_air_off a, .loca_ul .view_button_wrap2 .view_air_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_air.png) no-repeat 5px center; background-size:20px 16px; padding-right:10px!important;}
+.loca_ul .view_button_wrap2 .view_sky_off a, .loca_ul .view_button_wrap2 .view_sky_on a{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_sky.png) no-repeat 6px 7px; background-size:15px 16px;}
+/*버튼누른 후*/
+.loca_ul .view_button_wrap2 .view_air_on, .loca_ul .view_button_wrap2 .view_sky_on{width:84px; height:34px; line-height:32px; border-radius:4px; border:2px solid #3081f0; font-size:14px; font-weight:600; text-align:right; margin-bottom:10px; color:#3081f0; background-color:#fff; box-sizing:border-box;}
+.loca_ul .view_button_wrap2 .view_air_on a, .loca_ul .view_button_wrap2 .view_sky_on a{display:block; width:100%; height:100%; padding-right:5px; box-sizing:border-box;}
+.loca_ul .view_button_wrap2 .view_sky_on{margin-bottom:0;}
+/*-------- // 학군정보 상세창 --------*/
 
 /* 실거래가 탭 */
 .dt_data_wrap .price_tab{position:relative; width:400px; height:auto; margin-top:10px; border:1px solid #d4d4d4;}
@@ -447,62 +545,96 @@
 .dt_loca_wrap .map_li .map{position:relative; width:100%; height:200px; background-color:#f8f8f8;}
 .dt_loca_wrap .map_li .map_info{position:absolute; width:250px; height:auto; top:45%; left:50%; z-index:10; margin-top:-32px; margin-left:-125px; padding:9px 0; border-radius:5px; background:rgba(0,0,0,0.7); box-shadow:0px 1px 5px rgba(54, 86, 108, 0.76); font-size:13px; color:#fff; line-height:21px; text-align:center;}
 	/*-- 탭메뉴 영역 --*/
-.dt_loca_wrap .map_li .btn_box{position:relative; width:100%; height:auto; border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4; box-sizing:border-box;}
-.dt_loca_wrap .map_li .btn_box:after{content:""; display:block; clear:both;}
+.map_li .btn_box{position:relative; width:100%; height:auto; border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4; box-sizing:border-box;}
+.map_li .btn_box:after{content:""; display:block; clear:both;}
 		/*-- 4개(지도,로드뷰,주변시설,지적도) --*/
-.dt_loca_wrap .map_li .btn_box .btn_map{width:33%; height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
-.dt_loca_wrap .map_li .btn_box .btn_map:active{background-color:#f8f8f8;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def{width:22%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map.road,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround,
-.dt_loca_wrap .map_li .btn_box .btn_map.land{width:26%; border-right:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def.on,
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on,
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on{font-weight:bold;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
-.dt_loca_wrap .map_li .btn_box .btn_map.def.on .on_border{left:0; width:22%; border:2px solid #505050;}
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on .on_border{left:22%;}
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on .on_border{left:48%;}
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on .on_border{left:74%;}
-.dt_loca_wrap .map_li .btn_box .btn_map.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map.land.on .on_border{width:26%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
+.map_li .btn_box .btn_map{width:33%; height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
+.map_li .btn_box .btn_map:active{background-color:#f8f8f8;}
+.map_li .btn_box .btn_map.def{width:22%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map.road,
+.map_li .btn_box .btn_map.surround,
+.map_li .btn_box .btn_map.land{width:26%; border-right:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map.def.on,
+.map_li .btn_box .btn_map.road.on,
+.map_li .btn_box .btn_map.surround.on,
+.map_li .btn_box .btn_map.land.on{font-weight:bold;}
+.map_li .btn_box .btn_map.def.on .on_border,
+.map_li .btn_box .btn_map.road.on .on_border,
+.map_li .btn_box .btn_map.surround.on .on_border,
+.map_li .btn_box .btn_map.land.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
+.map_li .btn_box .btn_map.def.on .on_border{left:0; width:22%; border:2px solid #505050;}
+.map_li .btn_box .btn_map.road.on .on_border{left:22%;}
+.map_li .btn_box .btn_map.surround.on .on_border{left:48%;}
+.map_li .btn_box .btn_map.land.on .on_border{left:74%;}
+.map_li .btn_box .btn_map.road.on .on_border,
+.map_li .btn_box .btn_map.surround.on .on_border,
+.map_li .btn_box .btn_map.land.on .on_border{width:26%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
 		/*-- // 4개(지도,로드뷰,주변시설,지적도) --*/
 		/*-- 5개(지도,로드뷰,주변시설,지적도,길찾기) --*/
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5{height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5:active{background-color:#f8f8f8;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def{width:20%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path{width:20%; border-right:1px solid #d4d4d4;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on{font-weight:bold;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.def.on .on_border{left:0; width:20%; border:2px solid #505050;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on .on_border{left:20%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on .on_border{left:40%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on .on_border{left:60%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on .on_border{left:80%;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.road.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.surround.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.land.on .on_border,
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5.path.on .on_border{width:20%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
+.map_li .btn_box .btn_map_menu5{height:38px; line-height:38px; box-sizing:border-box; color:#505050; text-align:center; font-size:14px; float:left; cursor:pointer;}
+.map_li .btn_box .btn_map_menu5:active{background-color:#f8f8f8;}
+.map_li .btn_box .btn_map_menu5.def{width:20%; border-right:1px solid #d4d4d4; border-left:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map_menu5.road,
+.map_li .btn_box .btn_map_menu5.surround,
+.map_li .btn_box .btn_map_menu5.land,
+.map_li .btn_box .btn_map_menu5.path{width:20%; border-right:1px solid #d4d4d4;}
+.map_li .btn_box .btn_map_menu5.def.on,
+.map_li .btn_box .btn_map_menu5.road.on,
+.map_li .btn_box .btn_map_menu5.surround.on,
+.map_li .btn_box .btn_map_menu5.land.on,
+.map_li .btn_box .btn_map_menu5.path.on{font-weight:bold;}
+.map_li .btn_box .btn_map_menu5.def.on .on_border,
+.map_li .btn_box .btn_map_menu5.road.on .on_border,
+.map_li .btn_box .btn_map_menu5.surround.on .on_border,
+.map_li .btn_box .btn_map_menu5.land.on .on_border,
+.map_li .btn_box .btn_map_menu5.path.on .on_border{display:inline-block; position:absolute; top:-1px; left:0; height:40px; box-sizing:border-box;}
+.map_li .btn_box .btn_map_menu5.def.on .on_border{left:0; width:20%; border:2px solid #505050;}
+.map_li .btn_box .btn_map_menu5.road.on .on_border{left:20%;}
+.map_li .btn_box .btn_map_menu5.surround.on .on_border{left:40%;}
+.map_li .btn_box .btn_map_menu5.land.on .on_border{left:60%;}
+.map_li .btn_box .btn_map_menu5.path.on .on_border{left:80%;}
+.map_li .btn_box .btn_map_menu5.road.on .on_border,
+.map_li .btn_box .btn_map_menu5.surround.on .on_border,
+.map_li .btn_box .btn_map_menu5.land.on .on_border,
+.map_li .btn_box .btn_map_menu5.path.on .on_border{width:20%; border-top:2px solid #505050; border-right:2px solid #505050; border-bottom:2px solid #505050; border-left:1px solid #505050; -webkit-box-shadow:-1px 0 0 #505050; box-shadow:-1px 0 0 #505050;}
 		/*-- // 5개(지도,로드뷰,주변시설,지적도,길찾기) --*/
-.dt_loca_wrap .map_li .btn_box .btn_map img{vertical-align:top; margin:10px 5px 0 -5px;}
-.dt_loca_wrap .map_li .btn_box .btn_map_menu5 img.style2{vertical-align:middle; margin:-3px 5px 0 -5px;}
+.map_li .btn_box .btn_map img{vertical-align:top; margin:10px 5px 0 -5px;}
+.map_li .btn_box .btn_map_menu5 img.style2{vertical-align:middle; margin:-3px 5px 0 -5px;}
 	/*-- // 탭메뉴 영역 --*/
+
+	/*-- 학군정보 상세창용 --*/
+.dt_loca_wrap.size2{margin-bottom:7px; padding:0; border:none;}
+.dt_loca_wrap.map_wrap_size2{width:750px; height:740px;}
+.dt_loca_wrap .loca_li .loca_left_2{position:absolute; top:0; left:10px; width:90px; height:28px; line-height:28px; color:#808080; font-size:14px; font-weight:600;}
+.dt_loca_wrap .loca_li .loca_right_2{position:relative; left:10px; height:auto; line-height:20px; padding:4px 0 4px 90px; box-sizing:border-box; color:#000; font-size:14px; word-break:keep-all;}
+.dt_loca_wrap .map_li_2{position:relative; width:100%; height:224px; margin:-43px 0 0 0; padding:0 10px; box-sizing:border-box;}
+.dt_loca_wrap .map_li_2 .map{position:relative; width:100%; height:180px; border:1px solid #a9a9a9; box-sizing:border-box;}
+.dt_loca_wrap .map_li_2 .map_info{position:absolute; width:250px; height:auto; top:45%; left:50%; z-index:10; margin-top:-32px; margin-left:-125px; padding:9px 0; border-radius:5px; background:rgba(0,0,0,0.7); box-shadow:0px 1px 5px rgba(54, 86, 108, 0.76); font-size:14px; color:#fff; line-height:22px; text-align:center;}
+.dt_loca_wrap .map_li_2 .btn_view_large{position:absolute; top:53px; z-index:10; right:18px; width:70px; height:28px; line-height:28px; border:1px solid #118ecc; border-radius:3px; box-sizing:border-box; background-color:#0ca2ed; color:#fff; text-align:center; font-size:14px; font-weight:900; cursor:pointer;}
+.dt_loca_wrap .map_li_2 .btn_view_large:active{background-color:#1196d8;}
+.dt_loca_wrap .map_li_2 .btn_box{position:relative; width:100%; height:auto; margin:45px 0 0 0; border-right:1px solid #a9a9a9; border-bottom: 1px solid #a9a9a9; border-left:1px solid #a9a9a9; box-sizing:border-box;}
+.dt_loca_wrap .map_li_2 .btn_box:after{content:""; display:block; clear:both;}
+		/*-- 메뉴4개 --*/
+.dt_loca_wrap .map_li_2 .btn_box .btn_map_4menu{width:25%;}
+.dt_loca_wrap .map_li_2 .btn_box .btn_map_4menu{height:35px; line-height:34px; border-left:1px solid #a9a9a9; box-sizing:border-box; color:#525252; text-align:center; font-size:14px; float:left; cursor:pointer;}
+.dt_loca_wrap .map_li_2 .btn_box .btn_map_4menu:first-of-type{border-left:none;}
+.dt_loca_wrap .map_li_2 .btn_box .btn_map_4menu:active{background-color:#f8f8f8;}
+@media all and (max-width:359px){
+.dt_loca_wrap .map_li_2 .btn_box .btn_map_4menu{font-size:13px;}
+}
+.btn_box .btn_map_4menu .view_road_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_road.png) no-repeat 0 0; padding:0px 0 2px 17px; background-size:13px 16px;}
+.btn_box .btn_map_4menu .view_surround_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_sr.png) no-repeat 0 0; padding:0px 0 2px 16px; background-size:15px 16px;}
+.btn_box .btn_map_4menu .view_land_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_emap.png) no-repeat 0 0; padding:0px 0 0px 20px; background-size:17px 13px;}
+.btn_box .btn_map_4menu .view_path_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_search.png) no-repeat 0 0; padding:0px 0 2px 16px; background-size:13px 16px;}
+.btn_box .btn_map_4menu .view_def_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_dmap.png) no-repeat 0 0; padding:0px 0 0 19px; background-size:14px 14px;}
+/* 비활성화시 아이콘 */
+.btn_box .menu4_disable .view_road_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/dsb_ico_road.png) no-repeat 0 0; padding:0px 0 2px 17px; background-size:13px 16px;}
+.btn_box .menu4_disable .view_surround_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/dsb_ico_sr.png) no-repeat 0 0; padding:0px 0 2px 16px; background-size:15px 16px;}
+.btn_box .menu4_disable .view_land_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/dsb_ico_emap.png) no-repeat 0 0; padding:0px 0 0px 20px; background-size:17px 13px;}
+.btn_box .menu4_disable .view_path_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/dsb_ico_search.png) no-repeat 0 0; padding:0px 0 2px 16px; background-size:13px 16px;}
+.btn_box .menu4_disable .view_def_txt{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/dsb_ico_dmap.png) no-repeat 0 0; padding:0px 0 0 19px; background-size:14px 14px;}
+.dt_h3_2{position:relative; width:100%; height:auto; line-height:25px; padding:3px 12px 3px 15px; border-top:1px solid #d4d4d4; box-sizing:border-box; background-color:#efefef; color:#4d5356; font-size:15px;}
+	/*-- // 학군정보 상세창용 --*>
 
 /*---------------------------- 교통정보 영역 ----------------------------*/
 .dt_transport_wrap{position:relative; width:100%; height:auto; margin-bottom:10px; padding:20px 25px 10px 25px; border:1px solid #d4d4d4; box-sizing:border-box;}
@@ -679,8 +811,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .air_mini_layer .map_view_btn a:active{background:#efefef;}
 
 /*----- 지도 부가기능 비활성화 -----*/
-.dt_loca_wrap .map_li .btn_box .menu5_disable{background-color:#cacaca; color:#838383;}
-.dt_loca_wrap .map_li .btn_box .menu5_disable:active{background-color:#cacaca;}
+.map_li .btn_box .menu5_disable{background-color:#cacaca; color:#838383;}
+.map_li .btn_box .menu5_disable:active{background-color:#cacaca;}
 
 /*----- 뷰페이지내 미니지도하단버튼 -----*/
 .btn_box .sky_v{background:url(http://image.bbjang.com/imgs/bbjang/jsp_new/map_icon/vmap_ico_sky.png) no-repeat 0px 0px; background-size:15px 16px; padding-left:22px;}
