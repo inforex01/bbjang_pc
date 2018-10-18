@@ -69,7 +69,8 @@ td,th {padding:0;}
       /* 블루 텍스트 */
 .ft_navy {color:#004c80;}
       /* 네이비 텍스트 */
-
+.font_b {font-weight: 600;}
+.font_eb {font-weight: 900;}
 /*
  ** HEADER **
           */
