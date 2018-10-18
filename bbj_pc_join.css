@@ -345,7 +345,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /*----- 일감2349 정보등록 전 내정보- 설명문구 추가 -----*/
 .set_profile .join_it{padding-top:10px;}
-.nomal_prf .prf_name_txt{padding:5px 0 0 80px; font-size:13px; font-weight:600; box-sizing:border-box;}
+.nomal_prf .prf_name_txt{padding:5px 0 0 66px; font-size:13px; font-weight:600; box-sizing:border-box;}
 .nomal_prf .name_pb{color:#417ce9;}
 .nomal_prf .name_ib{color:#e90505;}
 .imp_name{border-bottom:1px solid #e90505!important;}
