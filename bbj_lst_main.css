@@ -10,7 +10,7 @@
 .card_l .border_list { border-left:1px solid #b2b9bc; border-right:1px solid #b2b9bc; }
 
 /* 사진영역 */
-.card_photo{position:absolute; width:135px; height:135px; top:50%; left:0; transform:translateY(-50%); z-index:10;}
+.card_photo{position:absolute; width:135px; height:135px; top:50%; left:3px; transform:translateY(-50%); z-index:10;}
 .card_photo a{position:relative; display:block; width:100%; height:100%;}
 .card_photo a img{position:relative; width:100%; height:100%; object-fit:cover; z-index:-1;}
 .photo_badge_position{top:5px; left:5px;}
