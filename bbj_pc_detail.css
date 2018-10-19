@@ -154,9 +154,12 @@
 .wrap_loca .btn_map_srch2 a{display:block; width:100%; height:100%; padding-left:7px; box-sizing:border-box; background:#0ca2ed url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_map_srch.png") no-repeat 91% center; border:1px solid #0f94d6; border-radius:5px; box-shadow:1px 1px 6px #969696; font-size:14px; font-weight:600; line-height:30px; color:#fff; }
 .wrap_loca .btn_map_srch1 a:active, .wrap_loca .btn_map_srch2 a:active{background:#109ce2 url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_map_srch.png") no-repeat 91% center;}
 .address_chk{position:absolute; top:8px; left:8px; z-index:10; width:auto; height:auto;}
+.address_loca{top:20px; left:auto; right:0px;}
 .address_chk .address_chk_ipnut{position:absolute; top:0px; left:0px; width:100%; height:100%; opacity:0;}
 .address_chk .address_chk_lb{display:block; position:relative; width:135px; height:32px; line-height:30px; padding-left:21px; border:1px solid #0f94d6; border-radius:5px; box-sizing:border-box; background:#0ca2ed url("http://image.bbjang.com/imgs/bbjang/img01/btn_chk04_off.png") no-repeat 7px 7px; background-size:16px 16px; box-shadow:1px 1px 6px rgba(0,0,0,0.2); color:#fff; font-size:14px; font-weight:600; text-align:center;}
+.address_loca .address_chk_lb{box-shadow:none;}
 .address_chk .address_chk_ipnut:checked + .address_chk_lb{border:1px solid #bcc0c2; background:#fff url("http://image.bbjang.com/imgs/bbjang/img01/btn_chk04_on.png") no-repeat 7px 7px; background-size:16px 16px; color:#303030;}
+.address_hidden{padding:0 2px; background-color:#515151; color:#515151;}
 
 .wrap_loca .btn_map_srch2 a:active{background:#109ce2 url("http://image.bbjang.com/imgs/bbjang/img_pc/detail/ico_map_srch.png") no-repeat 91% center;}
 .dt_loca{position:relative; width:100%; height:auto; padding-top:8px; padding-left:8px; box-sizing:border-box;}
