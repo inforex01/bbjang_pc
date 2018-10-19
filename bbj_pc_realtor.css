@@ -29,7 +29,7 @@
 .realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 50px;}
 .realtor_info .info_txt .phone_wrap td {height: 26px;}
 /* 인사말 */
-.realtor_intro {width: 100%; height: auto; border:1px solid #ccc; box-sizing: border-box; margin-top: 10px; padding: 30px; color: #707070; font-size: 15px;}
+.realtor_intro {width: 750px; height: auto; border:1px solid #ccc; box-sizing: border-box; margin-top: 10px; padding: 30px; color: #707070; font-size: 15px;}
 /* 매물현황 */
 .deal_area {width:100%; height: auto; position: relative; padding-top:60px; border:1px solid #ccc; border-top:0 none; box-sizing: border-box;}
 .deal_type_paging {border-top:1px solid #ccc;}
@@ -125,6 +125,13 @@ textarea.ag_txtar{display:block; width:100%; height:76px; padding:8px; box-sizin
 .ct_url_copy{border:1px solid #4c6ba5!important; background-color:#4c6ba5!important;}
 .ct_url_copy:active{background-color:#466298!important;}
 
+/*----- 내 매물&정보 관리 통합페이지> 공인중개사 정보등록 전 -----*/
+.realtor_first {width:1080px; height:788px; margin:10px 0 0 0; border:1px solid #cbcbcb; box-sizing:border-box;}
+.realtor_first .head_image {display:inline-block; position:relative; left:50%; width:578px; height:394px; margin:68px 0 0 -289px; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/realtor_form_enter.png') no-repeat; background-size:cover;}
+.realtor_first .guide_msg {position:relative; margin:9px 0 0 0; font-size:15.5px; color:#1c1e1f; text-align:center; line-height:29px; white-space:pre-line;}
+.realtor_first .realtor_form_enter {display:inline-block; position:relative; left:50%; width:470px; height:57px; margin:38px 0 0 -235px; border-bottom:3px solid #0b80d4; background-color:#0c90ed; font-size:23px; font-weight:600; color:#fff; text-align:center; line-height:58px;}
+.realtor_first .realtor_form_enter:active {border-bottom:3px solid #0970ba; background-color:#0b80d4;}
+
 /*----- 공인중개사 등록하기 페이지 밑 중개사무소 등록 설명-----*/
 .box_estate_txt{position:relative; width:100%; height:124px; box-sizing:border-box; background:#f0f6fa;}
 .box_estate_txt .box_estate_wrap{position:relative; width:420px; height:100%; margin:0 auto; background:url(http://image.bbjang.com/imgs/bbjang/img_pc/pc_estate_img.png) no-repeat right bottom; letter-spacing:-0.7px;}
@@ -159,4 +166,4 @@ textarea.ag_txtar{display:block; width:100%; height:76px; padding:8px; box-sizin
 .benefit_wrap .benefit_list .round_num{display:inline-block; width:16px; height:16px; border-radius:50%; line-height:16px; color:#fff; font-weight:600; background:#0077c0; font-size:11px; text-align:center; margin-right:2px;}
 .benefit_wrap .bf_last{padding:0!important;}
 .benefit_wrap .point_bf{color:#0077c0;}
-/*------------------------------------------*/
+/*----------------------------------------------------------------*/
