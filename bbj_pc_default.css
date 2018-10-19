@@ -316,5 +316,8 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 	.wrap_layer_more{left:520px;}
 }
 
+/* 위로올리기 이력횟수 뱃지 */
+.badge_up_num{display:inline-block; position:absolute; z-index:9; top:52px; left: 0; width:auto; height:16px; background-color:#ed4524; color:#fff; font-size:11px; font-weight:600; line-height:17px; padding:0 8px; border-top-left-radius:100%; border-top-right-radius:50%; border-bottom-right-radius:100%; border-bottom-left-radius:50%;}
+
 /* 분양권 뱃지 */
 .card_photo .badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
