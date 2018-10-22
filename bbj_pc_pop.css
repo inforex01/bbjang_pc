@@ -672,6 +672,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	100% { background:#1e4563; }
 }
 
+/* 공인중개사 내 매물 광고현황 레이어창 */
+.pop_container.ly_preview_ad {width:400px; height: 370px; margin:-185px 0px 0px -200px; padding:0px 8px; box-sizing: border-box; border-radius: 0px; border:1px solid #000;}
+.ly_preview_ad .pop_h {height: 45px; line-height: 45px;}
+.ly_preview_ad .pop_h h3 {padding-left:20px; color:#6b4e7a; font-size:19px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/ico_chk_purple2.png") no-repeat 0px 50%; background-size:17px 13.5px;}
+.ly_preview_ad .pop_h span {font-size:13px; font-weight: 400; padding-left:8px; color:#8e9194;}
+.ly_preview_ad .pop_h .btn_cls_preview_ad {position:absolute; top:0; right:0; width:45px; height: 45px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/btn_cls_preview_ad.png") no-repeat right 6px center; background-size:22px 22px; text-indent:-9999px;}
+.ly_preview_ad .pop_con {position: relative;}
+.ly_preview_ad .pop_con ul.clear {border:1px solid #797979;}
+.ly_preview_ad .pop_con .float_li {width:33.33%;}
+.ly_preview_ad .pop_con .float_li .depth_2 {border-right: 1px solid #797979;}
+.ly_preview_ad .pop_con .float_li:last-child .depth_2{border-right:0 none;}
+.ly_preview_ad .pop_con .float_li .depth_2 li {line-height:30px; text-align:center; font-size:13px;}
+.ly_preview_ad .pop_con .float_li .depth_2 li:nth-child(2n) {background:#f3f3f3;}
+.ly_preview_ad .pop_con .float_li .depth_2 li:first-child {font-size:14px; font-weight:600; background:#d3f0fe;}
+.ly_preview_ad .pop_con .info_msg dl {font-size: 13px; padding-top:5px;}
+.ly_preview_ad .pop_con .info_msg dt {display:block; width:75px; height: 100%; font-size:13px; float:left; text-align: center; padding-top:5px;}
+.ly_preview_ad .pop_con .info_msg dd {padding-left:75px; padding-top:5px;}
 /* 매물 등록 및 관리> 매물등록구분 선택 팝업 */
 .pop_mgt_sorting {position:fixed; top:0; left:0; z-index:1500; width:100%; height:100%; background-color:rgba(0,0,0,.6);}
 .pop_mgt_sorting .slct_wrap{position:fixed; top:0; left:0; z-index:1600; width:100%; height:100%;}
@@ -683,4 +700,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .pop_mgt_sorting .slct_wrap .pop_slct_content .pop_slct_ul .slct_list:first-child{height:50px; line-height:50px;}
 .pop_mgt_sorting .slct_wrap .pop_slct_content .pop_slct_ul .list_tit{background:#0ca2ed; text-align: center; color:#fff; font-size: 18px;}
 .pop_mgt_sorting .slct_wrap .pop_slct_content .pop_slct_ul .slct_list .t2 {margin:0 0 0 6px; font-weight:normal; color:#454545;}
-

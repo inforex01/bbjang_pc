@@ -3,46 +3,103 @@
 
 /*---------- 공인중개사 뷰페이지 ----------*/
 /********** 공인중개사 공통 **********/
-.flex_box {display: flex; width: 100%; height: auto;}
+.flex_box {display:-webkit-flex; display: -ms-flexbox; display:flex; width: 100%; height: auto;}
+.float_li {float:left; position: relative;}
 #container .section_right.realtor {overflow: visible;}
-/********** 공인중개사 정보페이지 **********/
-.realtor_info_wrap {width: 100%; height: auto; position: relative; overflow: auto;}
+.realtor_h3 {width: 100%; height: 50px; line-height: 50px; font-size:19px; font-weight: 900; text-indent: 48px;}
+/********** 공인중개사 뷰페이지 **********/
+.realtor_wrap {width: 100%; height: auto; position: relative; overflow: auto;}
 /* 타이틀 */
-.realtor_title {width: 100%; height:auto; box-sizing: border-box; border: 2px solid #7943b1; color:#7943b1; text-align: center; font-size:23px; font-weight: 900; margin: 10px 0px; padding: 25px 0px;}
-/* 사진영역 */
-.realtor_photo_wrap {width:330px; height: 250px; border: 1px solid #ccc; background-color: #f2f2f2; margin-right: 10px; box-sizing: border-box; position: relative;}
-.realtor_photo {margin: 3px; }
-.realtor_photo .photo_area {width: 322px; height: 242px; overflow: hidden; text-align: center; }
+.realtor_title {width: 100%; height:auto; box-sizing: border-box; border: 2px solid #7943b1; color:#7943b1; text-align: center; font-size:23px; font-weight: 900; margin-top: 10px; padding: 25px 0px;}
+/*-----공인중개사무소명 내 url 영역추가-----*/
+.view_url_wrap{position:relative; width:100%; height:auto; line-height:40px; box-sizing:border-box; background-color:#fff; color:#1c1e1f; padding:8px 0 0px 112px;}
+.view_url_wrap:after{display:block; content:''; clear:both;}
+.view_url_wrap .view_intro{float:left; font-size:15px; font-weight:600; padding-right:10px;}
+.view_url_wrap .sp_num_wrap{font-weight:400; padding-left:3px;}
+.view_url_wrap .view_address_wrap{float:left; position:relative; width:310px; height:auto; line-height:26px; padding-right:70px; box-sizing:border-box; font-size:13px; margin-top:6px; border-radius:4px;}
+.view_url_wrap .view_address_wrap .view_address_url{position:relative; width:100%; height:28px; background-color:#f6f6f6; box-sizing:border-box;}
+.view_url_wrap .view_address_wrap .view_address_url .address_input{display:block; position:absolute; top:0; left:0; width:100%; height:100%; border:0; outline:0; border:1px solid #9269bc; border-right:0; border-radius:3px 0 0 3px; box-sizing:border-box; text-overflow:ellipsis; white-space:nowrap; padding:0 8px; overflow:hidden; cursor:pointer; background-color:#f4f4f4; color:#535353; font-weight:600; font-size:14px;}
+.view_url_wrap .view_address_wrap .view_url_copy{position:absolute; top:0; right:0; width:70px; height:28px; text-align:center; border:1px solid #7943b1; background-color:#7943b1; color:#fff; box-sizing:border-box; font-weight:400; border-radius:0 3px 3px 0;}
+.view_url_wrap .view_address_wrap .view_url_copy:active{background-color:#7341a8; cursor:pointer;}
+/*전문분야*/
+.realtor_spacialty {position: relative; text-align: center; border:1px solid #7943b2; width:700px; background:#f4f4f4; font-size:0; margin:20px auto 0px;}
+.realtor_spacialty .spacialty_item {display:inline-block; width:140px; height: 64px; line-height: 64px; font-size:13px; font-weight: 600; color:#412f05; box-sizing:border-box; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bar_gray.png") no-repeat left center;}
+.realtor_spacialty .spacialty_item:first-child, .realtor_spacialty .spacialty_item:nth-child(6) {background:none;}
+.badge_spacialty {background:url("http://image.bbjang.com/imgs/bbjang/realtor/ico_spacialty_badge_pc.png") no-repeat center; display:inline-block; width:27px; height: 41px; padding-right:3px; vertical-align: middle;}
+/*----- 건설회사 url-----*/
+.ct_title{border:2px solid #4c6ba5!important; color:#3763b4!important;}
+.ct_input{border:1px solid #4c6ba5!important;}
+.ct_url_copy{border:1px solid #4c6ba5!important; background-color:#4c6ba5!important;}
+.ct_url_copy:active{background-color:#466298!important;}
+/* 갤러리 */
+.realtor_photo_box .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_photo.png") no-repeat 20px 50%; background-size:21px 21px;}
+.realtor_photo_wrap {position: relative;}
+.realtor_photo {width:750px; height: 430px; border: 1px solid #ccc; background-color: #f2f2f2; padding:3px; box-sizing: border-box;}
+.realtor_photo_li {width:100%; height: 100%; position: relative;}
+.realtor_photo .photo_area {width: 100%; height: 100%; overflow: hidden; text-align: center; }
 .realtor_photo .photo_area.default_photo {background: url("http://image.bbjang.com/imgs/bbjang/img01/img_realtor_default.png") center no-repeat; background-size: auto 100%;}
-.realtor_photo .photo_area img { width: auto; height: 100%; }
+.realtor_photo .photo_area img { width: auto; height: 100%;}
 .realtor_photo_num {height: 25px; line-height: 25px; border-radius: 12.5px; padding: 0px 15px; color:#fff; background: rgba(0,0,0,.7); position: absolute; top:7px; right:7px;}
-/* 상세정보 */
-.realtor_info {width:410px; height: 250px; border:1px solid #ccc; padding: 10px 24px; box-sizing: border-box;}
-.realtor_info > li {border-bottom: 1px solid #ccc; height: 45px; font-size:15px; display: table; position: relative;}
-.realtor_info .info_title {display: inline-block; line-height: 45px; width: 100px; color:#707070; font-weight: 600;}
-.realtor_info .info_txt {display: table-cell; width: 260px; height: 45px!important; vertical-align: middle;}
-.realtor_info .special .info_txt {height: auto!important; padding-top:5px; padding-bottom:2px;}
-.realtor_info > li:last-child {border-bottom: 0 none; height:auto;}
-.realtor_info > li:last-child .info_txt {padding:5px 0;}
-.realtor_info .info_txt .realtor_spacialty {display: inline-block; font-size:14px; padding: 2px 4px; margin-bottom:4px; border-radius: 3px; background-color: #f7fcff; border: 1px solid #add4ed; color: #2891d4; font-weight: 400;}
-.realtor_info .info_txt .realtor_spacialty:nth-of-type(3) {margin-top: 2px;}
-.realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 50px;}
-.realtor_info .info_txt .phone_wrap td {height: 26px;}
-/* 인사말 */
-.realtor_intro {width: 750px; height: auto; border:1px solid #ccc; box-sizing: border-box; margin-top: 10px; padding: 30px; color: #707070; font-size: 15px;}
+/* 기본정보 */
+.realtor_info_box {width:100%; height: auto; position: relative;}
+.realtor_info_box .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_info.png") no-repeat 20px 50%; background-size:21px 21px;}
+.realtor_info {width:100%; height: auto; border:1px solid #ccc; padding: 0px 24px; box-sizing: border-box;}
+.realtor_intro {padding:15px 0px; border-bottom:1px solid #ccc;}
+.realtor_intro .intro_txt {font-size:15px; line-height: 24px; color:#707070;}
+.realtor_info .info_ul li {border-bottom: 1px solid #ccc; height: 55px; font-size:15px; display: table; width:350px; position: relative;}
+.realtor_info .info_title {float:left; line-height: 55px; width: 100px; color:#707070; font-weight: 600;}
+.realtor_info .info_txt {display: table-cell; width: 250px; height: 55px; vertical-align: middle; font-weight: 600;}
+.info_txt .btn_view_regist {display:inline-block; margin-left: 10px; width:75px; height: 25px; line-height: 25px; font-size:13px; text-align: center; background:#5cb4e6; border-radius: 5px; color:#fff;}
+.info_txt .btn_view_regist:hover {background: #54abdc;}
+.info_txt .btn_view_regist:active {background:#4aa1d2;}
+.realtor_info .info_ul li:last-child, .realtor_info ul > li:nth-child(3) {border-bottom: 0 none; height:auto;}
+.realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 55px;}
+.realtor_info .info_txt .phone_wrap td {line-height: 55px;}
+.realtor_info .info_txt .phone_wrap tr:last-child td {line-height: 20px; padding-bottom: 20px;}
+
+/* 소속직원 */
+.realtor_agent_wrap .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_agent.png") 20px 50% no-repeat; background-size: 21px 21px;}
+.realtor_agent_u {border:1px solid #b3b3b3; padding: 0px 30px;}
+.realtor_agent_li {border-bottom:1px solid #b3b3b3; width: 100%; height: auto; position: relative;}
+.realtor_agent_li:last-child {border:0 none;}
+.realtor_agent_li .realtor_agent_photo {position:absolute; top:16px; left:0px; width:45px; height: 45px; border:1.5px solid #5cb4e6;  border-radius: 50%; overflow: hidden;}
+.realtor_agent_li .realtor_agent_photo img {width:100%; height: 100%; object-fit: contain; float:left;}
+.realtor_agent_li .realtor_agent_info {width:100%; height:80px; box-sizing: border-box; padding:0px 170px 0px 130px; line-height: 80px; font-size:15px; font-weight: 600;}
+.realtor_agent_li .realtor_agent_info .realtor_agent_call {display: block; width:160px; position:absolute; right:0px; top:0px; text-indent: 25px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/ico_realtor_call_pc.png") no-repeat 0px 50%; background-size:16px 16px;}
+
 /* 매물현황 */
-.deal_area {width:100%; height: auto; position: relative; padding-top:60px; border:1px solid #ccc; border-top:0 none; box-sizing: border-box;}
+.realtor_deal_wrap {position: relative; width: 100%; height: auto;}
+.realtor_deal_wrap .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_detail.png") no-repeat 20px 50%; background-size:21px 21px;}
+.deal_area {width:100%; height: auto; position: relative; border:1px solid #ccc; border-top:0 none; box-sizing: border-box;}
 .deal_type_paging {border-top:1px solid #ccc;}
+.realtor_deal_wrap .deal_area .tab_menu .menus {padding-top:0;}
+/*내 매물 광고현황*/
+.realtor_deal_wrap .preview_realtor_ad {position: absolute; top:0; right:0; line-height: 50px; font-weight: 600; font-size:15px; color:#5a5c5e;}
+.realtor_deal_wrap .preview_realtor_ad span {display:inline-block; padding-left:25px; padding-right: 5px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/ico_chk_purple.png") no-repeat 0px 50%; background-size:18px 13px;}
+.preview_realtor_ad .btn_preview_ad {display:inline-block; color:#0079be; font-weight: 600; text-align: center; padding-right:5px;}
+.preview_realtor_ad .btn_preview_ad:hover {text-decoration: underline;}
 /* 매물현황 탭 */
-.deal_type_box {position: absolute; width: 750px; height: auto; left: -1px; top: 0;}
-.deal_type_box.on {position: absolute; left:-1px; z-index: 800;}
-.deal_type_ul {background-color: #fff; width: 750px; padding-top: 10px;}
-.deal_type_ul:after {content: ""; display: block; clear: both;}
-.deal_type_box .deal_type_list {float: left; width: 25%; height: 50px; line-height: 50px; box-sizing: border-box; text-align: center; border-width: 1px 1px 1px 0px; border-color:#ccc; border-style: solid; background-color: #f2f4f7; color:#707070; font-size:15px; font-weight: 600;}
-.deal_type_box .deal_type_list:first-child {border-left-width: 1px;}
-.deal_type_box .deal_type_list .deal_type_num {padding-left: 20px; font-size:16px; color:#609cbf;}
-.deal_type_box .deal_type_list.on {border-bottom: 1px solid #fff; background-color: #fff; color:#1c1e1f;}
-.deal_type_box .deal_type_list.on .deal_type_num {font-size:18px; vertical-align:bottom; font-weight: 900; color:#23508e;}
+.deal_filter {position: relative; width: 100%; height: 56px;}
+.deal_type_box {position: absolute; width: 750px; height: 57px; left: -1px; top: -1px; border: 1px solid #ccc; box-sizing: border-box; background:#fff;}
+.deal_type_box.on {position: fixed; top:90px; left:50%; margin-left:-540px; z-index: 100;}
+.deal_type_box .ico_deal_filter {position: absolute; left:0px; top:0px; width:55px; height: 55px; background:#e5f4ff url("http://image.bbjang.com/imgs/bbjang/img_map/ico_fltr.png") no-repeat center; background-size:24px 22px; }
+.deal_type_box .ico_deal_filter::after {content:""; display:block; position: absolute; left:100%; top:0px; width:14px; height: 55px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bg_bar_start.png") no-repeat center; z-index: 2;}
+.deal_type_box .clear {padding-left:55px; background:#e5f4ff; height: 55px;}
+.deal_type_box .clear li a {background:#fff; height: 55px; line-height: 55px; width:200px; color:#5a5c5e;}
+.deal_type_box .clear li a:hover {background: #fafafa;}
+.deal_type_box .clear > li:first-child::after {content:""; display: block; position: absolute; top:0; left:100%; margin-left: -12px; width:23px; height: 55px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bg_bar_middle.png") no-repeat center; z-index: 2;}
+.deal_type_box .clear > li:last-child::after {content:""; display: block; position: absolute; top:0; right:0; width:10px; height: 55px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bg_bar_end.png") no-repeat center;}
+.deal_type_box a.slct, .deal_type_box a.slct_on{ font-size:17px; text-align: center;}
+.deal_type_box a.slct span::after {content:""; display:inline-block; width: 16px; height: 16px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bullet_slct.png") no-repeat center; vertical-align: middle; padding-left: 7px;}
+.deal_type_box a.slct_on span {color:#008dc4;}
+.deal_type_box .depth_2 {height: 0px; position: absolute; top:100%; left:0; width: 100%; box-sizing: border-box; z-index: 100; overflow: hidden;}
+.deal_type_box .clear >li:first-child .depth_2 {padding-left:6px; padding-right:14px;}
+.deal_type_box .clear >li:last-child .depth_2 {padding-left:2px; padding-right:11px;}
+.deal_type_box .depth_2 li a {padding:0px; width:100%; text-indent: 10px; border:1px solid #ccc; border-top:0 none; border-bottom:0 none;}
+.deal_type_box .depth_2 li:last-child a {border-bottom:1px solid #ccc;}
+.deal_type_box .clear li:hover .depth_2 {height:auto;}
+
+
 /* 주소,지도영역 */
 .realtor_loca_wrap {width: 100%; height: auto; position: relative; margin-bottom: 10px;}
 .realtor_loca_wrap .loca_ul {padding: 4px; border:1px solid #ccc;}
@@ -107,23 +164,6 @@ textarea.ag_txtar{display:block; width:100%; height:76px; padding:8px; box-sizin
 .btn_sv a.btn_md{background:#0077c0;}
 .btn_sv a.btn_md:active{background:#026daf;}
 .btn_sv a.btn_on{background:url("http://image.bbjang.com/imgs/bbjang/img01/bg_wt_btn.gif") repeat;}
-
-/*-----공인중개사무소명 내 url 영역추가 (180423 정우아)-----*/
-.view_url_wrap{position:relative; width:100%; height:auto; line-height:40px; box-sizing:border-box; background-color:#fff; color:#1c1e1f; padding:8px 0 0px 112px;}
-.view_url_wrap:after{display:block; content:''; clear:both;}
-.view_url_wrap .view_intro{float:left; font-size:15px; font-weight:600; padding-right:10px;}
-.view_url_wrap .sp_num_wrap{font-weight:400; padding-left:3px;}
-.view_url_wrap .view_address_wrap{float:left; position:relative; width:310px; height:auto; line-height:26px; padding-right:70px; box-sizing:border-box; font-size:13px; margin-top:6px; border-radius:4px;}
-.view_url_wrap .view_address_wrap .view_address_url{position:relative; width:100%; height:28px; background-color:#f6f6f6; box-sizing:border-box;}
-.view_url_wrap .view_address_wrap .view_address_url .address_input{display:block; position:absolute; top:0; left:0; width:100%; height:100%; border:0; outline:0; border:1px solid #9269bc; border-right:0; border-radius:3px 0 0 3px; box-sizing:border-box; text-overflow:ellipsis; white-space:nowrap; padding:0 8px; overflow:hidden; cursor:pointer; background-color:#f4f4f4; color:#535353; font-weight:600; font-size:14px;}
-.view_url_wrap .view_address_wrap .view_url_copy{position:absolute; top:0; right:0; width:70px; height:28px; text-align:center; border:1px solid #7943b1; background-color:#7943b1; color:#fff; box-sizing:border-box; font-weight:400; border-radius:0 3px 3px 0;}
-.view_url_wrap .view_address_wrap .view_url_copy:active{background-color:#7341a8; cursor:pointer;}
-
-/*----- 건설회사 url-----*/
-.ct_title{border:2px solid #4c6ba5!important; color:#3763b4!important;}
-.ct_input{border:1px solid #4c6ba5!important;}
-.ct_url_copy{border:1px solid #4c6ba5!important; background-color:#4c6ba5!important;}
-.ct_url_copy:active{background-color:#466298!important;}
 
 /*----- 내 매물&정보 관리 통합페이지> 공인중개사 정보등록 전 -----*/
 .realtor_first {width:1080px; height:788px; margin:10px 0 0 0; border:1px solid #cbcbcb; box-sizing:border-box;}
