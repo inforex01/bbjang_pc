@@ -301,3 +301,23 @@ font-size:14px; line-height:18px; color:#fff; font-weight:600; text-align:center
 .list_empty_row1 img.size2 {width:68px; height:68px;}
 .list_empty_row2 {padding-top:12px; color:#808080; font-size:15px; text-align:center; letter-spacing:-0.3px;}
 /*---------------------------*/
+
+/*-------- 공인중개사무소 배너 --------*/
+.wrap_lst_layer .bnr_realtor{padding:0px;}
+
+.wrap_lst_layer .bnr_realtor .realtor_wrap{display:block; width:100%; height:auto;}
+.wrap_lst_layer .bnr_realtor .realtor_photo{position:absolute; top:9px; left:14px; width:115px; height:115px; border-radius:50%; overflow:hidden;}
+.wrap_lst_layer .bnr_realtor .realtor_photo img{display:block; width:100%; height:100%; object-fit:cover;}
+.wrap_lst_layer .bnr_realtor .realtor_content{display:table; position:relative; width:100%; height:130px; padding:10px 5px 10px 143px; box-sizing:border-box; table-layout:fixed;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_center{display:table-cell; vertical-align:middle; width:100%;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_tit{line-height:19px; font-size:16px; color:#000; font-weight:600; white-space:pre-line;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_tit .realtor_ceo{color:#303030; font-weight:normal;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_local{line-height:20px; font-size:15px; color:#303030;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_deal{line-height:20px; font-size:15px; color:#4976c8;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_tit, .card_u .realtor_local, .bnr_realtor .realtor_content .realtor_deal{padding-bottom:5px;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_deal .deal_more{display:inline-block; vertical-align:top; width:88px; height:20px; line-height:20px; margin-left:3px; border-radius:2px; background-color:#5a8fef; color:#fff; font-size:14px; text-align:center;}
+.wrap_lst_layer .bnr_realtor .realtor_content .realtor_txt{width:100%; height:18px; color:#303030; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.wrap_lst_layer .bnr_realtor .lst_bt{position:relative; width:100%; height:38px; border-top:1px solid #a6adb0; background:#fff;}
+.wrap_lst_layer .bnr_realtor .lst_bt .lst_page{padding:7px 24px;}
+.wrap_lst_layer .bnr_realtor .lst_bt .btn_prev{position:absolute; top:0; left:0; padding:7px 4px;}
+.wrap_lst_layer .bnr_realtor .lst_bt .btn_next{position:absolute; top:0; right:0; padding:7px 4px;}
