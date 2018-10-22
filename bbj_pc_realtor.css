@@ -31,24 +31,23 @@
 .ct_input{border:1px solid #4c6ba5!important;}
 .ct_url_copy{border:1px solid #4c6ba5!important; background-color:#4c6ba5!important;}
 .ct_url_copy:active{background-color:#466298!important;}
+/*갤러리 & 기본정보*/
+.realtor_info_wrap {width: 100%; height: auto; position: relative;}
+.realtor_info_wrap .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_info.png") no-repeat 20px 50%; background-size:21px 21px;}
 /* 갤러리 */
-.realtor_photo_box .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_photo.png") no-repeat 20px 50%; background-size:21px 21px;}
-.realtor_photo_wrap {position: relative;}
-.realtor_photo {width:750px; height: 430px; border: 1px solid #ccc; background-color: #f2f2f2; padding:3px; box-sizing: border-box;}
-.realtor_photo_li {width:100%; height: 100%; position: relative;}
-.realtor_photo .photo_area {width: 100%; height: 100%; overflow: hidden; text-align: center; }
+.realtor_photo_wrap {width:330px; height: 250px; border: 1px solid #ccc; background-color: #f2f2f2; margin-right: 10px; box-sizing: border-box; position: relative; float:left;}
+.realtor_photo {margin: 3px; }
+.realtor_photo .photo_area {width: 322px; height: 242px; overflow: hidden; text-align: center; }
 .realtor_photo .photo_area.default_photo {background: url("http://image.bbjang.com/imgs/bbjang/img01/img_realtor_default.png") center no-repeat; background-size: auto 100%;}
-.realtor_photo .photo_area img { width: auto; height: 100%;}
+.realtor_photo .photo_area img { width: auto; height: 100%; }
 .realtor_photo_num {height: 25px; line-height: 25px; border-radius: 12.5px; padding: 0px 15px; color:#fff; background: rgba(0,0,0,.7); position: absolute; top:7px; right:7px;}
 /* 기본정보 */
-.realtor_info_box {width:100%; height: auto; position: relative;}
-.realtor_info_box .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_info.png") no-repeat 20px 50%; background-size:21px 21px;}
-.realtor_info {width:100%; height: auto; border:1px solid #ccc; padding: 0px 24px; box-sizing: border-box;}
-.realtor_intro {padding:15px 0px; border-bottom:1px solid #ccc;}
-.realtor_intro .intro_txt {font-size:15px; line-height: 24px; color:#707070;}
-.realtor_info .info_ul li {border-bottom: 1px solid #ccc; height: 55px; font-size:15px; display: table; width:350px; position: relative;}
-.realtor_info .info_title {float:left; line-height: 55px; width: 100px; color:#707070; font-weight: 600;}
-.realtor_info .info_txt {display: table-cell; width: 250px; height: 55px; vertical-align: middle; font-weight: 600;}
+.realtor_info_box {width:410px; height: 250px; border:1px solid #ccc; padding: 10px 24px; box-sizing: border-box; float:right;}
+.realtor_info > li {border-bottom: 1px solid #ccc; height: 45px; font-size:15px; display: table; position: relative;}
+.realtor_info .info_title {display: inline-block; line-height: 45px; width: 100px; color:#707070; font-weight: 600;}
+.realtor_info .info_txt {display: table-cell; width: 260px; height: 45px!important; vertical-align: middle;}
+.realtor_info > li:last-child {border-bottom: 0 none; height:auto;}
+.realtor_info > li:last-child .info_txt {padding:5px 0;}
 .info_txt .btn_view_regist {display:inline-block; margin-left: 10px; width:75px; height: 25px; line-height: 25px; font-size:13px; text-align: center; background:#5cb4e6; border-radius: 5px; color:#fff;}
 .info_txt .btn_view_regist:hover {background: #54abdc;}
 .info_txt .btn_view_regist:active {background:#4aa1d2;}
@@ -56,6 +55,8 @@
 .realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 55px;}
 .realtor_info .info_txt .phone_wrap td {line-height: 55px;}
 .realtor_info .info_txt .phone_wrap tr:last-child td {line-height: 20px; padding-bottom: 20px;}
+/* 인사말 */
+.realtor_intro {width: 750px; height: auto; border:1px solid #ccc; box-sizing: border-box; margin-top: 10px; line-height: 22px; padding: 30px; color: #707070; font-size: 15px;}
 
 /* 소속직원 */
 .realtor_agent_wrap .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_agent.png") 20px 50% no-repeat; background-size: 21px 21px;}
