@@ -83,9 +83,9 @@
 .deal_type_box {position: absolute; width: 750px; height: 57px; left: -1px; top: -1px; border: 1px solid #ccc; box-sizing: border-box; background:#fff;}
 .deal_type_box.on {position: fixed; top:90px; left:50%; margin-left:-540px; z-index: 100;}
 .deal_type_box.my_on {position: fixed; top:130px; left:50%; margin-left:-540px; z-index: 100;}
-.deal_type_box .ico_deal_filter {position: absolute; left:0px; top:0px; width:55px; height: 55px; background:#e5f4ff url("http://image.bbjang.com/imgs/bbjang/img_map/ico_fltr.png") no-repeat center; background-size:24px 22px; }
+.deal_type_box .ico_deal_filter {position: absolute; left:0px; top:0px; width:10px; height: 55px;}
 .deal_type_box .ico_deal_filter::after {content:""; display:block; position: absolute; left:100%; top:0px; width:14px; height: 55px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bg_bar_start.png") no-repeat center; z-index: 2;}
-.deal_type_box .clear {padding-left:55px; background:#e5f4ff; height: 55px;}
+.deal_type_box .clear {padding-left:10px; background:#e5f4ff; height: 55px;}
 .deal_type_box .clear li a {background:#fff; height: 55px; line-height: 55px; width:200px; color:#5a5c5e;}
 .deal_type_box .clear li a:hover {background: #fafafa;}
 .deal_type_box .clear > li:first-child::after {content:""; display: block; position: absolute; top:0; left:100%; margin-left: -12px; width:23px; height: 55px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/bg_bar_middle.png") no-repeat center; z-index: 2;}
