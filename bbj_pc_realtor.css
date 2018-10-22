@@ -56,21 +56,7 @@
 .realtor_info .info_txt .phone_wrap {width: 100%; height: auto; min-height: 55px;}
 .realtor_info .info_txt .phone_wrap td {line-height: 55px;}
 .realtor_info .info_txt .phone_wrap tr:last-child td {line-height: 20px; padding-bottom: 20px;}
-/* 보유매물 */
-.realtor_preview_deal {border-top:1px solid #ccc;}
-.preview_deal_title {line-height: 55px; color:#707070; font-size:15px; font-weight: 600; position: relative;}
-.preview_deal_title .btn_preview_deal {position:absolute; left:155px; top:50%; margin-top:-11px; width: 22px; height: 22px; background:url("http://image.bbjang.com/imgs/bbjang/realtor/ico_preview_deal.png") no-repeat center; background-size:22px 22px;}
-.realtor_preview_deal .help_msg {position: absolute; top:0px; right:10px; height: 55px; font-size:13px; color:#6a6a6a; padding-left:25px; background: url("http://image.bbjang.com/imgs/bbjang/realtor/ico_help_msg.png") no-repeat 0px 17px; background-size:20px 20px; text-indent:0px;}
-.preview_deal_title .btn_preview_deal a {width:100%; height: 100%;}
-.realtor_info_box .flex_box {-webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding-bottom: 20px;}
-.realtor_info_box .flex_box li {width:105px; height: 70px; padding-top: 10px; line-height: 25px; font-size:15px; text-align: center; border-radius: 5px; box-shadow: 0px 0px 5px 2px rgba(220,220,220,0.75); box-sizing:border-box; margin:5px;}
-.realtor_info_box .flex_box li span {display: block; font-size:17px; font-weight: 900; letter-spacing: -1px; color:#0079be;}
 
-/*보유매물 도움말 레이어창*/
-.ly_preview_deal {position:absolute; top:0px; left: 0px; display: none; width:200px; height: 110px; background:#000; text-align: center; border-radius: 5px;}
-.ly_preview_deal .font_b {color:#5cb4e6; display: block; font-size:15px; line-height: 35px; box-sizing: border-box; background:url("http://image.bbjang.com/imgs/bbjang/realtor/ico_chk_sky.png") no-repeat 22px 13px; background-size:12px 9px;}
-.ly_preview_deal .preview_deal_msg {color:#fff; font-size:14px; display:inline-block; text-align: left; line-height: 20px; font-weight: 400;}
-.btn_preview_deal:hover .ly_preview_deal {display:block;}
 /* 소속직원 */
 .realtor_agent_wrap .realtor_h3 {background:url("http://image.bbjang.com/imgs/bbjang/img01/ico_tt_agent.png") 20px 50% no-repeat; background-size: 21px 21px;}
 .realtor_agent_u {border:1px solid #b3b3b3; padding: 0px 30px;}
