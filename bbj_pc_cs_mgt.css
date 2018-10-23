@@ -474,7 +474,7 @@ b {font-weight:600;}
 @media(min-width:380px){
 .move_regist .rg_headline{font-size:30px!important;}
 }
-.move_regist .go_btn_rg{width:185px; height:55px; line-height:55px; margin:0 auto;}
+.move_regist .go_btn_rg{width:240px; height:55px; line-height:55px; margin:0 auto;}
 .move_regist .go_btn_rg a{width:100%; height:100%; border-radius:4px; color:#3a3a3a; font-size:25px; font-weight:600; background-color:#fff;  box-shadow:1px 2px 2px 1px rgba(0,0,0,0.2);}
 .move_regist .go_btn_rg a:active{background-color:#efefef;}
 .my_mt_62{margin-top:62px;}
@@ -590,7 +590,7 @@ b {font-weight:600;}
 .url_intro_wrap .intro_sp .sp_num{color:#1a71ad; font-weight:600;}
 .url_intro_wrap .address_wrap{float:left; position:relative; width:370px; height:auto; line-height:26px; padding-right:70px; box-sizing:border-box; font-size:13px; margin-top:6px; border-radius:4px;}
 .url_intro_wrap .address_wrap .address_url{width:300px; height:28px; background-color:#f6f6f6; box-sizing:border-box; border-radius:3px 0 0 3px; border:1px solid #cecece; border-right:0;}
-.url_intro_wrap .address_wrap .address_url .address_input{display:block; position:absolute; top:0; left:0; width:300px; height:100%; border:0; outline:0; border:1px solid #ccc; border-right:0; border-radius:3px 0 0 3px; box-sizing:border-box; text-overflow:ellipsis; white-space:nowrap; padding:0 8px; overflow:hidden; cursor:pointer; background-color:#f4f4f4; color:#474747; font-weight:600; font-size:14px;}
+.url_intro_wrap .address_wrap .address_url .address_input{display:block; position:absolute; top:0; left:0; width:300px; height:100%; border:0; outline:0; border:1px solid #ccc; border-right:0; border-radius:3px 0 0 3px; box-sizing:border-box; text-overflow:ellipsis; white-space:nowrap; padding:0 8px; overflow:hidden; cursor:pointer; background-color:#f4f4f4; color:#474747; font-size:14px;}
 .url_intro_wrap .address_wrap .url_copy{position:absolute; top:0; right:0; width:70px; height:28px; text-align:center; border:1px solid #0271b5; background-color:#0077c0; color:#fff; box-sizing:border-box; border-radius:0 3px 3px 0;}
 .url_intro_wrap .address_wrap .url_copy:active{background-color:#0271b5; cursor:pointer;}
 .pd_title{padding:10px 8px;}
@@ -862,8 +862,8 @@ b {font-weight:600;}
 .card_u .bnr_realtor .realtor_content .realtor_center{display:table-cell; vertical-align:middle; width:100%;}
 .card_u .bnr_realtor .realtor_content .realtor_tit{font-size:16px; color:#000; font-weight:600; word-break:keep-all;}
 .card_u .bnr_realtor .realtor_content .realtor_tit .realtor_ceo{color:#303030; font-weight:normal;}
-.card_u .bnr_realtor .realtor_content .realtor_local{font-size:15px; color:#303030;}
-.card_u .bnr_realtor .realtor_content .realtor_deal{font-size:15px; color:#4976c8;}
+.card_u .bnr_realtor .realtor_content .realtor_local{line-height:20px; font-size:15px; color:#303030;}
+.card_u .bnr_realtor .realtor_content .realtor_deal{line-height:20px; font-size:15px; color:#4976c8;}
 .card_u .bnr_realtor .realtor_content .realtor_tit, .card_u .realtor_local, .bnr_realtor .realtor_content .realtor_deal{padding-bottom:5px;}
 .card_u .bnr_realtor .realtor_content .realtor_deal .deal_more{display:inline-block; vertical-align:top; width:88px; height:20px; line-height:20px; margin-left:3px; border-radius:2px; background-color:#5a8fef; color:#fff; font-size:14px; text-align:center;}
 .card_u .bnr_realtor .realtor_content .realtor_txt{width:100%; height:18px; color:#303030; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
@@ -1062,3 +1062,19 @@ b {font-weight:600;}
 .srch_apt_l .deal_list_l:first-child {padding-left: 0;}
 .srch_apt_l .deal_list_l:last-child {background: none; padding-right: 0;}
 .srch_apt_l .deal_list_u .deal_list_l span {font-weight: 900; margin-left: 10px; color:#0070b4;}
+
+/* 내 매물 정보 관리 통합페이지 */
+.move_regist.margin2{margin:40px 0 0 0;}
+#container.margin2{margin-top:40px;}
+.result-sorting_wrap_mana {position:relative; width:100%; height:36px; padding:14px 0 2px 0; line-height:24px;}
+.result-sorting_wrap_mana .title_my {display:inline-block; position:absolute; width:130px; margin:0 0 0 13px; font-size:16px; font-weight:600; color:#1c1e1f; text-align:center; line-height:37px;}
+	/* -- 셀렉트박스같은 버튼 -- */
+.btn_slctbox_mgt_sorting {display:inline-block; position:absolute; top:15px; left:156px; width:182px; height:34px; padding:0 5px; border:1px solid #ccc; background-size:10px 5px; line-height:33px;}
+.btn_slctbox_mgt_sorting.width2 {width:252px;}
+.btn_slctbox_mgt_sorting .in {display:inline-block; overflow:hidden; width:158px; text-overflow:ellipsis; white-space:nowrap;}
+.btn_slctbox_mgt_sorting.width2 .in {width:229px;}
+.btn_slctbox_mgt_sorting.margin2 {margin-left:191px;}
+.btn_slctbox_mgt_sorting .arrow {display:inline-block; position:absolute; top:14px; right:9px; width:12px; height:6px; background:url('http://image.bbjang.com/imgs/bbjang/img01/btn_slctbox_sorting_arrow.png') no-repeat; background-size:12px 6px;}
+.btn_slctbox_mgt_sorting .t2 {margin:0 0 0 8px; font-size:16px; font-weight:600; color:#066da0; letter-spacing:-1px; line-height:30px;}
+.btn_slctbox_mgt_sorting .t2_2 {margin:0 0 0 5px; font-size:16px; font-weight:600; color:#066da0;}
+	/* --//-- */
