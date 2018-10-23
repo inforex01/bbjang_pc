@@ -268,7 +268,7 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 #header .mymenu .login_facebook a{padding-left:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_facebook.png) left 7px no-repeat; background-size:20px 20px;}
 
 /* 건설회사(분양.대행) 뱃지 */
-.badge_constcom {display:inline-block; position:absolute; z-index:10; top:-1px; left:-1px; width:50px; height:40px; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/badge_constcom.png') no-repeat; background-size:cover;}
+.badge_constcom {display:inline-block; position:absolute; z-index:10; top:-1px; left:-1px; width:50px; height:40px; background:url('http://image.bbjang.com/imgs/bbjang/img_pc/badge_constcom.png') no-repeat; background-size:cover; font-size:0;}
 
 /*----- #2589 더보기 레이어창 -----*/
 .wrap_layer_more{position:absolute; width:512px; height:204px; padding:8px; top:90px; left:580px; background:#eaf5ff; border:1px solid #cad8e5; box-sizing:border-box; box-shadow:2px 2px 10px rgba(34,39,44,0.2); z-index:1000;}
@@ -317,7 +317,20 @@ a.sub_saved{background:url("http://image.bbjang.com/imgs/bbjang/img01/badge_lst_
 }
 
 /* 위로올리기 이력횟수 뱃지 */
-.badge_up_num{display:inline-block; position:absolute; z-index:9; top:52px; left: 0; width:auto; height:16px; background-color:#ed4524; color:#fff; font-size:11px; font-weight:600; line-height:17px; padding:0 8px; border-top-left-radius:100%; border-top-right-radius:50%; border-bottom-right-radius:100%; border-bottom-left-radius:50%;}
+.badge_up_num{display:inline-block; position:absolute; z-index:9; bottom:62px; left:3px; width:auto; height:16px; background-color:#ed4524; color:#fff; font-size:11px; font-weight:600; line-height:17px; padding:0 8px; border-top-left-radius:100%; border-top-right-radius:50%; border-bottom-right-radius:100%; border-bottom-left-radius:50%;}
 
 /* 분양권 뱃지 */
-.card_photo .badge_sale { position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
+.card_photo .badge_sale, .sub_card_photo .badge_sale, .view_card_photo .badge_sale{position:absolute; z-index:10; bottom:0; right:0; width:39px; height:17px; font-size:0; background:url('http://image.bbjang.com/imgs/bbjang/img01/badge_sale.png') no-repeat; background-size:cover;}
+
+/* 비공개 뱃지 */
+.admin_sect {position:absolute; width:40px; height:18px; top:3px; right:3px; line-height:18px; text-align:center; border-radius:2px; z-index:100; background:#5abff1; color:#fff; font-size:13px;}
+
+/*------ 일감2475 신고건수 뱃지 추가 -----*/
+.btn_report_badge{position:absolute; z-index:100; width:auto; height:auto; bottom:22px; right:3px; background-color:transparent; border:none;}
+.btn_report_badge .report_badge{display:inline-block; position:relative; width:25px; height:16px; line-height:16px; border-radius:2px; background-color:#ffd863; color:#000; font-size:12px; font-weight:900; text-align:center;}
+
+/* #2661 리스트 프로필사진추가 */
+.idphoto_area {z-index:10;position:absolute;width:40px;height:40px;-webkit-border-radius:40px;border-radius:40px;-webkit-box-shadow:0 0 6px 0 rgba(0,0,0,.5);box-shadow: 0 0 2px 0 rgba(0,0,0,.5);background-color:#fff;bottom:-2px;left:-2px;}
+.idphoto_in {display:inline-block;position:absolute;top: 1px;left: 1px;width:38px;height:38px;-webkit-border-radius:38px;border-radius:38px;background-color:#dfe3e6;}
+.idphoto_in img {display:block; width:100%;height:100%; -webkit-border-radius:38px; border-radius:38px;object-fit:cover;}
+.view_card_photo .idphoto_area{bottom:0; left:0;}
